@@ -1,0 +1,50 @@
+{
+  "name": "@cityofboston/form-common",
+  "version": "0.0.0",
+  "description": "Utilities and helpers for HTML forms and validation",
+  "private": true,
+  "license": "CC0-1.0",
+  "main": "build/form-common.es5.js",
+  "module": "build/form-common.js",
+  "types": "build/form-common.d.ts",
+  "sideEffects": false,
+  "scripts": {
+    "watch":
+      "concurrently \"yarn run build:babel -- --watch\" \"rollup -c -w\"",
+    "prebuild": "rimraf build",
+    "build":
+      "concurrently \"yarn run build:typescript\" \"yarn run build:babel && rollup -c\"",
+    "build:typescript": "tsc --emitDeclarationOnly",
+    "build:babel":
+      "cross-env BABEL_ENV=esm babel src --out-dir build --extensions \".ts,.tsx\"",
+    "prepare": "yarn run build",
+    "test": "jest"
+  },
+  "jest": {
+    "testPathIgnorePatterns": ["<rootDir>/build/", "<rootDir>/node_modules/"]
+  },
+  "dependencies": {
+    "core-js": "^2.6.4"
+  },
+  "peerDependencies": {
+    "@babel/runtime": "^7.6.0",
+    "react": "16.8.5"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.6.0",
+    "@babel/core": "^7.6.0",
+    "@babel/runtime": "^7.6.0",
+    "@cityofboston/config-babel": "^0.0.0",
+    "@cityofboston/config-typescript": "^0.0.0",
+    "@types/jest": "24.x.x",
+    "@types/react": "^16.8.5",
+    "babel-core": "^7.0.0-0",
+    "concurrently": "^3.5.1",
+    "cross-env": "^5.2.0",
+    "jest": "^24.8.0",
+    "react": "16.8.5",
+    "rimraf": "^2.6.2",
+    "rollup": "^0.60.1",
+    "typescript": "^3.4.5"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "templates.js-browser-module",
+  "version": "0.0.0",
+  "description": "Khaos template for a JavaScript module that runs in the browser",
+  "license": "CC0-1.0",
+  "private": true,
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "testPathIgnorePatterns": [
+      "<rootDir>/template/",
+      "<rootDir>/build/",
+      "<rootDir>/node_modules/"
+    ]
+  },
+  "dependencies": {
+    "core-js": "^2.6.4"
+  },
+  "devDependencies": {
+    "@cityofboston/config-babel": "^0.0.0",
+    "@cityofboston/config-typescript": "^0.0.0",
+    "@types/jest": "24.x.x",
+    "@types/node": "^8.0.0",
+    "jest": "^24.8.0",
+    "khaos": "^0.9.3",
+    "rimraf": "^2.6.2",
+    "shelljs": "^0.8.1",
+    "tmp": "^0.0.33",
+    "tsc-watch": "^1.0.26",
+    "typescript": "^3.4.5"
+  }
+}

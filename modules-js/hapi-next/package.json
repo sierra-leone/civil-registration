@@ -1,0 +1,45 @@
+{
+  "name": "@cityofboston/hapi-next",
+  "version": "0.0.0",
+  "description": "Helpers for running Next from Hapi",
+  "private": true,
+  "license": "CC0-1.0",
+  "main": "build/hapi-next.js",
+  "types": "build/hapi-next.d.ts",
+  "scripts": {
+    "watch": "tsc-watch --preserveWatchOutput",
+    "prebuild": "rimraf build",
+    "build": "tsc",
+    "prepare": "yarn run build",
+    "test": "jest"
+  },
+  "jest": {
+    "testPathIgnorePatterns": [
+      "<rootDir>/build/",
+      "<rootDir>/node_modules/"
+    ]
+  },
+  "dependencies": {
+    "compression": "^1.6.2",
+    "core-js": "^2.6.4",
+    "next": "^9.0.6",
+    "react": "16.8.5",
+    "react-dom": "16.8.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.0",
+    "@cityofboston/config-babel": "^0.0.0",
+    "@cityofboston/config-typescript": "^0.0.0",
+    "@types/hapi": "^17.0.19",
+    "@types/jest": "24.x.x",
+    "@types/node": "^8.0.0",
+    "@types/node-fetch": "^2.1.2",
+    "@types/react": "^16.8.5",
+    "@types/react-dom": "^16.8.4",
+    "hapi": "^17.5.2",
+    "jest": "^24.8.0",
+    "rimraf": "^2.6.2",
+    "tsc-watch": "^1.0.26",
+    "typescript": "^3.4.5"
+  }
+}

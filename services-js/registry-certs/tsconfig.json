@@ -1,0 +1,20 @@
+{
+  "extends": "./node_modules/@cityofboston/config-typescript/tsconfig.default.json",
+  "compilerOptions": {
+    "rootDir": ".",
+    "outDir": "build",
+    "allowJs": true,
+    "sourceMap": true,
+    "declaration": false,
+    "noEmit": true,
+    "module": "esnext",
+    "isolatedModules": true
+  },
+  "include": [
+    "client/**/*",
+    "lib/**/*",
+    "pages/**/*",
+    "server/**/*"
+  ],
+  "exclude": []
+}

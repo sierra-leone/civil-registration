@@ -1,0 +1,63 @@
+{
+  "name": "@cityofboston/deploy-tools",
+  "version": "0.0.0",
+  "description": "Scripts for building and deployment of our services",
+  "private": true,
+  "license": "CC0-1.0",
+  "main": "build/helpers.js",
+  "files": [
+    "/README.md",
+    "/bin",
+    "/build"
+  ],
+  "scripts": {
+    "watch": "tsc-watch --preserveWatchOutput",
+    "prebuild": "rimraf build",
+    "build": "tsc",
+    "prepare": "yarn run build",
+    "test": "jest --passWithNoTests",
+    "precommit": "./scripts/npm-package.js"
+  },
+  "bin": {
+    "codebuild-service-deploy": "bin/codebuild-service-deploy.js",
+    "s3-apps-deploy": "bin/s3-apps-deploy.js",
+    "report-updated-services": "bin/report-updated-services.js"
+  },
+  "jest": {
+    "testPathIgnorePatterns": [
+      "<rootDir>/build/",
+      "<rootDir>/node_modules/"
+    ]
+  },
+  "dependencies": {
+    "@lerna/filter-options": "^3.13.0",
+    "@lerna/package-graph": "^3.13.0",
+    "@lerna/project": "^3.13.0",
+    "@slack/client": "^4.3.1",
+    "aws-sdk": "^2.245.1",
+    "date-fns": "^1.29.0",
+    "dotenv": "^5.0.0",
+    "form-data": "^2.3.3",
+    "https-proxy-agent": "^2.0.0",
+    "ignore": "^5.0.4",
+    "mime-types": "^2.1.20",
+    "minimist": "^1.2.0",
+    "node-fetch": "^2.0.0",
+    "recursive-readdir": "^2.2.2",
+    "shelljs": "^0.8.2",
+    "tar": "^4.4.3"
+  },
+  "devDependencies": {
+    "@cityofboston/config-typescript": "^0.0.0",
+    "@types/aws-sdk": "^2.7.0",
+    "@types/jest": "24.x.x",
+    "@types/minimist": "^1.2.0",
+    "@types/node": "^8.0.0",
+    "@types/node-fetch": "^2.1.2",
+    "@types/shelljs": "^0.8.0",
+    "jest": "^24.8.0",
+    "rimraf": "^2.6.2",
+    "tsc-watch": "^1.0.26",
+    "typescript": "^3.4.5"
+  }
+}

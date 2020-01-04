@@ -1,0 +1,6504 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Content Sections|CollapsibleSection default (open) 1`] = `
+.emotion-1 {
+  width: 100%;
+  margin-bottom: 0;
+  padding-right: 0;
+}
+
+.emotion-0 {
+  width: 100%;
+  background: none;
+  border: none;
+  padding: 0;
+  text-align: left;
+  cursor: pointer;
+  text-transform: inherit;
+  font-size: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.emotion-0:focus {
+  outline: auto;
+  outline-color: #288be4;
+}
+
+.emotion-0:focus:not(:focus-visible) {
+  outline: none;
+}
+
+.emotion-0 span {
+  margin-right: auto;
+}
+
+.emotion-0 svg {
+  width: 0.9em;
+  height: 0.9em;
+  stroke: #1871bd;
+  -webkit-transition: -webkit-transform 0.4s;
+  -webkit-transition: transform 0.4s;
+  transition: transform 0.4s;
+}
+
+.emotion-0[aria-expanded='true'] > svg {
+  -webkit-transform: rotate(-180deg);
+  -ms-transform: rotate(-180deg);
+  transform: rotate(-180deg);
+  -webkit-transform-origin: center;
+  -ms-transform-origin: center;
+  transform-origin: center;
+}
+
+<section
+  aria-labelledby="collapsiblesection-1469836601"
+>
+  <div
+    className="sh "
+  >
+    <h2
+      className="sh-title emotion-1"
+    >
+      <button
+        aria-expanded={true}
+        className="emotion-0"
+        onClick={[Function]}
+        type="button"
+      >
+        <span
+          id="collapsiblesection-1469836601"
+        >
+          Boards and Commissions
+        </span>
+        <svg
+          aria-hidden="true"
+          focusable="false"
+          overflow="visible"
+          viewBox="0 0 20 20"
+        >
+          <path
+            d="M 2,5 10,16 18,5"
+            fill="none"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2.5"
+          />
+        </svg>
+      </button>
+    </h2>
+  </div>
+  <div
+    hidden={false}
+  >
+    <p>
+      Please note that many of these Boards and Commissions require City of Boston residency.
+    </p>
+    <p>
+      You can still apply for a board or commission that does not currently have any open positions, and we will review your application when a seat opens.
+    </p>
+  </div>
+</section>
+`;
+
+exports[`Storyshots Content Sections|CollapsibleSection disabled 1`] = `
+Array [
+  .emotion-0 {
+  width: 100%;
+  margin-bottom: 0;
+  padding-right: 0;
+}
+
+<section
+    aria-labelledby="collapsiblesection-2725997550"
+  >
+    <div
+      className="sh "
+    >
+      <h2
+        className="sh-title emotion-0"
+      >
+        <span
+          id="collapsiblesection-2725997550"
+        >
+          Disabled / Open
+        </span>
+      </h2>
+    </div>
+    <div
+      hidden={false}
+    >
+      <p>
+        Please note that many of these Boards and Commissions require City of Boston residency.
+      </p>
+      <p>
+        You can still apply for a board or commission that does not currently have any open positions, and we will review your application when a seat opens.
+      </p>
+    </div>
+  </section>,
+  .emotion-0 {
+  width: 100%;
+  margin-bottom: 0;
+  padding-right: 0;
+}
+
+<section
+    aria-labelledby="collapsiblesection-206548808"
+  >
+    <div
+      className="sh "
+    >
+      <h2
+        className="sh-title emotion-0"
+      >
+        <span
+          id="collapsiblesection-206548808"
+        >
+          Disabled / Closed
+        </span>
+      </h2>
+    </div>
+    <div
+      hidden={true}
+    >
+      <p>
+        Please note that many of these Boards and Commissions require City of Boston residency.
+      </p>
+      <p>
+        You can still apply for a board or commission that does not currently have any open positions, and we will review your application when a seat opens.
+      </p>
+    </div>
+  </section>,
+]
+`;
+
+exports[`Storyshots Content Sections|CollapsibleSection initially collapsed 1`] = `
+.emotion-1 {
+  width: 100%;
+  margin-bottom: 0;
+  padding-right: 0;
+}
+
+.emotion-0 {
+  width: 100%;
+  background: none;
+  border: none;
+  padding: 0;
+  text-align: left;
+  cursor: pointer;
+  text-transform: inherit;
+  font-size: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.emotion-0:focus {
+  outline: auto;
+  outline-color: #288be4;
+}
+
+.emotion-0:focus:not(:focus-visible) {
+  outline: none;
+}
+
+.emotion-0 span {
+  margin-right: auto;
+}
+
+.emotion-0 svg {
+  width: 0.9em;
+  height: 0.9em;
+  stroke: #1871bd;
+  -webkit-transition: -webkit-transform 0.4s;
+  -webkit-transition: transform 0.4s;
+  transition: transform 0.4s;
+}
+
+.emotion-0[aria-expanded='true'] > svg {
+  -webkit-transform: rotate(-180deg);
+  -ms-transform: rotate(-180deg);
+  transform: rotate(-180deg);
+  -webkit-transform-origin: center;
+  -ms-transform-origin: center;
+  transform-origin: center;
+}
+
+<section
+  aria-labelledby="collapsiblesection-3435950689"
+>
+  <div
+    className="sh "
+  >
+    <h2
+      className="sh-title emotion-1"
+    >
+      <button
+        aria-expanded={false}
+        className="emotion-0"
+        onClick={[Function]}
+        type="button"
+      >
+        <span
+          id="collapsiblesection-3435950689"
+        >
+          Initially Collapsed
+        </span>
+        <svg
+          aria-hidden="true"
+          focusable="false"
+          overflow="visible"
+          viewBox="0 0 20 20"
+        >
+          <path
+            d="M 2,5 10,16 18,5"
+            fill="none"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2.5"
+          />
+        </svg>
+      </button>
+    </h2>
+  </div>
+  <div
+    hidden={true}
+  >
+    <p>
+      Please note that many of these Boards and Commissions require City of Boston residency.
+    </p>
+    <p>
+      You can still apply for a board or commission that does not currently have any open positions, and we will review your application when a seat opens.
+    </p>
+  </div>
+</section>
+`;
+
+exports[`Storyshots Content Sections|CollapsibleSection subheader variant 1`] = `
+.emotion-1 {
+  width: 100%;
+  margin-bottom: 0;
+  padding-right: 0;
+}
+
+.emotion-0 {
+  width: 100%;
+  background: none;
+  border: none;
+  padding: 0;
+  text-align: left;
+  cursor: pointer;
+  text-transform: inherit;
+  font-size: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.emotion-0:focus {
+  outline: auto;
+  outline-color: #288be4;
+}
+
+.emotion-0:focus:not(:focus-visible) {
+  outline: none;
+}
+
+.emotion-0 span {
+  margin-right: auto;
+}
+
+.emotion-0 svg {
+  width: 0.9em;
+  height: 0.9em;
+  stroke: #1871bd;
+  -webkit-transition: -webkit-transform 0.4s;
+  -webkit-transition: transform 0.4s;
+  transition: transform 0.4s;
+}
+
+.emotion-0[aria-expanded='true'] > svg {
+  -webkit-transform: rotate(-180deg);
+  -ms-transform: rotate(-180deg);
+  transform: rotate(-180deg);
+  -webkit-transform-origin: center;
+  -ms-transform-origin: center;
+  transform-origin: center;
+}
+
+<section
+  aria-labelledby="collapsiblesection-1469836601"
+>
+  <div
+    className="sh sh--sm"
+  >
+    <h3
+      className="sh-title emotion-1"
+    >
+      <button
+        aria-expanded={true}
+        className="emotion-0"
+        onClick={[Function]}
+        type="button"
+      >
+        <span
+          id="collapsiblesection-1469836601"
+        >
+          Boards and Commissions
+        </span>
+        <svg
+          aria-hidden="true"
+          focusable="false"
+          overflow="visible"
+          viewBox="0 0 20 20"
+        >
+          <path
+            d="M 2,5 10,16 18,5"
+            fill="none"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2.5"
+          />
+        </svg>
+      </button>
+    </h3>
+  </div>
+  <div
+    hidden={false}
+  >
+    <p>
+      Please note that many of these Boards and Commissions require City of Boston residency.
+    </p>
+    <p>
+      You can still apply for a board or commission that does not currently have any open positions, and we will review your application when a seat opens.
+    </p>
+  </div>
+</section>
+`;
+
+exports[`Storyshots Content Sections|SectionHeader default 1`] = `
+<div
+  className="sh m-b300 "
+>
+  <h2
+    className="sh-title"
+    id="sh-1469836601"
+  >
+    Boards and Commissions
+  </h2>
+</div>
+`;
+
+exports[`Storyshots Content Sections|SectionHeader subheader 1`] = `
+<div
+  className="sh m-b300 sh--sm "
+>
+  <h3
+    className="sh-title"
+    id="sh-1469836601"
+  >
+    Boards and Commissions
+  </h3>
+</div>
+`;
+
+exports[`Storyshots Content Sections|SectionHeader yellow 1`] = `
+<div
+  className="sh m-b300 sh--y "
+>
+  <h2
+    className="sh-title"
+    id="sh-1469836601"
+  >
+    Boards and Commissions
+  </h2>
+</div>
+`;
+
+exports[`Storyshots DetailsDisclosure default 1`] = `
+.emotion-2 > .details-content {
+  display: none;
+}
+
+.emotion-2 button {
+  cursor: pointer;
+}
+
+.emotion-2 button svg {
+  -webkit-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  -webkit-transition: -webkit-transform 0.15s;
+  -webkit-transition: transform 0.15s;
+  transition: transform 0.15s;
+}
+
+.emotion-2 button:hover {
+  color: #1871bd;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.emotion-2 button[aria-expanded="true"] svg {
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+
+.emotion-2 button[aria-expanded="true"] ~ .details-content {
+  display: block;
+}
+
+.emotion-1 {
+  background-color: transparent;
+  color: inherit;
+  border: none;
+  margin: 0;
+  padding: 0;
+  overflow: visible;
+  font-family: inherit;
+  font-size: inherit;
+  text-align: inherit;
+}
+
+.emotion-0 {
+  width: 0.7em;
+  height: 0.7em;
+  margin-right: 0.4em;
+  color: #1871bd;
+}
+
+.emotion-0 path {
+  fill: currentColor;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linejoin: round;
+}
+
+<div
+  style={
+    Object {
+      "margin": "2rem auto",
+      "maxWidth": "600px",
+    }
+  }
+>
+  <div
+    className="emotion-2"
+    id={2889438462}
+  >
+    <button
+      aria-controls="2889438462-content"
+      aria-expanded={false}
+      className="emotion-1"
+      onClick={[Function]}
+      type="button"
+    >
+      <svg
+        aria-hidden="true"
+        className="emotion-0"
+        focusable="false"
+        overflow="visible"
+        viewBox="0 0 20 20"
+      >
+        <path
+          d="M 2,5 10,20 18,5 Z"
+        />
+      </svg>
+      Are you requesting a certificate for international use that requires an Apostille from the Massachusetts Secretary of State?
+    </button>
+    <div
+      className="details-content"
+      id="2889438462-content"
+    >
+      <p>
+        You need to have a hand signature from the Registry. After you finish your order, please email birth@boston.gov with:
+      </p>
+      <ul>
+        <li>
+          the name of the person on the record
+        </li>
+        <li>
+          their date of birth, and
+        </li>
+        <li>
+          let us know that you need the signature for an Apostille.
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Form Elements|Buttons/CloseButton close 1`] = `
+.emotion-0 {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 0;
+  opacity: 0.8;
+  -webkit-transition: opacity 0.15s;
+  transition: opacity 0.15s;
+}
+
+.emotion-0:hover {
+  opacity: 1;
+}
+
+<button
+  className="emotion-0"
+  onClick={[Function]}
+  style={
+    Object {
+      "height": "50px",
+      "overflow": "visible",
+      "width": "50px",
+    }
+  }
+  title="Close"
+  type="button"
+>
+  <svg
+    aria-hidden="true"
+    height="50px"
+    overflow="visible"
+    viewBox="0 0 24 24"
+    width="50px"
+  >
+    <circle
+      cx="12"
+      cy="12"
+      fill="#d22d23"
+      r="12"
+      stroke="none"
+    />
+    <g
+      transform="rotate(45, 12, 12)"
+    >
+      <line
+        fill="none"
+        stroke="#fff"
+        strokeLinecap="round"
+        strokeWidth="3"
+        x1="12"
+        x2="12"
+        y1="4"
+        y2="20"
+      />
+      <line
+        fill="none"
+        stroke="#fff"
+        strokeLinecap="round"
+        strokeWidth="3"
+        x1="4"
+        x2="20"
+        y1="12"
+        y2="12"
+      />
+    </g>
+  </svg>
+</button>
+`;
+
+exports[`Storyshots Form Elements|Inputs/Checkbox Checkbox 1`] = `
+Array [
+  <label
+    className="cb "
+  >
+    <input
+      checked={true}
+      className="cb-f "
+      name="checkbox"
+      type="checkbox"
+      value="checkbox"
+    />
+    <span
+      className="cb-l"
+    >
+      Community Preservation Committee
+    </span>
+  </label>,
+  <br />,
+  <label
+    className="cb "
+  >
+    <input
+      checked={true}
+      className="cb-f "
+      name="checkbox"
+      type="checkbox"
+      value="checkbox"
+    />
+    <span
+      className="cb-l"
+    >
+      Community Preservation Committee
+      <br />
+      <a
+        href="#"
+        target="_blank"
+        title="Homepage"
+      >
+        Homepage
+      </a>
+    </span>
+  </label>,
+]
+`;
+
+exports[`Storyshots Form Elements|Inputs/FileInput Multiple file types 1`] = `
+.emotion-3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+@media screen and (min-width:480px) {
+  .emotion-3 {
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+  }
+}
+
+.emotion-3 label {
+  margin-bottom: 0.5em;
+}
+
+@media screen and (min-width:480px) {
+  .emotion-3 label {
+    margin-bottom: 0;
+  }
+}
+
+.emotion-3 div {
+  -webkit-flex-basis: 80%;
+  -ms-flex-preferred-size: 80%;
+  flex-basis: 80%;
+}
+
+@media screen and (min-width:480px) {
+  .emotion-3 div {
+    -webkit-flex-basis: auto;
+    -ms-flex-preferred-size: auto;
+    flex-basis: auto;
+    padding-left: 1em;
+  }
+}
+
+.emotion-0 {
+  border: 0;
+  -webkit-clip: rect(0 0 0 0);
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+.emotion-2 {
+  position: relative;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  cursor: default;
+}
+
+<div
+  className="txt m-b300 emotion-3"
+>
+  <input
+    accept="image/jpeg, image/png"
+    className="emotion-0"
+    id="FileInput-multi"
+    name="multi"
+    onBlur={[Function]}
+    onChange={[Function]}
+    onFocus={[Function]}
+    type="file"
+  />
+  <label
+    className="btn btn--sm btn--100 emotion-1"
+    htmlFor="FileInput-multi"
+    style={
+      Object {
+        "fontWeight": "bold",
+        "whiteSpace": "nowrap",
+      }
+    }
+  >
+    Choose 
+    JPG or PNG
+     file
+  </label>
+  <div
+    className="emotion-2"
+  >
+    <span>
+      No file selected
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Form Elements|Inputs/FileInput Small size limit; unspecified file type 1`] = `
+.emotion-3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+@media screen and (min-width:480px) {
+  .emotion-3 {
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+  }
+}
+
+.emotion-3 label {
+  margin-bottom: 0.5em;
+}
+
+@media screen and (min-width:480px) {
+  .emotion-3 label {
+    margin-bottom: 0;
+  }
+}
+
+.emotion-3 div {
+  -webkit-flex-basis: 80%;
+  -ms-flex-preferred-size: 80%;
+  flex-basis: 80%;
+}
+
+@media screen and (min-width:480px) {
+  .emotion-3 div {
+    -webkit-flex-basis: auto;
+    -ms-flex-preferred-size: auto;
+    flex-basis: auto;
+    padding-left: 1em;
+  }
+}
+
+.emotion-0 {
+  border: 0;
+  -webkit-clip: rect(0 0 0 0);
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+.emotion-2 {
+  position: relative;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  cursor: default;
+}
+
+<div
+  className="txt m-b300 emotion-3"
+>
+  <input
+    accept="*"
+    className="emotion-0"
+    id="FileInput-coverLetter"
+    name="coverLetter"
+    onBlur={[Function]}
+    onChange={[Function]}
+    onFocus={[Function]}
+    type="file"
+  />
+  <label
+    className="btn btn--sm btn--100 emotion-1"
+    htmlFor="FileInput-coverLetter"
+    style={
+      Object {
+        "fontWeight": "bold",
+        "whiteSpace": "nowrap",
+      }
+    }
+  >
+    Choose 
+    Cover Letter
+     file
+  </label>
+  <div
+    className="emotion-2"
+  >
+    <span>
+      No file selected
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Form Elements|Inputs/FileInput default 1`] = `
+.emotion-3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+@media screen and (min-width:480px) {
+  .emotion-3 {
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+  }
+}
+
+.emotion-3 label {
+  margin-bottom: 0.5em;
+}
+
+@media screen and (min-width:480px) {
+  .emotion-3 label {
+    margin-bottom: 0;
+  }
+}
+
+.emotion-3 div {
+  -webkit-flex-basis: 80%;
+  -ms-flex-preferred-size: 80%;
+  flex-basis: 80%;
+}
+
+@media screen and (min-width:480px) {
+  .emotion-3 div {
+    -webkit-flex-basis: auto;
+    -ms-flex-preferred-size: auto;
+    flex-basis: auto;
+    padding-left: 1em;
+  }
+}
+
+.emotion-0 {
+  border: 0;
+  -webkit-clip: rect(0 0 0 0);
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+.emotion-2 {
+  position: relative;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  cursor: default;
+}
+
+<div
+  className="txt m-b300 emotion-3"
+>
+  <input
+    accept="application/pdf"
+    className="emotion-0"
+    id="FileInput-pdf"
+    name="pdf"
+    onBlur={[Function]}
+    onChange={[Function]}
+    onFocus={[Function]}
+    type="file"
+  />
+  <label
+    className="btn btn--sm btn--100 emotion-1"
+    htmlFor="FileInput-pdf"
+    style={
+      Object {
+        "fontWeight": "bold",
+        "whiteSpace": "nowrap",
+      }
+    }
+  >
+    Choose 
+    PDF
+     file
+  </label>
+  <div
+    className="emotion-2"
+  >
+    <span>
+      No file selected
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Form Elements|Inputs/MemorableDateInput default 1`] = `
+.emotion-1 {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+.emotion-1 legend {
+  padding-left: 0;
+  font-size: 120%;
+}
+
+.emotion-0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-transition: opacity 0.1s;
+  transition: opacity 0.1s;
+}
+
+.emotion-0 > div {
+  -webkit-flex: 0 0 24%;
+  -ms-flex: 0 0 24%;
+  flex: 0 0 24%;
+}
+
+.emotion-0 > div:last-of-type {
+  -webkit-flex: 0 0 50%;
+  -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
+}
+
+.emotion-0 input {
+  -moz-appearance: textfield;
+}
+
+.emotion-0 input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.emotion-0 input::-ms-clear {
+  display: none;
+}
+
+.emotion-0 label {
+  margin-top: 0.5rem;
+}
+
+.emotion-0.disabled {
+  opacity: 0.4;
+}
+
+.emotion-0.disabled * {
+  cursor: not-allowed;
+}
+
+<fieldset
+  className="emotion-1"
+>
+  <legend
+    style={
+      Object {
+        "width": "100%",
+      }
+    }
+  >
+    <h2>
+      Date
+    </h2>
+  </legend>
+  <div
+    className=" emotion-0"
+  >
+    <div>
+      <label
+        className="txt-l"
+        htmlFor="default-month"
+      >
+        Month
+      </label>
+      <input
+        className="txt-f"
+        id="default-month"
+        max="12"
+        min="1"
+        name="month"
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        placeholder="MM"
+        type="number"
+        value=""
+      />
+    </div>
+    <div>
+      <label
+        className="txt-l"
+        htmlFor="default-day"
+      >
+        Day
+      </label>
+      <input
+        className="txt-f"
+        id="default-day"
+        max="31"
+        min="1"
+        name="day"
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        placeholder="DD"
+        type="number"
+        value=""
+      />
+    </div>
+    <div>
+      <label
+        className="txt-l"
+        htmlFor="default-year"
+      >
+        Year
+      </label>
+      <input
+        className="txt-f"
+        id="default-year"
+        max="9999"
+        min="1000"
+        name="year"
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        placeholder="YYYY"
+        type="number"
+        value=""
+      />
+    </div>
+  </div>
+</fieldset>
+`;
+
+exports[`Storyshots Form Elements|Inputs/MemorableDateInput earliestDate: 9/7/1630 1`] = `
+.emotion-1 {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+.emotion-1 legend {
+  padding-left: 0;
+  font-size: 120%;
+}
+
+.emotion-0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-transition: opacity 0.1s;
+  transition: opacity 0.1s;
+}
+
+.emotion-0 > div {
+  -webkit-flex: 0 0 24%;
+  -ms-flex: 0 0 24%;
+  flex: 0 0 24%;
+}
+
+.emotion-0 > div:last-of-type {
+  -webkit-flex: 0 0 50%;
+  -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
+}
+
+.emotion-0 input {
+  -moz-appearance: textfield;
+}
+
+.emotion-0 input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.emotion-0 input::-ms-clear {
+  display: none;
+}
+
+.emotion-0 label {
+  margin-top: 0.5rem;
+}
+
+.emotion-0.disabled {
+  opacity: 0.4;
+}
+
+.emotion-0.disabled * {
+  cursor: not-allowed;
+}
+
+<fieldset
+  className="emotion-1"
+>
+  <legend
+    style={
+      Object {
+        "width": "100%",
+      }
+    }
+  >
+    <h2>
+      Date
+    </h2>
+  </legend>
+  <div
+    className=" emotion-0"
+  >
+    <div>
+      <label
+        className="txt-l"
+        htmlFor="earliest-month"
+      >
+        Month
+      </label>
+      <input
+        className="txt-f"
+        id="earliest-month"
+        max="12"
+        min="1"
+        name="month"
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        placeholder="MM"
+        type="number"
+        value=""
+      />
+    </div>
+    <div>
+      <label
+        className="txt-l"
+        htmlFor="earliest-day"
+      >
+        Day
+      </label>
+      <input
+        className="txt-f"
+        id="earliest-day"
+        max="31"
+        min="1"
+        name="day"
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        placeholder="DD"
+        type="number"
+        value=""
+      />
+    </div>
+    <div>
+      <label
+        className="txt-l"
+        htmlFor="earliest-year"
+      >
+        Year
+      </label>
+      <input
+        className="txt-f"
+        id="earliest-year"
+        max="9999"
+        min={1630}
+        name="year"
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        placeholder="YYYY"
+        type="number"
+        value=""
+      />
+    </div>
+  </div>
+</fieldset>
+`;
+
+exports[`Storyshots Form Elements|Inputs/MemorableDateInput invalid initialDate 1`] = `
+.emotion-1 {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+.emotion-1 legend {
+  padding-left: 0;
+  font-size: 120%;
+}
+
+.emotion-0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-transition: opacity 0.1s;
+  transition: opacity 0.1s;
+}
+
+.emotion-0 > div {
+  -webkit-flex: 0 0 24%;
+  -ms-flex: 0 0 24%;
+  flex: 0 0 24%;
+}
+
+.emotion-0 > div:last-of-type {
+  -webkit-flex: 0 0 50%;
+  -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
+}
+
+.emotion-0 input {
+  -moz-appearance: textfield;
+}
+
+.emotion-0 input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.emotion-0 input::-ms-clear {
+  display: none;
+}
+
+.emotion-0 label {
+  margin-top: 0.5rem;
+}
+
+.emotion-0.disabled {
+  opacity: 0.4;
+}
+
+.emotion-0.disabled * {
+  cursor: not-allowed;
+}
+
+<fieldset
+  className="emotion-1"
+>
+  <legend
+    style={
+      Object {
+        "width": "100%",
+      }
+    }
+  >
+    <h2>
+      Date
+    </h2>
+  </legend>
+  <div
+    className=" emotion-0"
+  >
+    <div>
+      <label
+        className="txt-l"
+        htmlFor="initial-month"
+      >
+        Month
+      </label>
+      <input
+        className="txt-f"
+        id="initial-month"
+        max="12"
+        min="1"
+        name="month"
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        placeholder="MM"
+        type="number"
+        value="1"
+      />
+    </div>
+    <div>
+      <label
+        className="txt-l"
+        htmlFor="initial-day"
+      >
+        Day
+      </label>
+      <input
+        className="txt-f"
+        id="initial-day"
+        max="31"
+        min="1"
+        name="day"
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        placeholder="DD"
+        type="number"
+        value="1"
+      />
+    </div>
+    <div>
+      <label
+        className="txt-l"
+        htmlFor="initial-year"
+      >
+        Year
+      </label>
+      <input
+        className="txt-f"
+        id="initial-year"
+        max={1999}
+        min="1000"
+        name="year"
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        placeholder="YYYY"
+        type="number"
+        value="2000"
+      />
+    </div>
+  </div>
+  <div
+    className="t--err m-t200"
+  >
+    The date must be earlier than 12/31/1999
+  </div>
+</fieldset>
+`;
+
+exports[`Storyshots Form Elements|Inputs/MemorableDateInput latestDate: 12/31/2025 1`] = `
+.emotion-1 {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+.emotion-1 legend {
+  padding-left: 0;
+  font-size: 120%;
+}
+
+.emotion-0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-transition: opacity 0.1s;
+  transition: opacity 0.1s;
+}
+
+.emotion-0 > div {
+  -webkit-flex: 0 0 24%;
+  -ms-flex: 0 0 24%;
+  flex: 0 0 24%;
+}
+
+.emotion-0 > div:last-of-type {
+  -webkit-flex: 0 0 50%;
+  -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
+}
+
+.emotion-0 input {
+  -moz-appearance: textfield;
+}
+
+.emotion-0 input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.emotion-0 input::-ms-clear {
+  display: none;
+}
+
+.emotion-0 label {
+  margin-top: 0.5rem;
+}
+
+.emotion-0.disabled {
+  opacity: 0.4;
+}
+
+.emotion-0.disabled * {
+  cursor: not-allowed;
+}
+
+<fieldset
+  className="emotion-1"
+>
+  <legend
+    style={
+      Object {
+        "width": "100%",
+      }
+    }
+  >
+    <h2>
+      Date
+    </h2>
+  </legend>
+  <div
+    className=" emotion-0"
+  >
+    <div>
+      <label
+        className="txt-l"
+        htmlFor="latest-month"
+      >
+        Month
+      </label>
+      <input
+        className="txt-f"
+        id="latest-month"
+        max="12"
+        min="1"
+        name="month"
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        placeholder="MM"
+        type="number"
+        value=""
+      />
+    </div>
+    <div>
+      <label
+        className="txt-l"
+        htmlFor="latest-day"
+      >
+        Day
+      </label>
+      <input
+        className="txt-f"
+        id="latest-day"
+        max="31"
+        min="1"
+        name="day"
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        placeholder="DD"
+        type="number"
+        value=""
+      />
+    </div>
+    <div>
+      <label
+        className="txt-l"
+        htmlFor="latest-year"
+      >
+        Year
+      </label>
+      <input
+        className="txt-f"
+        id="latest-year"
+        max={2025}
+        min="1000"
+        name="year"
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        placeholder="YYYY"
+        type="number"
+        value=""
+      />
+    </div>
+  </div>
+</fieldset>
+`;
+
+exports[`Storyshots Form Elements|Inputs/MemorableDateInput onlyAllowFuture 1`] = `
+.emotion-1 {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+.emotion-1 legend {
+  padding-left: 0;
+  font-size: 120%;
+}
+
+.emotion-0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-transition: opacity 0.1s;
+  transition: opacity 0.1s;
+}
+
+.emotion-0 > div {
+  -webkit-flex: 0 0 24%;
+  -ms-flex: 0 0 24%;
+  flex: 0 0 24%;
+}
+
+.emotion-0 > div:last-of-type {
+  -webkit-flex: 0 0 50%;
+  -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
+}
+
+.emotion-0 input {
+  -moz-appearance: textfield;
+}
+
+.emotion-0 input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.emotion-0 input::-ms-clear {
+  display: none;
+}
+
+.emotion-0 label {
+  margin-top: 0.5rem;
+}
+
+.emotion-0.disabled {
+  opacity: 0.4;
+}
+
+.emotion-0.disabled * {
+  cursor: not-allowed;
+}
+
+<fieldset
+  className="emotion-1"
+>
+  <legend
+    style={
+      Object {
+        "width": "100%",
+      }
+    }
+  >
+    <h2>
+      Date
+    </h2>
+  </legend>
+  <div
+    className=" emotion-0"
+  >
+    <div>
+      <label
+        className="txt-l"
+        htmlFor="future-month"
+      >
+        Month
+      </label>
+      <input
+        className="txt-f"
+        id="future-month"
+        max="12"
+        min="1"
+        name="month"
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        placeholder="MM"
+        type="number"
+        value=""
+      />
+    </div>
+    <div>
+      <label
+        className="txt-l"
+        htmlFor="future-day"
+      >
+        Day
+      </label>
+      <input
+        className="txt-f"
+        id="future-day"
+        max="31"
+        min="1"
+        name="day"
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        placeholder="DD"
+        type="number"
+        value=""
+      />
+    </div>
+    <div>
+      <label
+        className="txt-l"
+        htmlFor="future-year"
+      >
+        Year
+      </label>
+      <input
+        className="txt-f"
+        id="future-year"
+        max="9999"
+        min={2019}
+        name="year"
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        placeholder="YYYY"
+        type="number"
+        value=""
+      />
+    </div>
+  </div>
+</fieldset>
+`;
+
+exports[`Storyshots Form Elements|Inputs/MemorableDateInput onlyAllowFuture and latestDate: 1/1/2040 1`] = `
+.emotion-1 {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+.emotion-1 legend {
+  padding-left: 0;
+  font-size: 120%;
+}
+
+.emotion-0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-transition: opacity 0.1s;
+  transition: opacity 0.1s;
+}
+
+.emotion-0 > div {
+  -webkit-flex: 0 0 24%;
+  -ms-flex: 0 0 24%;
+  flex: 0 0 24%;
+}
+
+.emotion-0 > div:last-of-type {
+  -webkit-flex: 0 0 50%;
+  -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
+}
+
+.emotion-0 input {
+  -moz-appearance: textfield;
+}
+
+.emotion-0 input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.emotion-0 input::-ms-clear {
+  display: none;
+}
+
+.emotion-0 label {
+  margin-top: 0.5rem;
+}
+
+.emotion-0.disabled {
+  opacity: 0.4;
+}
+
+.emotion-0.disabled * {
+  cursor: not-allowed;
+}
+
+<fieldset
+  className="emotion-1"
+>
+  <legend
+    style={
+      Object {
+        "width": "100%",
+      }
+    }
+  >
+    <h2>
+      Date
+    </h2>
+  </legend>
+  <div
+    className=" emotion-0"
+  >
+    <div>
+      <label
+        className="txt-l"
+        htmlFor="story-month"
+      >
+        Month
+      </label>
+      <input
+        className="txt-f"
+        id="story-month"
+        max="12"
+        min="1"
+        name="month"
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        placeholder="MM"
+        type="number"
+        value=""
+      />
+    </div>
+    <div>
+      <label
+        className="txt-l"
+        htmlFor="story-day"
+      >
+        Day
+      </label>
+      <input
+        className="txt-f"
+        id="story-day"
+        max="31"
+        min="1"
+        name="day"
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        placeholder="DD"
+        type="number"
+        value=""
+      />
+    </div>
+    <div>
+      <label
+        className="txt-l"
+        htmlFor="story-year"
+      >
+        Year
+      </label>
+      <input
+        className="txt-f"
+        id="story-year"
+        max={2040}
+        min={2019}
+        name="year"
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        placeholder="YYYY"
+        type="number"
+        value=""
+      />
+    </div>
+  </div>
+</fieldset>
+`;
+
+exports[`Storyshots Form Elements|Inputs/MemorableDateInput onlyAllowPast 1`] = `
+.emotion-1 {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+.emotion-1 legend {
+  padding-left: 0;
+  font-size: 120%;
+}
+
+.emotion-0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-transition: opacity 0.1s;
+  transition: opacity 0.1s;
+}
+
+.emotion-0 > div {
+  -webkit-flex: 0 0 24%;
+  -ms-flex: 0 0 24%;
+  flex: 0 0 24%;
+}
+
+.emotion-0 > div:last-of-type {
+  -webkit-flex: 0 0 50%;
+  -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
+}
+
+.emotion-0 input {
+  -moz-appearance: textfield;
+}
+
+.emotion-0 input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.emotion-0 input::-ms-clear {
+  display: none;
+}
+
+.emotion-0 label {
+  margin-top: 0.5rem;
+}
+
+.emotion-0.disabled {
+  opacity: 0.4;
+}
+
+.emotion-0.disabled * {
+  cursor: not-allowed;
+}
+
+<fieldset
+  className="emotion-1"
+>
+  <legend
+    style={
+      Object {
+        "width": "100%",
+      }
+    }
+  >
+    <h2>
+      Date
+    </h2>
+  </legend>
+  <div
+    className=" emotion-0"
+  >
+    <div>
+      <label
+        className="txt-l"
+        htmlFor="past-month"
+      >
+        Month
+      </label>
+      <input
+        className="txt-f"
+        id="past-month"
+        max="12"
+        min="1"
+        name="month"
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        placeholder="MM"
+        type="number"
+        value=""
+      />
+    </div>
+    <div>
+      <label
+        className="txt-l"
+        htmlFor="past-day"
+      >
+        Day
+      </label>
+      <input
+        className="txt-f"
+        id="past-day"
+        max="31"
+        min="1"
+        name="day"
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        placeholder="DD"
+        type="number"
+        value=""
+      />
+    </div>
+    <div>
+      <label
+        className="txt-l"
+        htmlFor="past-year"
+      >
+        Year
+      </label>
+      <input
+        className="txt-f"
+        id="past-year"
+        max={2019}
+        min="1000"
+        name="year"
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        placeholder="YYYY"
+        type="number"
+        value=""
+      />
+    </div>
+  </div>
+</fieldset>
+`;
+
+exports[`Storyshots Form Elements|Inputs/MemorableDateInput with an initialDate 1`] = `
+.emotion-1 {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+.emotion-1 legend {
+  padding-left: 0;
+  font-size: 120%;
+}
+
+.emotion-0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-transition: opacity 0.1s;
+  transition: opacity 0.1s;
+}
+
+.emotion-0 > div {
+  -webkit-flex: 0 0 24%;
+  -ms-flex: 0 0 24%;
+  flex: 0 0 24%;
+}
+
+.emotion-0 > div:last-of-type {
+  -webkit-flex: 0 0 50%;
+  -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
+}
+
+.emotion-0 input {
+  -moz-appearance: textfield;
+}
+
+.emotion-0 input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.emotion-0 input::-ms-clear {
+  display: none;
+}
+
+.emotion-0 label {
+  margin-top: 0.5rem;
+}
+
+.emotion-0.disabled {
+  opacity: 0.4;
+}
+
+.emotion-0.disabled * {
+  cursor: not-allowed;
+}
+
+<fieldset
+  className="emotion-1"
+>
+  <legend
+    style={
+      Object {
+        "width": "100%",
+      }
+    }
+  >
+    <h2>
+      Date
+    </h2>
+  </legend>
+  <div
+    className=" emotion-0"
+  >
+    <div>
+      <label
+        className="txt-l"
+        htmlFor="initial-month"
+      >
+        Month
+      </label>
+      <input
+        className="txt-f"
+        id="initial-month"
+        max="12"
+        min="1"
+        name="month"
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        placeholder="MM"
+        type="number"
+        value="12"
+      />
+    </div>
+    <div>
+      <label
+        className="txt-l"
+        htmlFor="initial-day"
+      >
+        Day
+      </label>
+      <input
+        className="txt-f"
+        id="initial-day"
+        max="31"
+        min="1"
+        name="day"
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        placeholder="DD"
+        type="number"
+        value="31"
+      />
+    </div>
+    <div>
+      <label
+        className="txt-l"
+        htmlFor="initial-year"
+      >
+        Year
+      </label>
+      <input
+        className="txt-f"
+        id="initial-year"
+        max={2019}
+        min="1000"
+        name="year"
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        placeholder="YYYY"
+        type="number"
+        value="1999"
+      />
+    </div>
+  </div>
+  
+</fieldset>
+`;
+
+exports[`Storyshots Form Elements|Inputs/Radio Input Element 1`] = `
+<label
+  className="ra "
+>
+  <input
+    className="ra-f"
+    name="single"
+    type="radio"
+    value="single"
+  />
+  <span
+    className="ra-l"
+  >
+    Single Option
+  </span>
+</label>
+`;
+
+exports[`Storyshots Form Elements|Inputs/Radio Radio Group 1`] = `
+<div
+  aria-labelledby="favorite-flower-groupLabel"
+  role="group"
+>
+  <div
+    className="txt-l"
+    id="favorite-flower-groupLabel"
+  >
+    Favorite Flower
+  </div>
+  <label
+    className="ra  "
+  >
+    <input
+      className="ra-f"
+      name="favorite-flower"
+      type="radio"
+      value="cosmos"
+    />
+    <span
+      className="ra-l"
+    >
+      Cosmos
+    </span>
+  </label>
+  <label
+    className="ra  "
+  >
+    <input
+      className="ra-f"
+      name="favorite-flower"
+      type="radio"
+      value="foxglove"
+    />
+    <span
+      className="ra-l"
+    >
+      Foxglove
+    </span>
+  </label>
+  <label
+    className="ra  "
+  >
+    <input
+      className="ra-f"
+      name="favorite-flower"
+      type="radio"
+      value="zinnia"
+    />
+    <span
+      className="ra-l"
+    >
+      Zinnia
+    </span>
+  </label>
+</div>
+`;
+
+exports[`Storyshots Form Elements|Inputs/Radio Radio Group, Hidden Group Label 1`] = `
+<div
+  aria-label="Favorite Flower"
+  role="group"
+>
+  <label
+    className="ra  "
+  >
+    <input
+      className="ra-f"
+      name="favorite-flower"
+      type="radio"
+      value="cosmos"
+    />
+    <span
+      className="ra-l"
+    >
+      Cosmos
+    </span>
+  </label>
+  <label
+    className="ra  "
+  >
+    <input
+      className="ra-f"
+      name="favorite-flower"
+      type="radio"
+      value="foxglove"
+    />
+    <span
+      className="ra-l"
+    >
+      Foxglove
+    </span>
+  </label>
+  <label
+    className="ra  "
+  >
+    <input
+      className="ra-f"
+      name="favorite-flower"
+      type="radio"
+      value="zinnia"
+    />
+    <span
+      className="ra-l"
+    >
+      Zinnia
+    </span>
+  </label>
+</div>
+`;
+
+exports[`Storyshots Form Elements|Inputs/Radio Radio Group, Labels as Markup 1`] = `
+<div
+  aria-labelledby="time-of-day-groupLabel"
+  role="group"
+>
+  <div
+    className="txt-l"
+    id="time-of-day-groupLabel"
+  >
+    Time of Day
+  </div>
+  <label
+    className="ra  "
+  >
+    <input
+      className="ra-f"
+      name="time-of-day"
+      type="radio"
+      value="morning"
+    />
+    <h2
+      className="m-l200"
+    >
+      Morning
+    </h2>
+  </label>
+  <label
+    className="ra  "
+  >
+    <input
+      className="ra-f"
+      name="time-of-day"
+      type="radio"
+      value="afternoon"
+    />
+    <h2
+      className="m-l200"
+    >
+      Afternoon
+    </h2>
+  </label>
+  <label
+    className="ra  "
+  >
+    <input
+      className="ra-f"
+      name="time-of-day"
+      type="radio"
+      value="evening"
+    />
+    <h2
+      className="m-l200"
+    >
+      Evening
+    </h2>
+  </label>
+</div>
+`;
+
+exports[`Storyshots Form Elements|Inputs/TextInput default 1`] = `
+<div
+  style={
+    Object {
+      "margin": "2rem auto",
+      "maxWidth": "600px",
+    }
+  }
+>
+  <div>
+    <label
+      className="txt-l "
+      htmlFor="input-362326901"
+    >
+      <span
+        style={
+          Object {
+            "marginRight": "0.5em",
+            "whiteSpace": "nowrap",
+          }
+        }
+      >
+        Standard text input
+      </span>
+    </label>
+    <input
+      aria-label=""
+      className="txt-f  "
+      disabled={false}
+      id="input-362326901"
+      placeholder=""
+      required={false}
+      type="text"
+    />
+    <div
+      className="t--subinfo t--err m-b100"
+    >
+       
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Form Elements|Inputs/TextInput error 1`] = `
+<div
+  style={
+    Object {
+      "margin": "2rem auto",
+      "maxWidth": "600px",
+    }
+  }
+>
+  <div>
+    <label
+      className="txt-l "
+      htmlFor="input-2348632648"
+    >
+      <span
+        style={
+          Object {
+            "marginRight": "0.5em",
+            "whiteSpace": "nowrap",
+          }
+        }
+      >
+        String error
+      </span>
+    </label>
+    <input
+      aria-label=""
+      className="txt-f  txt-f--err"
+      id="input-2348632648"
+      type="text"
+    />
+    <div
+      className="t--subinfo t--err m-b100"
+    >
+      Value is not correct
+    </div>
+  </div>
+  <div>
+    <label
+      className="txt-l "
+      htmlFor="input-3077581017"
+    >
+      <span
+        style={
+          Object {
+            "marginRight": "0.5em",
+            "whiteSpace": "nowrap",
+          }
+        }
+      >
+        Boolean error
+      </span>
+    </label>
+    <input
+      aria-label=""
+      className="txt-f  txt-f--err"
+      id="input-3077581017"
+      type="text"
+    />
+    <div
+      className="t--subinfo t--err m-b100"
+    >
+       
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Form Elements|Inputs/TextInput variations 1`] = `
+<div
+  style={
+    Object {
+      "margin": "2rem auto",
+      "maxWidth": "600px",
+    }
+  }
+>
+  <div>
+    <label
+      className="txt-l "
+      htmlFor="input-1357588218"
+    >
+      <span
+        style={
+          Object {
+            "marginRight": "0.5em",
+            "whiteSpace": "nowrap",
+          }
+        }
+      >
+        Required Input
+      </span>
+      <span
+        aria-hidden="true"
+        className="t--req"
+      >
+        Required
+      </span>
+    </label>
+    <input
+      aria-label=""
+      className="txt-f  "
+      id="input-1357588218"
+      required={true}
+      type="text"
+    />
+    <div
+      className="t--subinfo t--err m-b100"
+    >
+       
+    </div>
+  </div>
+  <div>
+    <label
+      className="txt-l "
+      htmlFor="input-3174958747"
+    >
+      <span
+        style={
+          Object {
+            "marginRight": "0.5em",
+            "whiteSpace": "nowrap",
+          }
+        }
+      >
+        Placeholder text
+      </span>
+    </label>
+    <input
+      aria-label=""
+      className="txt-f  "
+      id="input-3174958747"
+      placeholder="Placeholder Text"
+      type="text"
+    />
+    <div
+      className="t--subinfo t--err m-b100"
+    >
+       
+    </div>
+  </div>
+  <form>
+    <div>
+      <label
+        className="txt-l "
+        htmlFor="input-423803610"
+      >
+        <span
+          style={
+            Object {
+              "marginRight": "0.5em",
+              "whiteSpace": "nowrap",
+            }
+          }
+        >
+          Password
+        </span>
+      </label>
+      <input
+        aria-label=""
+        className="txt-f  "
+        id="input-423803610"
+        onChange={[Function]}
+        type="password"
+        value="password"
+      />
+      <div
+        className="t--subinfo t--err m-b100"
+      >
+         
+      </div>
+    </div>
+  </form>
+  <div>
+    <label
+      className="txt-l "
+      htmlFor="input-5381"
+    >
+      <span
+        style={
+          Object {
+            "marginRight": "0.5em",
+            "whiteSpace": "nowrap",
+          }
+        }
+      >
+        React node passed in as “label”
+      </span>
+      <wbr />
+      <span
+        style={
+          Object {
+            "fontSize": "80%",
+            "whiteSpace": "nowrap",
+          }
+        }
+      >
+        instead of a string
+      </span>
+    </label>
+    <input
+      aria-label=""
+      className="txt-f  "
+      id="input-5381"
+      type="text"
+    />
+    <div
+      className="t--subinfo t--err m-b100"
+    >
+       
+    </div>
+  </div>
+  <div>
+    <label
+      className="txt-l txt-l--sm"
+      htmlFor="input-472033325"
+    >
+      <span
+        style={
+          Object {
+            "marginRight": "0.5em",
+            "whiteSpace": "nowrap",
+          }
+        }
+      >
+        Small Variant
+      </span>
+    </label>
+    <input
+      aria-label=""
+      className="txt-f txt-f--sm "
+      id="input-472033325"
+      placeholder="Placeholder Text"
+      type="text"
+    />
+    <div
+      className="t--subinfo t--err m-b100"
+    >
+       
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Form Elements|SelectDropdown default 1`] = `
+<div
+  style={
+    Object {
+      "margin": "2rem auto",
+      "maxWidth": "600px",
+    }
+  }
+>
+  <div>
+    <label
+      className="txt-l "
+      htmlFor="select-572458229"
+    >
+      <span
+        style={
+          Object {
+            "marginRight": "0.5em",
+            "whiteSpace": "nowrap",
+          }
+        }
+      >
+        Default Dropdown
+      </span>
+    </label>
+    <div
+      className="sel-c  "
+    >
+      <select
+        aria-label=""
+        className="sel-f  "
+        disabled={false}
+        id="select-572458229"
+        onChange={[Function]}
+        required={false}
+      >
+        <option />
+        <option>
+          Apples
+        </option>
+        <option>
+          Oranges
+        </option>
+        <option>
+          Pears
+        </option>
+      </select>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Form Elements|SelectDropdown variants 1`] = `
+<div
+  style={
+    Object {
+      "margin": "2rem auto",
+      "maxWidth": "600px",
+    }
+  }
+>
+  <div>
+    <label
+      className="txt-l "
+      htmlFor="select-4229616983"
+    >
+      <span
+        style={
+          Object {
+            "marginRight": "0.5em",
+            "whiteSpace": "nowrap",
+          }
+        }
+      >
+        Required Dropdown
+      </span>
+      <span
+        className="t--req"
+      >
+        Required
+      </span>
+    </label>
+    <div
+      className="sel-c  "
+    >
+      <select
+        aria-label=""
+        className="sel-f  "
+        id="select-4229616983"
+        required={true}
+      >
+        <option />
+        <option>
+          Finch
+        </option>
+        <option>
+          Nuthatch
+        </option>
+        <option>
+          Sparrow
+        </option>
+      </select>
+    </div>
+  </div>
+  <div>
+    <label
+      className="txt-l "
+      htmlFor="select-4147655300"
+    >
+      <span
+        style={
+          Object {
+            "marginRight": "0.5em",
+            "whiteSpace": "nowrap",
+          }
+        }
+      >
+        Dropdown With Error
+      </span>
+      <span
+        className="t--req"
+      >
+        Required
+      </span>
+    </label>
+    <div
+      className="sel-c  sel-c--err"
+    >
+      <select
+        aria-label=""
+        className="sel-f  sel-f--err"
+        defaultValue="Pac-Man"
+        id="select-4147655300"
+        required={true}
+      >
+        <option />
+        <option>
+          Pac-Man
+        </option>
+        <option>
+          Q-Bert
+        </option>
+        <option>
+          Tetris
+        </option>
+      </select>
+    </div>
+  </div>
+  <br />
+  <div>
+    <label
+      className="txt-l txt-l--sm"
+      htmlFor="select-4045240769"
+    >
+      <span
+        style={
+          Object {
+            "marginRight": "0.5em",
+            "whiteSpace": "nowrap",
+          }
+        }
+      >
+        Small Dropdown
+      </span>
+    </label>
+    <div
+      className="sel-c sel-c--thin "
+    >
+      <select
+        aria-label=""
+        className="sel-f sel-f--thin "
+        id="select-4045240769"
+      >
+        <option>
+          Ash
+        </option>
+        <option>
+          Maple
+        </option>
+        <option>
+          Willow
+        </option>
+      </select>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Form Elements|Textarea hidden label 1`] = `
+Array [
+  <div
+    className="txt"
+  >
+    <textarea
+      aria-label="Other Comments"
+      className="txt-f   "
+      id="FeedbackForm-comments"
+      name="comments"
+      onBlur={[Function]}
+      onChange={[Function]}
+      placeholder="Other Comments"
+      rows={10}
+      value=""
+    />
+  </div>,
+  <div
+    className="txt"
+  >
+    <textarea
+      aria-label="Small Variant"
+      className="txt-f txt-f--sm  "
+      id="FeedbackForm-comments"
+      name="comments"
+      onBlur={[Function]}
+      onChange={[Function]}
+      placeholder="Small Variant"
+      rows={10}
+      value=""
+    />
+  </div>,
+]
+`;
+
+exports[`Storyshots Form Elements|Textarea visible label 1`] = `
+Array [
+  <div
+    className="txt"
+  >
+    <label
+      className="txt-l "
+      htmlFor="FeedbackForm-comments"
+    >
+      Other Comments
+    </label>
+    <textarea
+      aria-label=""
+      className="txt-f   "
+      id="FeedbackForm-comments"
+      name="comments"
+      onBlur={[Function]}
+      onChange={[Function]}
+      placeholder="Other Comments"
+      rows={10}
+      value=""
+    />
+  </div>,
+  <div
+    className="txt"
+  >
+    <label
+      className="txt-l txt-l--sm"
+      htmlFor="FeedbackForm-comments"
+    >
+      Small Variant
+    </label>
+    <textarea
+      aria-label=""
+      className="txt-f txt-f--sm  "
+      id="FeedbackForm-comments"
+      name="comments"
+      onBlur={[Function]}
+      onChange={[Function]}
+      placeholder="Small Variant"
+      rows={10}
+      value=""
+    />
+  </div>,
+]
+`;
+
+exports[`Storyshots Form Elements|UploadPhoto custom background element 1`] = `
+.emotion-2:focus > div {
+  outline: 4px solid #000;
+  outline-offset: -5px;
+}
+
+.emotion-1 {
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+  background-color: currentColor;
+}
+
+.emotion-3:focus {
+  outline: 3px solid #000;
+  outline-offset: -4px;
+}
+
+.emotion-0 {
+  background-color: #288be4;
+  color: #000;
+  padding: 2rem 4rem;
+}
+
+<div
+  className="g"
+>
+  <div
+    className="g--4"
+  >
+    <div
+      className="br br-a200"
+    >
+      <div
+        className="emotion-2"
+        onBlur={[Function]}
+        onClick={[Function]}
+        onDragEnter={[Function]}
+        onDragLeave={[Function]}
+        onDragOver={[Function]}
+        onDragStart={[Function]}
+        onDrop={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        tabIndex={0}
+      >
+        <input
+          accept="image/*"
+          autoComplete="off"
+          multiple={false}
+          onChange={[Function]}
+          onClick={[Function]}
+          style={
+            Object {
+              "display": "none",
+            }
+          }
+          tabIndex={-1}
+          type="file"
+        />
+        <div
+          className="emotion-1"
+        >
+          <div
+            style={
+              Object {
+                "visibility": "visible",
+              }
+            }
+          >
+            <header
+              className="emotion-0"
+            >
+              <svg
+                aria-hidden="true"
+                focusable="false"
+                viewBox="0 0 181 134"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M2 2h176v130H2z"
+                  fill="#fff"
+                />
+                <g
+                  fill="currentColor"
+                >
+                  <path
+                    d="M181 134H0V0h181zM4 130h172V4H4z"
+                  />
+                  <path
+                    d="M95 30h63v4H95z"
+                  />
+                  <path
+                    d="M95 48h63v4H95z"
+                  />
+                  <path
+                    d="M95 66h63v4H95z"
+                  />
+                  <path
+                    d="M95 83h63v4H95z"
+                  />
+                  <path
+                    d="M95 101h63v4H95z"
+                  />
+                </g>
+                <g
+                  fill="#fff"
+                  stroke="currentColor"
+                  strokeWidth="3"
+                >
+                  <path
+                    d="M25 32h51v71H25z"
+                  />
+                  <path
+                    d="M57 70H44l-10 7v25h33V77z"
+                  />
+                  <ellipse
+                    cx="9"
+                    cy="9"
+                    rx="9"
+                    ry="9"
+                    transform="translate(41 46)"
+                  />
+                </g>
+              </svg>
+            </header>
+          </div>
+        </div>
+      </div>
+      <div
+        className="br br-t200"
+        style={
+          Object {
+            "position": "relative",
+          }
+        }
+      >
+        <button
+          className="btn btn--w btn--b  emotion-3"
+          onClick={[Function]}
+          style={
+            Object {
+              "width": "100%",
+            }
+          }
+          type="button"
+        >
+          Upload front of ID
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Form Elements|UploadPhoto default 1`] = `
+.emotion-2:focus > div {
+  outline: 4px solid #000;
+  outline-offset: -5px;
+}
+
+.emotion-1 {
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+  background-color: currentColor;
+}
+
+.emotion-0 {
+  background-color: #828282;
+  color: #fff;
+}
+
+.emotion-0 svg {
+  stroke-width: 3;
+  stroke-linecap: round;
+  fill: none;
+  stroke: currentColor;
+}
+
+.emotion-3:focus {
+  outline: 3px solid #000;
+  outline-offset: -4px;
+}
+
+<div
+  className="g"
+>
+  <div
+    className="g--4"
+  >
+    <div
+      className="br br-a200"
+    >
+      <div
+        className="emotion-2"
+        onBlur={[Function]}
+        onClick={[Function]}
+        onDragEnter={[Function]}
+        onDragLeave={[Function]}
+        onDragOver={[Function]}
+        onDragStart={[Function]}
+        onDrop={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        tabIndex={0}
+      >
+        <input
+          accept="image/*"
+          autoComplete="off"
+          multiple={false}
+          onChange={[Function]}
+          onClick={[Function]}
+          style={
+            Object {
+              "display": "none",
+            }
+          }
+          tabIndex={-1}
+          type="file"
+        />
+        <div
+          className="emotion-1"
+        >
+          <div
+            style={
+              Object {
+                "visibility": "visible",
+              }
+            }
+          >
+            <div
+              className="emotion-0"
+            >
+              <svg
+                aria-hidden="true"
+                focusable="false"
+                viewBox="0 22 144 100"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <polygon
+                  points="93.58 51.5 87.75 41.5 59.55 41.5 54.35 51.5 27.18 51.5 27.18 102.5 116.82 102.5 116.82 51.5 93.58 51.5"
+                />
+                <rect
+                  height="7.01"
+                  width="15.23"
+                  x="31.48"
+                  y="44.49"
+                />
+                <circle
+                  cx="74"
+                  cy="74.38"
+                  r="22.88"
+                />
+                <circle
+                  cx="74"
+                  cy="74.38"
+                  r="17.47"
+                />
+                <circle
+                  cx="38.63"
+                  cy="60.15"
+                  r="3.24"
+                />
+                <line
+                  x1="96.12"
+                  x2="116.82"
+                  y1="67.86"
+                  y2="67.86"
+                />
+                <line
+                  x1="27.18"
+                  x2="51.88"
+                  y1="67.86"
+                  y2="67.86"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="br br-t200"
+        style={
+          Object {
+            "position": "relative",
+          }
+        }
+      >
+        <button
+          className="btn btn--w btn--b  emotion-3"
+          onClick={[Function]}
+          style={
+            Object {
+              "width": "100%",
+            }
+          }
+          type="button"
+        >
+          Upload photo
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Form Elements|UploadPhoto existing photo (reloaded) 1`] = `
+.emotion-3:focus > div {
+  outline: 4px solid #000;
+  outline-offset: -5px;
+}
+
+.emotion-2 {
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+  background-color: currentColor;
+}
+
+.emotion-0 {
+  background-color: #828282;
+  color: #fff;
+}
+
+.emotion-0 svg {
+  stroke-width: 3;
+  stroke-linecap: round;
+  fill: none;
+  stroke: currentColor;
+}
+
+.emotion-4:focus {
+  outline: 3px solid #000;
+  outline-offset: -4px;
+}
+
+.emotion-1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+<div
+  className="g"
+>
+  <div
+    className="g--4"
+  >
+    <div
+      className="br br-a200"
+    >
+      <div
+        className="emotion-3"
+        onBlur={[Function]}
+        onClick={[Function]}
+        onDragEnter={[Function]}
+        onDragLeave={[Function]}
+        onDragOver={[Function]}
+        onDragStart={[Function]}
+        onDrop={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        tabIndex={0}
+      >
+        <input
+          accept="image/*"
+          autoComplete="off"
+          multiple={false}
+          onChange={[Function]}
+          onClick={[Function]}
+          style={
+            Object {
+              "display": "none",
+            }
+          }
+          tabIndex={-1}
+          type="file"
+        />
+        <div
+          className="emotion-2"
+        >
+          <div
+            style={
+              Object {
+                "visibility": "hidden",
+              }
+            }
+          >
+            <div
+              className="emotion-0"
+            >
+              <svg
+                aria-hidden="true"
+                focusable="false"
+                viewBox="0 22 144 100"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <polygon
+                  points="93.58 51.5 87.75 41.5 59.55 41.5 54.35 51.5 27.18 51.5 27.18 102.5 116.82 102.5 116.82 51.5 93.58 51.5"
+                />
+                <rect
+                  height="7.01"
+                  width="15.23"
+                  x="31.48"
+                  y="44.49"
+                />
+                <circle
+                  cx="74"
+                  cy="74.38"
+                  r="22.88"
+                />
+                <circle
+                  cx="74"
+                  cy="74.38"
+                  r="17.47"
+                />
+                <circle
+                  cx="38.63"
+                  cy="60.15"
+                  r="3.24"
+                />
+                <line
+                  x1="96.12"
+                  x2="116.82"
+                  y1="67.86"
+                  y2="67.86"
+                />
+                <line
+                  x1="27.18"
+                  x2="51.88"
+                  y1="67.86"
+                  y2="67.86"
+                />
+              </svg>
+            </div>
+          </div>
+          <div
+            className="emotion-1"
+            style={
+              Object {
+                "backgroundImage": "url(https://patterns.boston.gov/images/global/icons/experiential/pdf-doc.svg)",
+              }
+            }
+          />
+        </div>
+      </div>
+      <div
+        className="br br-t200"
+        style={
+          Object {
+            "position": "relative",
+          }
+        }
+      >
+        <button
+          className="btn btn--w btn--b  emotion-4"
+          onClick={[Function]}
+          style={
+            Object {
+              "width": "100%",
+            }
+          }
+          type="button"
+        >
+          Remove photo
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Form Elements|UploadPhoto existing photo 1`] = `
+.emotion-3:focus > div {
+  outline: 4px solid #000;
+  outline-offset: -5px;
+}
+
+.emotion-2 {
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+  background-color: currentColor;
+}
+
+.emotion-0 {
+  background-color: #828282;
+  color: #fff;
+}
+
+.emotion-0 svg {
+  stroke-width: 3;
+  stroke-linecap: round;
+  fill: none;
+  stroke: currentColor;
+}
+
+.emotion-4:focus {
+  outline: 3px solid #000;
+  outline-offset: -4px;
+}
+
+.emotion-1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+<div
+  className="g"
+>
+  <div
+    className="g--4"
+  >
+    <div
+      className="br br-a200"
+    >
+      <div
+        className="emotion-3"
+        onBlur={[Function]}
+        onClick={[Function]}
+        onDragEnter={[Function]}
+        onDragLeave={[Function]}
+        onDragOver={[Function]}
+        onDragStart={[Function]}
+        onDrop={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        tabIndex={0}
+      >
+        <input
+          accept="image/*"
+          autoComplete="off"
+          multiple={false}
+          onChange={[Function]}
+          onClick={[Function]}
+          style={
+            Object {
+              "display": "none",
+            }
+          }
+          tabIndex={-1}
+          type="file"
+        />
+        <div
+          className="emotion-2"
+        >
+          <div
+            style={
+              Object {
+                "visibility": "hidden",
+              }
+            }
+          >
+            <div
+              className="emotion-0"
+            >
+              <svg
+                aria-hidden="true"
+                focusable="false"
+                viewBox="0 22 144 100"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <polygon
+                  points="93.58 51.5 87.75 41.5 59.55 41.5 54.35 51.5 27.18 51.5 27.18 102.5 116.82 102.5 116.82 51.5 93.58 51.5"
+                />
+                <rect
+                  height="7.01"
+                  width="15.23"
+                  x="31.48"
+                  y="44.49"
+                />
+                <circle
+                  cx="74"
+                  cy="74.38"
+                  r="22.88"
+                />
+                <circle
+                  cx="74"
+                  cy="74.38"
+                  r="17.47"
+                />
+                <circle
+                  cx="38.63"
+                  cy="60.15"
+                  r="3.24"
+                />
+                <line
+                  x1="96.12"
+                  x2="116.82"
+                  y1="67.86"
+                  y2="67.86"
+                />
+                <line
+                  x1="27.18"
+                  x2="51.88"
+                  y1="67.86"
+                  y2="67.86"
+                />
+              </svg>
+            </div>
+          </div>
+          <div
+            className="emotion-1"
+            style={
+              Object {
+                "backgroundImage": "url(https://patterns.boston.gov/images/global/icons/experiential/pdf-doc.svg)",
+              }
+            }
+          />
+        </div>
+      </div>
+      <div
+        className="br br-t200"
+        style={
+          Object {
+            "position": "relative",
+          }
+        }
+      >
+        <button
+          className="btn btn--w btn--b  emotion-4"
+          onClick={[Function]}
+          style={
+            Object {
+              "width": "100%",
+            }
+          }
+          type="button"
+        >
+          Remove photo
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Form Elements|UploadPhoto upload error 1`] = `
+.emotion-2:focus > div {
+  outline: 4px solid #000;
+  outline-offset: -5px;
+}
+
+.emotion-1 {
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+  background-color: currentColor;
+}
+
+.emotion-0 {
+  background-color: #828282;
+  color: #fff;
+}
+
+.emotion-0 svg {
+  stroke-width: 3;
+  stroke-linecap: round;
+  fill: none;
+  stroke: currentColor;
+}
+
+.emotion-3 {
+  color: #d22d23;
+}
+
+.emotion-3:focus {
+  outline: 3px solid #000;
+  outline-offset: -4px;
+}
+
+<div
+  className="g"
+>
+  <div
+    className="g--4"
+  >
+    <div
+      className="br br-a200"
+    >
+      <div
+        className="emotion-2"
+        onBlur={[Function]}
+        onClick={[Function]}
+        onDragEnter={[Function]}
+        onDragLeave={[Function]}
+        onDragOver={[Function]}
+        onDragStart={[Function]}
+        onDrop={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        tabIndex={0}
+      >
+        <input
+          accept="image/*"
+          autoComplete="off"
+          multiple={false}
+          onChange={[Function]}
+          onClick={[Function]}
+          style={
+            Object {
+              "display": "none",
+            }
+          }
+          tabIndex={-1}
+          type="file"
+        />
+        <div
+          className="emotion-1"
+        >
+          <div
+            style={
+              Object {
+                "visibility": "visible",
+              }
+            }
+          >
+            <div
+              className="emotion-0"
+            >
+              <svg
+                aria-hidden="true"
+                focusable="false"
+                viewBox="0 22 144 100"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <polygon
+                  points="93.58 51.5 87.75 41.5 59.55 41.5 54.35 51.5 27.18 51.5 27.18 102.5 116.82 102.5 116.82 51.5 93.58 51.5"
+                />
+                <rect
+                  height="7.01"
+                  width="15.23"
+                  x="31.48"
+                  y="44.49"
+                />
+                <circle
+                  cx="74"
+                  cy="74.38"
+                  r="22.88"
+                />
+                <circle
+                  cx="74"
+                  cy="74.38"
+                  r="17.47"
+                />
+                <circle
+                  cx="38.63"
+                  cy="60.15"
+                  r="3.24"
+                />
+                <line
+                  x1="96.12"
+                  x2="116.82"
+                  y1="67.86"
+                  y2="67.86"
+                />
+                <line
+                  x1="27.18"
+                  x2="51.88"
+                  y1="67.86"
+                  y2="67.86"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="br br-t200"
+        style={
+          Object {
+            "position": "relative",
+          }
+        }
+      >
+        <button
+          className="btn btn--w btn--b  emotion-3"
+          onClick={[Function]}
+          style={
+            Object {
+              "width": "100%",
+            }
+          }
+          type="button"
+        >
+          server error
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Form Elements|UploadPhoto uploading: 60% complete 1`] = `
+.emotion-2:focus > div {
+  outline: 4px solid #000;
+  outline-offset: -5px;
+}
+
+.emotion-1 {
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+  background-color: currentColor;
+}
+
+.emotion-0 {
+  background-color: #828282;
+  color: #fff;
+}
+
+.emotion-0 svg {
+  stroke-width: 3;
+  stroke-linecap: round;
+  fill: none;
+  stroke: currentColor;
+}
+
+.emotion-3:focus {
+  outline: 3px solid #000;
+  outline-offset: -4px;
+}
+
+.emotion-4 {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 6px;
+  background-color: #288be4;
+}
+
+<div
+  className="g"
+>
+  <div
+    className="g--4"
+  >
+    <div
+      className="br br-a200"
+    >
+      <div
+        className="emotion-2"
+        onBlur={[Function]}
+        onClick={[Function]}
+        onDragEnter={[Function]}
+        onDragLeave={[Function]}
+        onDragOver={[Function]}
+        onDragStart={[Function]}
+        onDrop={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        tabIndex={0}
+      >
+        <input
+          accept="image/*"
+          autoComplete="off"
+          multiple={false}
+          onChange={[Function]}
+          onClick={[Function]}
+          style={
+            Object {
+              "display": "none",
+            }
+          }
+          tabIndex={-1}
+          type="file"
+        />
+        <div
+          className="emotion-1"
+        >
+          <div
+            style={
+              Object {
+                "visibility": "visible",
+              }
+            }
+          >
+            <div
+              className="emotion-0"
+            >
+              <svg
+                aria-hidden="true"
+                focusable="false"
+                viewBox="0 22 144 100"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <polygon
+                  points="93.58 51.5 87.75 41.5 59.55 41.5 54.35 51.5 27.18 51.5 27.18 102.5 116.82 102.5 116.82 51.5 93.58 51.5"
+                />
+                <rect
+                  height="7.01"
+                  width="15.23"
+                  x="31.48"
+                  y="44.49"
+                />
+                <circle
+                  cx="74"
+                  cy="74.38"
+                  r="22.88"
+                />
+                <circle
+                  cx="74"
+                  cy="74.38"
+                  r="17.47"
+                />
+                <circle
+                  cx="38.63"
+                  cy="60.15"
+                  r="3.24"
+                />
+                <line
+                  x1="96.12"
+                  x2="116.82"
+                  y1="67.86"
+                  y2="67.86"
+                />
+                <line
+                  x1="27.18"
+                  x2="51.88"
+                  y1="67.86"
+                  y2="67.86"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="br br-t200"
+        style={
+          Object {
+            "position": "relative",
+          }
+        }
+      >
+        <button
+          className="btn btn--w btn--b btn--r-hov emotion-3"
+          onClick={[Function]}
+          style={
+            Object {
+              "width": "100%",
+            }
+          }
+          type="button"
+        >
+          Cancel upload
+        </button>
+        <div
+          className="emotion-4"
+          style={
+            Object {
+              "width": "60%",
+            }
+          }
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Notifications|CompatibilityWarningContent no script 1`] = `
+Array [
+  <input
+    className="bwarning-cb"
+    defaultChecked={true}
+    id="compat-warning-0"
+    type="checkbox"
+  />,
+  <div
+    className="bwarning-b"
+  >
+    <label
+      className="bwarning-x"
+      htmlFor="compat-warning-0"
+    >
+      x
+    </label>
+    <h3
+      className="txt-l txt-l--mt000"
+    >
+      Browser Warning
+    </h3>
+    You have JavaScript turned off in your browser. This site won’t work right without it.
+  </div>,
+]
+`;
+
+exports[`Storyshots Notifications|CompatibilityWarningContent old browser 1`] = `
+Array [
+  <input
+    className="bwarning-cb"
+    defaultChecked={true}
+    id="compat-warning-1"
+    type="checkbox"
+  />,
+  <div
+    className="bwarning-b"
+  >
+    <label
+      className="bwarning-x"
+      htmlFor="compat-warning-1"
+    >
+      x
+    </label>
+    <h3
+      className="txt-l txt-l--mt000"
+    >
+      Browser Warning
+    </h3>
+    <div>
+      Your web browser is a little out-of-date. This site may not look or work right.
+    </div>
+    <div
+      className="m-t100"
+    >
+      We recommend using the latest version of Chrome, Firefox, IE Edge, or Safari.
+    </div>
+  </div>,
+  <script
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "
+              (function() {
+                var id = \\"compat-warning-1\\";
+                var cookieName = \\"compat-warning\\";
+
+                var getCookie = function(name) {
+                  var value = \\"; \\" + document.cookie;
+                  var parts = value.split(\\"; \\" + name + \\"=\\");
+                  if (parts.length == 2) return parts.pop().split(\\";\\").shift();
+                };
+
+                var checkbox = document.getElementById(id);
+                if (!checkbox) {
+                  return;
+                }
+
+                if (getCookie(cookieName)) {
+                  checkbox.checked = false;
+                }
+
+                checkbox.onChange = function() {
+                  document.cookie = 'compat-warning=1; expires=Fri, 09 Nov 2018 14:47:00 GMT';
+                }
+              })();
+            ",
+      }
+    }
+    type="text/javascript"
+  />,
+]
+`;
+
+exports[`Storyshots Notifications|Modals/StatusModal default 1`] = `
+.emotion-0 {
+  padding-top: 0;
+  max-width: 500px;
+  top: 15%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+<div
+  className="md"
+>
+  <div
+    className="md-c br br-t400 emotion-0"
+  >
+    <div
+      className="md-b p-a300"
+    >
+      <div
+        className="t--intro "
+      >
+        Please wait a second…
+      </div>
+      <p
+        className="t--s400"
+      >
+        We’re submitting the form. Hang tight and don’t reload the page.
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Notifications|Modals/StatusModal error with close 1`] = `
+.emotion-0 {
+  padding-top: 0;
+  max-width: 500px;
+  top: 15%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+<div
+  className="md"
+>
+  <div
+    className="md-c br br-t400 emotion-0"
+  >
+    <div
+      className="md-b p-a300"
+    >
+      <div
+        className="t--intro t--err"
+      >
+        Something went wrong!
+      </div>
+      <p
+        className="t--s400"
+      >
+        Feel free to try again. If this keeps happening, let someone know.
+      </p>
+      <div
+        className="m-t300 ta-r"
+      >
+        <button
+          autoFocus={true}
+          className="btn btn--sm btn--100"
+          onClick={[Function]}
+          type="button"
+        >
+          Close
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots ProgressBar default 1`] = `
+.emotion-0 progress {
+  margin: 1rem 0 0.25rem;
+  width: 100%;
+  height: 1rem;
+  border: 2px solid #091f2f;
+  background-color: #fff;
+}
+
+.emotion-0 progress::-webkit-progress-bar {
+  background-color: #fff;
+}
+
+.emotion-0 progress::-webkit-progress-value {
+  -webkit-transition: width 0.5s;
+  transition: width 0.5s;
+  background-color: #288be4;
+}
+
+.emotion-0 progress::-moz-progress-bar {
+  background-color: #288be4;
+}
+
+.emotion-0 progress::-ms-fill {
+  background-color: #288be4;
+}
+
+.emotion-0 span {
+  font-style: italic;
+}
+
+<div
+  style={
+    Object {
+      "margin": "2rem auto",
+      "maxWidth": "600px",
+    }
+  }
+>
+  <div
+    className="emotion-0"
+  >
+    <progress
+      aria-valuemax={5}
+      aria-valuemin={1}
+      aria-valuenow={4}
+      aria-valuetext="Step 4 of 5"
+      max={5}
+      value={3}
+    >
+      Step 4 of 5
+    </progress>
+    <span
+      aria-hidden="true"
+    >
+      Step 4 of 5
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Storyshots ProgressBar first step (interactive demo) 1`] = `
+.emotion-0 progress {
+  margin: 1rem 0 0.25rem;
+  width: 100%;
+  height: 1rem;
+  border: 2px solid #091f2f;
+  background-color: #fff;
+}
+
+.emotion-0 progress::-webkit-progress-bar {
+  background-color: #fff;
+}
+
+.emotion-0 progress::-webkit-progress-value {
+  -webkit-transition: width 0.5s;
+  transition: width 0.5s;
+  background-color: #288be4;
+}
+
+.emotion-0 progress::-moz-progress-bar {
+  background-color: #288be4;
+}
+
+.emotion-0 progress::-ms-fill {
+  background-color: #288be4;
+}
+
+.emotion-0 span {
+  font-style: italic;
+}
+
+<div
+  style={
+    Object {
+      "margin": "2rem auto",
+      "maxWidth": "600px",
+    }
+  }
+>
+  <div
+    className="emotion-0"
+  >
+    <progress
+      aria-valuemax={5}
+      aria-valuemin={1}
+      aria-valuenow={1}
+      aria-valuetext="Step 1 of 5"
+      max={5}
+      value={0}
+    >
+      Step 1 of 5
+    </progress>
+    <span
+      aria-hidden="true"
+    >
+      Step 1 of 5
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Storyshots ProgressBar last step (interactive demo) 1`] = `
+.emotion-0 progress {
+  margin: 1rem 0 0.25rem;
+  width: 100%;
+  height: 1rem;
+  border: 2px solid #091f2f;
+  background-color: #fff;
+}
+
+.emotion-0 progress::-webkit-progress-bar {
+  background-color: #fff;
+}
+
+.emotion-0 progress::-webkit-progress-value {
+  -webkit-transition: width 0.5s;
+  transition: width 0.5s;
+  background-color: #288be4;
+}
+
+.emotion-0 progress::-moz-progress-bar {
+  background-color: #288be4;
+}
+
+.emotion-0 progress::-ms-fill {
+  background-color: #288be4;
+}
+
+.emotion-0 span {
+  font-style: italic;
+}
+
+<div
+  style={
+    Object {
+      "margin": "2rem auto",
+      "maxWidth": "600px",
+    }
+  }
+>
+  <div
+    className="emotion-0"
+  >
+    <progress
+      aria-valuemax={5}
+      aria-valuemin={1}
+      aria-valuenow={5}
+      aria-valuetext="Step 5 of 5"
+      max={5}
+      value={4}
+    >
+      Step 5 of 5
+    </progress>
+    <span
+      aria-hidden="true"
+    >
+      Step 5 of 5
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Storyshots ProgressBar with task name 1`] = `
+.emotion-0 progress {
+  margin: 1rem 0 0.25rem;
+  width: 100%;
+  height: 1rem;
+  border: 2px solid #091f2f;
+  background-color: #fff;
+}
+
+.emotion-0 progress::-webkit-progress-bar {
+  background-color: #fff;
+}
+
+.emotion-0 progress::-webkit-progress-value {
+  -webkit-transition: width 0.5s;
+  transition: width 0.5s;
+  background-color: #288be4;
+}
+
+.emotion-0 progress::-moz-progress-bar {
+  background-color: #288be4;
+}
+
+.emotion-0 progress::-ms-fill {
+  background-color: #288be4;
+}
+
+.emotion-0 span {
+  font-style: italic;
+}
+
+<div
+  style={
+    Object {
+      "margin": "2rem auto",
+      "maxWidth": "600px",
+    }
+  }
+>
+  <div
+    className="emotion-0"
+  >
+    <progress
+      aria-valuemax={5}
+      aria-valuemin={1}
+      aria-valuenow={3}
+      aria-valuetext="Step 3 of 5: Shipping information"
+      max={5}
+      value={2}
+    >
+      Step 3 of 5: Shipping information
+    </progress>
+    <span
+      aria-hidden="true"
+    >
+      Step 3 of 5: Shipping information
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Storyshots UI|Footer custom attributes 1`] = `
+<footer
+  className="ft br br-a300"
+  dangerouslySetInnerHTML={
+    Object {
+      "__html": "
+    <div class=\\"ft-c\\">
+      <ul class=\\"ft-ll ft-ll--r\\">
+        <li class=\\"ft-ll-i\\"><a href=\\"http://www.cityofboston.gov/311/\\" class=\\"ft-ll-a lnk--yellow\\"><span class=\\"ft-ll-311\\">BOS:311</span><span class=\\"tablet--hidden\\"> - </span>Report an issue</a></li>
+      </ul>
+      
+
+<ul class=\\"ft-ll\\"><li class=\\"ft-ll-i\\"><a href=\\"https://www.boston.gov/departments/innovation-and-technology/privacy-and-security-statement\\" target=\\"_blank\\" title=\\"\\" class=\\"ft-ll-a\\">Privacy Policy</a></li>
+<li class=\\"ft-ll-i\\"><a href=\\"https://www.boston.gov/departments/mayors-office/contact-boston-city-hall\\" title=\\"\\" class=\\"ft-ll-a\\">Contact us</a></li>
+<li class=\\"ft-ll-i\\"><a href=\\"https://www.boston.gov/departments/digital-team/city-boston-alerts-and-notifications\\" title=\\"\\" class=\\"ft-ll-a\\">Alerts and notifications</a></li>
+<li class=\\"ft-ll-i\\"><a href=\\"https://www.boston.gov/departments/public-records\\" title=\\"\\" class=\\"ft-ll-a\\">Public records requests</a></li>
+</ul>    </div>
+  ",
+    }
+  }
+  style={
+    Object {
+      "backgroundColor": "#e0e0e0",
+    }
+  }
+/>
+`;
+
+exports[`Storyshots UI|Footer default 1`] = `
+<footer
+  className="ft"
+  dangerouslySetInnerHTML={
+    Object {
+      "__html": "
+    <div class=\\"ft-c\\">
+      <ul class=\\"ft-ll ft-ll--r\\">
+        <li class=\\"ft-ll-i\\"><a href=\\"http://www.cityofboston.gov/311/\\" class=\\"ft-ll-a lnk--yellow\\"><span class=\\"ft-ll-311\\">BOS:311</span><span class=\\"tablet--hidden\\"> - </span>Report an issue</a></li>
+      </ul>
+      
+
+<ul class=\\"ft-ll\\"><li class=\\"ft-ll-i\\"><a href=\\"https://www.boston.gov/departments/innovation-and-technology/privacy-and-security-statement\\" target=\\"_blank\\" title=\\"\\" class=\\"ft-ll-a\\">Privacy Policy</a></li>
+<li class=\\"ft-ll-i\\"><a href=\\"https://www.boston.gov/departments/mayors-office/contact-boston-city-hall\\" title=\\"\\" class=\\"ft-ll-a\\">Contact us</a></li>
+<li class=\\"ft-ll-i\\"><a href=\\"https://www.boston.gov/departments/digital-team/city-boston-alerts-and-notifications\\" title=\\"\\" class=\\"ft-ll-a\\">Alerts and notifications</a></li>
+<li class=\\"ft-ll-i\\"><a href=\\"https://www.boston.gov/departments/public-records\\" title=\\"\\" class=\\"ft-ll-a\\">Public records requests</a></li>
+</ul>    </div>
+  ",
+    }
+  }
+/>
+`;
+
+exports[`Storyshots UI|Layouts/AppLayout default 1`] = `
+Array [
+  <a
+    className="btn a11y--h a11y--f"
+    href="#content-start"
+    onClick={[Function]}
+    style={
+      Object {
+        "margin": 4,
+      }
+    }
+    tabIndex={1}
+  >
+    Jump to content
+  </a>,
+  <input
+    aria-label="Open Boston.gov menu"
+    className="brg-tr"
+    id="brg-tr"
+    onKeyDown={[Function]}
+    type="checkbox"
+  />,
+  <nav
+    aria-label="Boston.gov menu"
+    className="nv-m"
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "
+  <div class=\\"nv-m-h\\">
+      <div class=\\"nv-m-h-ic\\">
+        <a href=\\"https://www.boston.gov/\\" title=\\"Go to home page\\">
+          <img src=\\"https://patterns.boston.gov/images/b-dark.svg\\" title=\\"B\\" aria-hidden=\\"true\\" class=\\"nv-m-h-i\\">
+        </a>
+      </div>
+      <div id=\\"nv-m-h-t\\" class=\\"nv-m-h-t\\">&#xA0;</div>
+  </div>
+  <div class=\\"nv-m-c\\">
+    
+
+<ul class=\\"nv-m-c-l\\"><li class=\\"nv-m-c-l-i is-l first leaf menu-mlid-763366 nv-m-c-a--y\\"><a href=\\"http://www.cityofboston.gov/311/\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p three-one-one\\">Help / 311</a></li>
+<li class=\\"nv-m-c-l-i is-l leaf menu-mlid-210101\\"><a href=\\"https://www.boston.gov/homepage\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Home</a></li>
+<li class=\\"nv-m-c-l-i is-l leaf menu-mlid-171721\\"><a href=\\"https://www.boston.gov/guides\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Guides to Boston</a></li>
+<li class=\\"nv-m-c-l-i is-l leaf menu-mlid-171726\\"><a href=\\"https://www.boston.gov/departments\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Departments</a></li>
+<li class=\\"nv-m-c-l-i is-l leaf menu-mlid-1675906\\"><a href=\\"https://www.boston.gov/public-notices\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Public Notices</a></li>
+<li class=\\"nv-m-c-l-i is-l leaf menu-mlid-2354776\\"><a href=\\"https://www.boston.gov/pay-and-apply\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Pay and apply</a></li>
+<li class=\\"nv-m-c-l-i is-l leaf menu-mlid-2354781\\"><a href=\\"https://www.boston.gov/career-center\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Work for the City</a></li>
+<li class=\\"nv-m-c-l-i is-l leaf menu-mlid-885866\\"><a href=\\"https://www.boston.gov/events\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Events</a></li>
+<li class=\\"nv-m-c-l-i is-l leaf menu-mlid-202946\\"><a href=\\"https://www.boston.gov/news\\" class=\\"nv-m-c-a nv-m-c-a--p\\">News</a></li>
+<li class=\\"nv-m-c-l-i is-e expanded menu-mlid-171731\\"><a href=\\"https://www.boston.gov/#\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p nolink\\">Places</a><ul class=\\"nv-m-c-l-l\\"><li class=\\"nv-m-c-bc nv-m-c-b--h\\"><button class=\\"nv-m-c-b\\">Back</button></li><li class=\\"nv-m-c-l-l-i is-l first leaf menu-mlid-2354766\\"><a href=\\"https://www.boston.gov/cemeteries\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Cemeteries</a></li>
+<li class=\\"nv-m-c-l-l-i is-l leaf menu-mlid-2354751\\"><a href=\\"https://www.boston.gov/community-centers\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Community centers</a></li>
+<li class=\\"nv-m-c-l-l-i is-l leaf menu-mlid-184086\\"><a href=\\"https://www.boston.gov/departments/landmarks-commission#historic-districts\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Historic Districts</a></li>
+<li class=\\"nv-m-c-l-l-i is-l leaf menu-mlid-171801\\"><a href=\\"http://www.bpl.org/general/branch.htm\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Libraries</a></li>
+<li class=\\"nv-m-c-l-l-i is-l leaf menu-mlid-2354771\\"><a href=\\"https://www.boston.gov/neighborhoods\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Neighborhoods</a></li>
+<li class=\\"nv-m-c-l-l-i is-l leaf menu-mlid-2354761\\"><a href=\\"https://www.boston.gov/parks-and-playgrounds\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Parks and playgrounds</a></li>
+<li class=\\"nv-m-c-l-l-i is-l last leaf menu-mlid-652731\\"><a href=\\"http://www.bostonpublicschools.org/Page/628\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Schools</a></li>
+</ul></li>
+<li class=\\"nv-m-c-l-i is-e last expanded menu-mlid-171741\\"><a href=\\"https://www.boston.gov/#\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p nolink\\">Government</a><ul class=\\"nv-m-c-l-l\\"><li class=\\"nv-m-c-bc nv-m-c-b--h\\"><button class=\\"nv-m-c-b\\">Back</button></li><li class=\\"nv-m-c-l-l-i is-l first leaf menu-mlid-171851\\"><a href=\\"https://www.boston.gov/departments/mayors-office\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p\\">The Mayor&apos;s Office</a></li>
+<li class=\\"nv-m-c-l-l-i is-l leaf menu-mlid-171856\\"><a href=\\"https://www.boston.gov/departments/city-council\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p\\">City Council</a></li>
+<li class=\\"nv-m-c-l-l-i is-l leaf menu-mlid-171861\\"><a href=\\"https://www.boston.gov/departments/city-clerk\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p\\">City Clerk</a></li>
+<li class=\\"nv-m-c-l-l-i is-l leaf menu-mlid-171866\\"><a href=\\"https://www.boston.gov/departments/election\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Elections</a></li>
+<li class=\\"nv-m-c-l-l-i is-l last leaf menu-mlid-178041\\"><a href=\\"https://www.boston.gov/departments/311/city-boston-government\\" class=\\"nv-m-c-a nv-m-c-a--p\\">City government</a></li>
+</ul></li>
+</ul>  </div>
+",
+      }
+    }
+  />,
+  <div
+    className="mn--full-ie"
+  >
+    <div
+      className="mn mn--full "
+    >
+      <input
+        aria-hidden="true"
+        className="s-tr"
+        id="s-tr"
+        type="checkbox"
+      />
+      <header
+        className="h"
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "
+    <label for=\\"brg-tr\\" class=\\"brg-b\\">
+  <div class=\\"brg\\">
+    <span class=\\"brg-c\\">
+      <span class=\\"brg-c-i\\"></span>
+    </span>
+    <span class=\\"brg-t\\"><span class=\\"a11y--h\\">Toggle </span>Menu</span>
+  </div>
+</label>
+      <div class=\\"lo lo--abs\\">
+    <div class=\\"lo-l\\">
+      <a href=\\"https://www.boston.gov/\\">
+        <img src=\\"https://patterns.boston.gov/images/public/logo.svg\\" alt=\\"Boston.gov\\" class=\\"lo-i\\">
+      </a>
+              <span class=\\"lo-t\\"><a href=\\"https://www.boston.gov/mayor\\">Mayor Martin J. Walsh</a></span>
+          </div>
+  </div>
+    <a id=\\"seal\\" href=\\"https://www.boston.gov/\\" title=\\"Home\\" rel=\\"home\\" class=\\"s\\">
+  <img src=\\"https://patterns.boston.gov/images/public/seal.svg\\" alt=\\"City of Boston Seal\\" class=\\"s-i\\">
+</a>
+    <nav class=\\"nv-h\\">
+  <ul class=\\"nv-h-l\\">
+              <li class=\\"nv-h-l-i\\"><a href=\\"https://www.boston.gov/pay-and-apply\\" title=\\"Pay and apply\\" class=\\"nv-h-l-a\\">Pay and apply</a></li>
+          <li class=\\"nv-h-l-i\\"><a href=\\"https://www.boston.gov/public-notices\\" title=\\"Public notices\\" class=\\"nv-h-l-a\\">Public notices</a></li>
+          <li class=\\"nv-h-l-i\\"><a href=\\"mailto:feedback@boston.gov\\" title=\\"Feedback\\" class=\\"nv-h-l-a\\" onClick=\\"document.getElementById(&quot;contactForm&quot;).show(); return false;\\">Feedback</a></li>
+        <li class=\\"tr nv-h-l-i\\">
+      <a href=\\"https://www.boston.gov/#translate\\" title=\\"Translate\\" class=\\"nv-h-l-a nv-h-l-a--k--s tr-link\\">Translate</a>
+      <ul class=\\"tr-dd\\">
+        <li><span class=\\"notranslate tr-dd-link tr-dd-link--message\\">Loading...</span></li>
+        <li><a href=\\"https://www.boston.gov/#\\" class=\\"notranslate tr-dd-link\\" data-ln=\\"ht\\">Krey&#xF2;l Ayisyen</a></li>
+        <li><a href=\\"https://www.boston.gov/#\\" class=\\"notranslate tr-dd-link\\" data-ln=\\"pt\\">Portugese</a></li>
+        <li><a href=\\"https://www.boston.gov/#\\" class=\\"notranslate tr-dd-link\\" data-ln=\\"es\\">Espa&#xF1;ol</a></li>
+        <li><a href=\\"https://www.boston.gov/#\\" class=\\"notranslate tr-dd-link\\" data-ln=\\"vi\\">Ti&#x1EBF;ng Vi&#x1EC7;t</a></li>
+        <li><a href=\\"https://www.boston.gov/#\\" class=\\"notranslate tr-dd-link tr-dd-link--hidden\\" data-ln=\\"en\\">English</a></li>
+      </ul>
+    </li>
+    <li class=\\"nv-h-l-i\\">
+      <label for=\\"s-tr\\" title=\\"Search\\" class=\\"nv-h-l-a nv-h-l-a--k nv-h-l-a-ic\\" id=\\"searchIcon\\">
+        <svg id=\\"Layer_2\\" xmlns=\\"http://www.w3.org/2000/svg\\" viewBox=\\"0 0 40 41\\"><title>Search</title><path class=\\"nv-h-l-a-i\\" d=\\"M24.2.6C15.8.6 9 7.4 9 15.8c0 3.7 1.4 7.2 3.6 9.8L1.2 37c-.8.8-.8 2 0 2.8.4.4.9.6 1.4.6s1-.2 1.4-.6l11.5-11.5C18 30 21 31 24.2 31c8.4 0 15.2-6.8 15.2-15.2C39.4 7.4 32.6.6 24.2.6zm0 26.5c-6.2 0-11.2-5-11.2-11.2S18 4.6 24.2 4.6s11.2 5 11.2 11.2-5 11.3-11.2 11.3z\\"/></svg>
+      </label>
+    </li>
+  </ul>
+</nav>
+    <div class=\\"h-s\\">
+  <form class=\\"sf\\" action=\\"https://www.boston.gov/search\\" accept-charset=\\"UTF-8\\" method=\\"get\\">
+    <input name=\\"utf8\\" type=\\"hidden\\" value=\\"&#x2713;\\">
+    <div class=\\"sf-i\\">
+      <input type=\\"text\\" name=\\"query\\" id=\\"query\\" value=\\"\\" placeholder=\\"Search&#x2026;\\" class=\\"sf-i-f\\" autocomplete=\\"off\\">
+      <button class=\\"sf-i-b\\">Search</button>
+    </div>
+  </form>
+</div>
+  ",
+          }
+        }
+        role="banner"
+      />
+      <div
+        className="p-t300"
+      />
+      <div
+        className="a11y--content-start"
+        id="content-start"
+      />
+      <main
+        className="b-ff"
+      >
+        <div
+          className="b b-c"
+        >
+          <div
+            className="sh m-b300 "
+          >
+            <h2
+              className="sh-title"
+              id="sh-2943626151"
+            >
+              Main Content
+            </h2>
+          </div>
+          <div
+            className="t--intro m-v500"
+          >
+            Introductory text.
+          </div>
+        </div>
+      </main>
+    </div>
+  </div>,
+  <footer
+    className="ft"
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "
+    <div class=\\"ft-c\\">
+      <ul class=\\"ft-ll ft-ll--r\\">
+        <li class=\\"ft-ll-i\\"><a href=\\"http://www.cityofboston.gov/311/\\" class=\\"ft-ll-a lnk--yellow\\"><span class=\\"ft-ll-311\\">BOS:311</span><span class=\\"tablet--hidden\\"> - </span>Report an issue</a></li>
+      </ul>
+      
+
+<ul class=\\"ft-ll\\"><li class=\\"ft-ll-i\\"><a href=\\"https://www.boston.gov/departments/innovation-and-technology/privacy-and-security-statement\\" target=\\"_blank\\" title=\\"\\" class=\\"ft-ll-a\\">Privacy Policy</a></li>
+<li class=\\"ft-ll-i\\"><a href=\\"https://www.boston.gov/departments/mayors-office/contact-boston-city-hall\\" title=\\"\\" class=\\"ft-ll-a\\">Contact us</a></li>
+<li class=\\"ft-ll-i\\"><a href=\\"https://www.boston.gov/departments/digital-team/city-boston-alerts-and-notifications\\" title=\\"\\" class=\\"ft-ll-a\\">Alerts and notifications</a></li>
+<li class=\\"ft-ll-i\\"><a href=\\"https://www.boston.gov/departments/public-records\\" title=\\"\\" class=\\"ft-ll-a\\">Public records requests</a></li>
+</ul>    </div>
+  ",
+      }
+    }
+    style={
+      Object {
+        "position": "relative",
+        "zIndex": 2,
+      }
+    }
+  />,
+]
+`;
+
+exports[`Storyshots UI|Layouts/AppLayout secondary nav 1`] = `
+Array [
+  <a
+    className="btn a11y--h a11y--f"
+    href="#content-start"
+    onClick={[Function]}
+    style={
+      Object {
+        "margin": 4,
+      }
+    }
+    tabIndex={1}
+  >
+    Jump to content
+  </a>,
+  <input
+    aria-label="Open Boston.gov menu"
+    className="brg-tr"
+    id="brg-tr"
+    onKeyDown={[Function]}
+    type="checkbox"
+  />,
+  <nav
+    aria-label="Boston.gov menu"
+    className="nv-m"
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "
+  <div class=\\"nv-m-h\\">
+      <div class=\\"nv-m-h-ic\\">
+        <a href=\\"https://www.boston.gov/\\" title=\\"Go to home page\\">
+          <img src=\\"https://patterns.boston.gov/images/b-dark.svg\\" title=\\"B\\" aria-hidden=\\"true\\" class=\\"nv-m-h-i\\">
+        </a>
+      </div>
+      <div id=\\"nv-m-h-t\\" class=\\"nv-m-h-t\\">&#xA0;</div>
+  </div>
+  <div class=\\"nv-m-c\\">
+    
+
+<ul class=\\"nv-m-c-l\\"><li class=\\"nv-m-c-l-i is-l first leaf menu-mlid-763366 nv-m-c-a--y\\"><a href=\\"http://www.cityofboston.gov/311/\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p three-one-one\\">Help / 311</a></li>
+<li class=\\"nv-m-c-l-i is-l leaf menu-mlid-210101\\"><a href=\\"https://www.boston.gov/homepage\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Home</a></li>
+<li class=\\"nv-m-c-l-i is-l leaf menu-mlid-171721\\"><a href=\\"https://www.boston.gov/guides\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Guides to Boston</a></li>
+<li class=\\"nv-m-c-l-i is-l leaf menu-mlid-171726\\"><a href=\\"https://www.boston.gov/departments\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Departments</a></li>
+<li class=\\"nv-m-c-l-i is-l leaf menu-mlid-1675906\\"><a href=\\"https://www.boston.gov/public-notices\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Public Notices</a></li>
+<li class=\\"nv-m-c-l-i is-l leaf menu-mlid-2354776\\"><a href=\\"https://www.boston.gov/pay-and-apply\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Pay and apply</a></li>
+<li class=\\"nv-m-c-l-i is-l leaf menu-mlid-2354781\\"><a href=\\"https://www.boston.gov/career-center\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Work for the City</a></li>
+<li class=\\"nv-m-c-l-i is-l leaf menu-mlid-885866\\"><a href=\\"https://www.boston.gov/events\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Events</a></li>
+<li class=\\"nv-m-c-l-i is-l leaf menu-mlid-202946\\"><a href=\\"https://www.boston.gov/news\\" class=\\"nv-m-c-a nv-m-c-a--p\\">News</a></li>
+<li class=\\"nv-m-c-l-i is-e expanded menu-mlid-171731\\"><a href=\\"https://www.boston.gov/#\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p nolink\\">Places</a><ul class=\\"nv-m-c-l-l\\"><li class=\\"nv-m-c-bc nv-m-c-b--h\\"><button class=\\"nv-m-c-b\\">Back</button></li><li class=\\"nv-m-c-l-l-i is-l first leaf menu-mlid-2354766\\"><a href=\\"https://www.boston.gov/cemeteries\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Cemeteries</a></li>
+<li class=\\"nv-m-c-l-l-i is-l leaf menu-mlid-2354751\\"><a href=\\"https://www.boston.gov/community-centers\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Community centers</a></li>
+<li class=\\"nv-m-c-l-l-i is-l leaf menu-mlid-184086\\"><a href=\\"https://www.boston.gov/departments/landmarks-commission#historic-districts\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Historic Districts</a></li>
+<li class=\\"nv-m-c-l-l-i is-l leaf menu-mlid-171801\\"><a href=\\"http://www.bpl.org/general/branch.htm\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Libraries</a></li>
+<li class=\\"nv-m-c-l-l-i is-l leaf menu-mlid-2354771\\"><a href=\\"https://www.boston.gov/neighborhoods\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Neighborhoods</a></li>
+<li class=\\"nv-m-c-l-l-i is-l leaf menu-mlid-2354761\\"><a href=\\"https://www.boston.gov/parks-and-playgrounds\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Parks and playgrounds</a></li>
+<li class=\\"nv-m-c-l-l-i is-l last leaf menu-mlid-652731\\"><a href=\\"http://www.bostonpublicschools.org/Page/628\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Schools</a></li>
+</ul></li>
+<li class=\\"nv-m-c-l-i is-e last expanded menu-mlid-171741\\"><a href=\\"https://www.boston.gov/#\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p nolink\\">Government</a><ul class=\\"nv-m-c-l-l\\"><li class=\\"nv-m-c-bc nv-m-c-b--h\\"><button class=\\"nv-m-c-b\\">Back</button></li><li class=\\"nv-m-c-l-l-i is-l first leaf menu-mlid-171851\\"><a href=\\"https://www.boston.gov/departments/mayors-office\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p\\">The Mayor&apos;s Office</a></li>
+<li class=\\"nv-m-c-l-l-i is-l leaf menu-mlid-171856\\"><a href=\\"https://www.boston.gov/departments/city-council\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p\\">City Council</a></li>
+<li class=\\"nv-m-c-l-l-i is-l leaf menu-mlid-171861\\"><a href=\\"https://www.boston.gov/departments/city-clerk\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p\\">City Clerk</a></li>
+<li class=\\"nv-m-c-l-l-i is-l leaf menu-mlid-171866\\"><a href=\\"https://www.boston.gov/departments/election\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Elections</a></li>
+<li class=\\"nv-m-c-l-l-i is-l last leaf menu-mlid-178041\\"><a href=\\"https://www.boston.gov/departments/311/city-boston-government\\" class=\\"nv-m-c-a nv-m-c-a--p\\">City government</a></li>
+</ul></li>
+</ul>  </div>
+",
+      }
+    }
+  />,
+  <div
+    className="mn--full-ie"
+  >
+    <div
+      className="mn mn--full mn--nv-s"
+    >
+      <input
+        aria-hidden="true"
+        className="s-tr"
+        id="s-tr"
+        type="checkbox"
+      />
+      <header
+        className="h"
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "
+    <label for=\\"brg-tr\\" class=\\"brg-b\\">
+  <div class=\\"brg\\">
+    <span class=\\"brg-c\\">
+      <span class=\\"brg-c-i\\"></span>
+    </span>
+    <span class=\\"brg-t\\"><span class=\\"a11y--h\\">Toggle </span>Menu</span>
+  </div>
+</label>
+      <div class=\\"lo lo--abs\\">
+    <div class=\\"lo-l\\">
+      <a href=\\"https://www.boston.gov/\\">
+        <img src=\\"https://patterns.boston.gov/images/public/logo.svg\\" alt=\\"Boston.gov\\" class=\\"lo-i\\">
+      </a>
+              <span class=\\"lo-t\\"><a href=\\"https://www.boston.gov/mayor\\">Mayor Martin J. Walsh</a></span>
+          </div>
+  </div>
+    <a id=\\"seal\\" href=\\"https://www.boston.gov/\\" title=\\"Home\\" rel=\\"home\\" class=\\"s\\">
+  <img src=\\"https://patterns.boston.gov/images/public/seal.svg\\" alt=\\"City of Boston Seal\\" class=\\"s-i\\">
+</a>
+    <nav class=\\"nv-h\\">
+  <ul class=\\"nv-h-l\\">
+              <li class=\\"nv-h-l-i\\"><a href=\\"https://www.boston.gov/pay-and-apply\\" title=\\"Pay and apply\\" class=\\"nv-h-l-a\\">Pay and apply</a></li>
+          <li class=\\"nv-h-l-i\\"><a href=\\"https://www.boston.gov/public-notices\\" title=\\"Public notices\\" class=\\"nv-h-l-a\\">Public notices</a></li>
+          <li class=\\"nv-h-l-i\\"><a href=\\"mailto:feedback@boston.gov\\" title=\\"Feedback\\" class=\\"nv-h-l-a\\" onClick=\\"document.getElementById(&quot;contactForm&quot;).show(); return false;\\">Feedback</a></li>
+        <li class=\\"tr nv-h-l-i\\">
+      <a href=\\"https://www.boston.gov/#translate\\" title=\\"Translate\\" class=\\"nv-h-l-a nv-h-l-a--k--s tr-link\\">Translate</a>
+      <ul class=\\"tr-dd\\">
+        <li><span class=\\"notranslate tr-dd-link tr-dd-link--message\\">Loading...</span></li>
+        <li><a href=\\"https://www.boston.gov/#\\" class=\\"notranslate tr-dd-link\\" data-ln=\\"ht\\">Krey&#xF2;l Ayisyen</a></li>
+        <li><a href=\\"https://www.boston.gov/#\\" class=\\"notranslate tr-dd-link\\" data-ln=\\"pt\\">Portugese</a></li>
+        <li><a href=\\"https://www.boston.gov/#\\" class=\\"notranslate tr-dd-link\\" data-ln=\\"es\\">Espa&#xF1;ol</a></li>
+        <li><a href=\\"https://www.boston.gov/#\\" class=\\"notranslate tr-dd-link\\" data-ln=\\"vi\\">Ti&#x1EBF;ng Vi&#x1EC7;t</a></li>
+        <li><a href=\\"https://www.boston.gov/#\\" class=\\"notranslate tr-dd-link tr-dd-link--hidden\\" data-ln=\\"en\\">English</a></li>
+      </ul>
+    </li>
+    <li class=\\"nv-h-l-i\\">
+      <label for=\\"s-tr\\" title=\\"Search\\" class=\\"nv-h-l-a nv-h-l-a--k nv-h-l-a-ic\\" id=\\"searchIcon\\">
+        <svg id=\\"Layer_2\\" xmlns=\\"http://www.w3.org/2000/svg\\" viewBox=\\"0 0 40 41\\"><title>Search</title><path class=\\"nv-h-l-a-i\\" d=\\"M24.2.6C15.8.6 9 7.4 9 15.8c0 3.7 1.4 7.2 3.6 9.8L1.2 37c-.8.8-.8 2 0 2.8.4.4.9.6 1.4.6s1-.2 1.4-.6l11.5-11.5C18 30 21 31 24.2 31c8.4 0 15.2-6.8 15.2-15.2C39.4 7.4 32.6.6 24.2.6zm0 26.5c-6.2 0-11.2-5-11.2-11.2S18 4.6 24.2 4.6s11.2 5 11.2 11.2-5 11.3-11.2 11.3z\\"/></svg>
+      </label>
+    </li>
+  </ul>
+</nav>
+    <div class=\\"h-s\\">
+  <form class=\\"sf\\" action=\\"https://www.boston.gov/search\\" accept-charset=\\"UTF-8\\" method=\\"get\\">
+    <input name=\\"utf8\\" type=\\"hidden\\" value=\\"&#x2713;\\">
+    <div class=\\"sf-i\\">
+      <input type=\\"text\\" name=\\"query\\" id=\\"query\\" value=\\"\\" placeholder=\\"Search&#x2026;\\" class=\\"sf-i-f\\" autocomplete=\\"off\\">
+      <button class=\\"sf-i-b\\">Search</button>
+    </div>
+  </form>
+</div>
+  ",
+          }
+        }
+        role="banner"
+      />
+      <nav
+        className="nv-s nv-s--sticky"
+      >
+        <input
+          aria-hidden={true}
+          className="nv-s-tr"
+          id="nv-s-tr"
+          type="checkbox"
+        />
+        <ul
+          className="nv-s-l"
+        >
+          <li
+            className="nv-s-l-i"
+          >
+            <label
+              className="nv-s-l-b"
+              htmlFor="nv-s-tr"
+            >
+              Navigation
+            </label>
+          </li>
+          <li
+            className="nv-s-l-i"
+          >
+            <a
+              className="nv-s-l-a nv-s-l-a--active"
+              href="#"
+            >
+              Home
+            </a>
+          </li>
+          <li
+            className="nv-s-l-i"
+          >
+            <a
+              className="nv-s-l-a"
+              href="#"
+            >
+              About
+            </a>
+          </li>
+          <li
+            className="nv-s-l-i"
+          >
+            <a
+              className="nv-s-l-a"
+              href="#"
+            >
+              FAQ
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <div
+        className="a11y--content-start"
+        id="content-start"
+      />
+      <main
+        className="b-ff"
+      >
+        <div
+          className="b b-c"
+        >
+          <div
+            className="sh m-b300 "
+          >
+            <h2
+              className="sh-title"
+              id="sh-2943626151"
+            >
+              Main Content
+            </h2>
+          </div>
+          <div
+            className="t--intro m-v500"
+          >
+            Introductory text.
+          </div>
+        </div>
+      </main>
+    </div>
+  </div>,
+  <footer
+    className="ft"
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "
+    <div class=\\"ft-c\\">
+      <ul class=\\"ft-ll ft-ll--r\\">
+        <li class=\\"ft-ll-i\\"><a href=\\"http://www.cityofboston.gov/311/\\" class=\\"ft-ll-a lnk--yellow\\"><span class=\\"ft-ll-311\\">BOS:311</span><span class=\\"tablet--hidden\\"> - </span>Report an issue</a></li>
+      </ul>
+      
+
+<ul class=\\"ft-ll\\"><li class=\\"ft-ll-i\\"><a href=\\"https://www.boston.gov/departments/innovation-and-technology/privacy-and-security-statement\\" target=\\"_blank\\" title=\\"\\" class=\\"ft-ll-a\\">Privacy Policy</a></li>
+<li class=\\"ft-ll-i\\"><a href=\\"https://www.boston.gov/departments/mayors-office/contact-boston-city-hall\\" title=\\"\\" class=\\"ft-ll-a\\">Contact us</a></li>
+<li class=\\"ft-ll-i\\"><a href=\\"https://www.boston.gov/departments/digital-team/city-boston-alerts-and-notifications\\" title=\\"\\" class=\\"ft-ll-a\\">Alerts and notifications</a></li>
+<li class=\\"ft-ll-i\\"><a href=\\"https://www.boston.gov/departments/public-records\\" title=\\"\\" class=\\"ft-ll-a\\">Public records requests</a></li>
+</ul>    </div>
+  ",
+      }
+    }
+    style={
+      Object {
+        "position": "relative",
+        "zIndex": 2,
+      }
+    }
+  />,
+]
+`;
+
+exports[`Storyshots UI|Layouts/AppLayout secondary nav and breadcrumbs 1`] = `
+Array [
+  <a
+    className="btn a11y--h a11y--f"
+    href="#content-start"
+    onClick={[Function]}
+    style={
+      Object {
+        "margin": 4,
+      }
+    }
+    tabIndex={1}
+  >
+    Jump to content
+  </a>,
+  <input
+    aria-label="Open Boston.gov menu"
+    className="brg-tr"
+    id="brg-tr"
+    onKeyDown={[Function]}
+    type="checkbox"
+  />,
+  <nav
+    aria-label="Boston.gov menu"
+    className="nv-m"
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "
+  <div class=\\"nv-m-h\\">
+      <div class=\\"nv-m-h-ic\\">
+        <a href=\\"https://www.boston.gov/\\" title=\\"Go to home page\\">
+          <img src=\\"https://patterns.boston.gov/images/b-dark.svg\\" title=\\"B\\" aria-hidden=\\"true\\" class=\\"nv-m-h-i\\">
+        </a>
+      </div>
+      <div id=\\"nv-m-h-t\\" class=\\"nv-m-h-t\\">&#xA0;</div>
+  </div>
+  <div class=\\"nv-m-c\\">
+    
+
+<ul class=\\"nv-m-c-l\\"><li class=\\"nv-m-c-l-i is-l first leaf menu-mlid-763366 nv-m-c-a--y\\"><a href=\\"http://www.cityofboston.gov/311/\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p three-one-one\\">Help / 311</a></li>
+<li class=\\"nv-m-c-l-i is-l leaf menu-mlid-210101\\"><a href=\\"https://www.boston.gov/homepage\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Home</a></li>
+<li class=\\"nv-m-c-l-i is-l leaf menu-mlid-171721\\"><a href=\\"https://www.boston.gov/guides\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Guides to Boston</a></li>
+<li class=\\"nv-m-c-l-i is-l leaf menu-mlid-171726\\"><a href=\\"https://www.boston.gov/departments\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Departments</a></li>
+<li class=\\"nv-m-c-l-i is-l leaf menu-mlid-1675906\\"><a href=\\"https://www.boston.gov/public-notices\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Public Notices</a></li>
+<li class=\\"nv-m-c-l-i is-l leaf menu-mlid-2354776\\"><a href=\\"https://www.boston.gov/pay-and-apply\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Pay and apply</a></li>
+<li class=\\"nv-m-c-l-i is-l leaf menu-mlid-2354781\\"><a href=\\"https://www.boston.gov/career-center\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Work for the City</a></li>
+<li class=\\"nv-m-c-l-i is-l leaf menu-mlid-885866\\"><a href=\\"https://www.boston.gov/events\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Events</a></li>
+<li class=\\"nv-m-c-l-i is-l leaf menu-mlid-202946\\"><a href=\\"https://www.boston.gov/news\\" class=\\"nv-m-c-a nv-m-c-a--p\\">News</a></li>
+<li class=\\"nv-m-c-l-i is-e expanded menu-mlid-171731\\"><a href=\\"https://www.boston.gov/#\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p nolink\\">Places</a><ul class=\\"nv-m-c-l-l\\"><li class=\\"nv-m-c-bc nv-m-c-b--h\\"><button class=\\"nv-m-c-b\\">Back</button></li><li class=\\"nv-m-c-l-l-i is-l first leaf menu-mlid-2354766\\"><a href=\\"https://www.boston.gov/cemeteries\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Cemeteries</a></li>
+<li class=\\"nv-m-c-l-l-i is-l leaf menu-mlid-2354751\\"><a href=\\"https://www.boston.gov/community-centers\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Community centers</a></li>
+<li class=\\"nv-m-c-l-l-i is-l leaf menu-mlid-184086\\"><a href=\\"https://www.boston.gov/departments/landmarks-commission#historic-districts\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Historic Districts</a></li>
+<li class=\\"nv-m-c-l-l-i is-l leaf menu-mlid-171801\\"><a href=\\"http://www.bpl.org/general/branch.htm\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Libraries</a></li>
+<li class=\\"nv-m-c-l-l-i is-l leaf menu-mlid-2354771\\"><a href=\\"https://www.boston.gov/neighborhoods\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Neighborhoods</a></li>
+<li class=\\"nv-m-c-l-l-i is-l leaf menu-mlid-2354761\\"><a href=\\"https://www.boston.gov/parks-and-playgrounds\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Parks and playgrounds</a></li>
+<li class=\\"nv-m-c-l-l-i is-l last leaf menu-mlid-652731\\"><a href=\\"http://www.bostonpublicschools.org/Page/628\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Schools</a></li>
+</ul></li>
+<li class=\\"nv-m-c-l-i is-e last expanded menu-mlid-171741\\"><a href=\\"https://www.boston.gov/#\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p nolink\\">Government</a><ul class=\\"nv-m-c-l-l\\"><li class=\\"nv-m-c-bc nv-m-c-b--h\\"><button class=\\"nv-m-c-b\\">Back</button></li><li class=\\"nv-m-c-l-l-i is-l first leaf menu-mlid-171851\\"><a href=\\"https://www.boston.gov/departments/mayors-office\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p\\">The Mayor&apos;s Office</a></li>
+<li class=\\"nv-m-c-l-l-i is-l leaf menu-mlid-171856\\"><a href=\\"https://www.boston.gov/departments/city-council\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p\\">City Council</a></li>
+<li class=\\"nv-m-c-l-l-i is-l leaf menu-mlid-171861\\"><a href=\\"https://www.boston.gov/departments/city-clerk\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p\\">City Clerk</a></li>
+<li class=\\"nv-m-c-l-l-i is-l leaf menu-mlid-171866\\"><a href=\\"https://www.boston.gov/departments/election\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Elections</a></li>
+<li class=\\"nv-m-c-l-l-i is-l last leaf menu-mlid-178041\\"><a href=\\"https://www.boston.gov/departments/311/city-boston-government\\" class=\\"nv-m-c-a nv-m-c-a--p\\">City government</a></li>
+</ul></li>
+</ul>  </div>
+",
+      }
+    }
+  />,
+  .emotion-1 {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.emotion-0 {
+  color: #d22d23;
+}
+
+<div
+    className="mn--full-ie"
+  >
+    <div
+      className="mn mn--full mn--nv-s"
+    >
+      <input
+        aria-hidden="true"
+        className="s-tr"
+        id="s-tr"
+        type="checkbox"
+      />
+      <header
+        className="h"
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "
+    <label for=\\"brg-tr\\" class=\\"brg-b\\">
+  <div class=\\"brg\\">
+    <span class=\\"brg-c\\">
+      <span class=\\"brg-c-i\\"></span>
+    </span>
+    <span class=\\"brg-t\\"><span class=\\"a11y--h\\">Toggle </span>Menu</span>
+  </div>
+</label>
+      <div class=\\"lo lo--abs\\">
+    <div class=\\"lo-l\\">
+      <a href=\\"https://www.boston.gov/\\">
+        <img src=\\"https://patterns.boston.gov/images/public/logo.svg\\" alt=\\"Boston.gov\\" class=\\"lo-i\\">
+      </a>
+              <span class=\\"lo-t\\"><a href=\\"https://www.boston.gov/mayor\\">Mayor Martin J. Walsh</a></span>
+          </div>
+  </div>
+    <a id=\\"seal\\" href=\\"https://www.boston.gov/\\" title=\\"Home\\" rel=\\"home\\" class=\\"s\\">
+  <img src=\\"https://patterns.boston.gov/images/public/seal.svg\\" alt=\\"City of Boston Seal\\" class=\\"s-i\\">
+</a>
+    <nav class=\\"nv-h\\">
+  <ul class=\\"nv-h-l\\">
+              <li class=\\"nv-h-l-i\\"><a href=\\"https://www.boston.gov/pay-and-apply\\" title=\\"Pay and apply\\" class=\\"nv-h-l-a\\">Pay and apply</a></li>
+          <li class=\\"nv-h-l-i\\"><a href=\\"https://www.boston.gov/public-notices\\" title=\\"Public notices\\" class=\\"nv-h-l-a\\">Public notices</a></li>
+          <li class=\\"nv-h-l-i\\"><a href=\\"mailto:feedback@boston.gov\\" title=\\"Feedback\\" class=\\"nv-h-l-a\\" onClick=\\"document.getElementById(&quot;contactForm&quot;).show(); return false;\\">Feedback</a></li>
+        <li class=\\"tr nv-h-l-i\\">
+      <a href=\\"https://www.boston.gov/#translate\\" title=\\"Translate\\" class=\\"nv-h-l-a nv-h-l-a--k--s tr-link\\">Translate</a>
+      <ul class=\\"tr-dd\\">
+        <li><span class=\\"notranslate tr-dd-link tr-dd-link--message\\">Loading...</span></li>
+        <li><a href=\\"https://www.boston.gov/#\\" class=\\"notranslate tr-dd-link\\" data-ln=\\"ht\\">Krey&#xF2;l Ayisyen</a></li>
+        <li><a href=\\"https://www.boston.gov/#\\" class=\\"notranslate tr-dd-link\\" data-ln=\\"pt\\">Portugese</a></li>
+        <li><a href=\\"https://www.boston.gov/#\\" class=\\"notranslate tr-dd-link\\" data-ln=\\"es\\">Espa&#xF1;ol</a></li>
+        <li><a href=\\"https://www.boston.gov/#\\" class=\\"notranslate tr-dd-link\\" data-ln=\\"vi\\">Ti&#x1EBF;ng Vi&#x1EC7;t</a></li>
+        <li><a href=\\"https://www.boston.gov/#\\" class=\\"notranslate tr-dd-link tr-dd-link--hidden\\" data-ln=\\"en\\">English</a></li>
+      </ul>
+    </li>
+    <li class=\\"nv-h-l-i\\">
+      <label for=\\"s-tr\\" title=\\"Search\\" class=\\"nv-h-l-a nv-h-l-a--k nv-h-l-a-ic\\" id=\\"searchIcon\\">
+        <svg id=\\"Layer_2\\" xmlns=\\"http://www.w3.org/2000/svg\\" viewBox=\\"0 0 40 41\\"><title>Search</title><path class=\\"nv-h-l-a-i\\" d=\\"M24.2.6C15.8.6 9 7.4 9 15.8c0 3.7 1.4 7.2 3.6 9.8L1.2 37c-.8.8-.8 2 0 2.8.4.4.9.6 1.4.6s1-.2 1.4-.6l11.5-11.5C18 30 21 31 24.2 31c8.4 0 15.2-6.8 15.2-15.2C39.4 7.4 32.6.6 24.2.6zm0 26.5c-6.2 0-11.2-5-11.2-11.2S18 4.6 24.2 4.6s11.2 5 11.2 11.2-5 11.3-11.2 11.3z\\"/></svg>
+      </label>
+    </li>
+  </ul>
+</nav>
+    <div class=\\"h-s\\">
+  <form class=\\"sf\\" action=\\"https://www.boston.gov/search\\" accept-charset=\\"UTF-8\\" method=\\"get\\">
+    <input name=\\"utf8\\" type=\\"hidden\\" value=\\"&#x2713;\\">
+    <div class=\\"sf-i\\">
+      <input type=\\"text\\" name=\\"query\\" id=\\"query\\" value=\\"\\" placeholder=\\"Search&#x2026;\\" class=\\"sf-i-f\\" autocomplete=\\"off\\">
+      <button class=\\"sf-i-b\\">Search</button>
+    </div>
+  </form>
+</div>
+  ",
+          }
+        }
+        role="banner"
+      />
+      <nav
+        className="nv-s nv-s--sticky"
+      >
+        <input
+          aria-hidden={true}
+          className="nv-s-tr"
+          id="nv-s-tr"
+          type="checkbox"
+        />
+        <ul
+          className="nv-s-l"
+        >
+          <li
+            className="nv-s-l-i"
+          >
+            <label
+              className="nv-s-l-b"
+              htmlFor="nv-s-tr"
+            >
+              Navigation
+            </label>
+          </li>
+          <li
+            className="nv-s-l-i"
+          >
+            <a
+              className="nv-s-l-a nv-s-l-a--active"
+              href="#"
+            >
+              Home
+            </a>
+          </li>
+          <li
+            className="nv-s-l-i"
+          >
+            <a
+              className="nv-s-l-a"
+              href="#"
+            >
+              About
+            </a>
+          </li>
+          <li
+            className="nv-s-l-i"
+          >
+            <a
+              className="nv-s-l-a"
+              href="#"
+            >
+              FAQ
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <nav
+        aria-label="Breadcrumbs"
+        className="brc p-a300 emotion-1"
+      >
+        <ul
+          className="brc-l"
+        >
+          <li
+            className="brc-l-i"
+          >
+            <a
+              href="https://www.boston.gov/"
+            >
+              Home
+            </a>
+            <span
+              aria-hidden="true"
+              className="brc-s"
+              style={
+                Object {
+                  "cursor": "default",
+                }
+              }
+            >
+               
+              ›
+               
+            </span>
+          </li>
+          <li
+            className="brc-l-i"
+          >
+            <a
+              href="#"
+            >
+              Departments
+            </a>
+            <span
+              aria-hidden="true"
+              className="brc-s"
+              style={
+                Object {
+                  "cursor": "default",
+                }
+              }
+            >
+               
+              ›
+               
+            </span>
+          </li>
+          <li
+            className="brc-l-i"
+          >
+            <a
+              aria-current="page"
+              className="emotion-0"
+              href="#"
+            >
+              Registry
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <div
+        className="a11y--content-start"
+        id="content-start"
+      />
+      <main
+        className="b-ff"
+      >
+        <div
+          className="b b-c"
+        >
+          <div
+            className="sh m-b300 "
+          >
+            <h2
+              className="sh-title"
+              id="sh-2943626151"
+            >
+              Main Content
+            </h2>
+          </div>
+          <div
+            className="t--intro m-v500"
+          >
+            Introductory text.
+          </div>
+        </div>
+      </main>
+    </div>
+  </div>,
+  <footer
+    className="ft"
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "
+    <div class=\\"ft-c\\">
+      <ul class=\\"ft-ll ft-ll--r\\">
+        <li class=\\"ft-ll-i\\"><a href=\\"http://www.cityofboston.gov/311/\\" class=\\"ft-ll-a lnk--yellow\\"><span class=\\"ft-ll-311\\">BOS:311</span><span class=\\"tablet--hidden\\"> - </span>Report an issue</a></li>
+      </ul>
+      
+
+<ul class=\\"ft-ll\\"><li class=\\"ft-ll-i\\"><a href=\\"https://www.boston.gov/departments/innovation-and-technology/privacy-and-security-statement\\" target=\\"_blank\\" title=\\"\\" class=\\"ft-ll-a\\">Privacy Policy</a></li>
+<li class=\\"ft-ll-i\\"><a href=\\"https://www.boston.gov/departments/mayors-office/contact-boston-city-hall\\" title=\\"\\" class=\\"ft-ll-a\\">Contact us</a></li>
+<li class=\\"ft-ll-i\\"><a href=\\"https://www.boston.gov/departments/digital-team/city-boston-alerts-and-notifications\\" title=\\"\\" class=\\"ft-ll-a\\">Alerts and notifications</a></li>
+<li class=\\"ft-ll-i\\"><a href=\\"https://www.boston.gov/departments/public-records\\" title=\\"\\" class=\\"ft-ll-a\\">Public records requests</a></li>
+</ul>    </div>
+  ",
+      }
+    }
+    style={
+      Object {
+        "position": "relative",
+        "zIndex": 2,
+      }
+    }
+  />,
+]
+`;
+
+exports[`Storyshots UI|Layouts/AppLayout with breadcrumbs 1`] = `
+Array [
+  <a
+    className="btn a11y--h a11y--f"
+    href="#content-start"
+    onClick={[Function]}
+    style={
+      Object {
+        "margin": 4,
+      }
+    }
+    tabIndex={1}
+  >
+    Jump to content
+  </a>,
+  <input
+    aria-label="Open Boston.gov menu"
+    className="brg-tr"
+    id="brg-tr"
+    onKeyDown={[Function]}
+    type="checkbox"
+  />,
+  <nav
+    aria-label="Boston.gov menu"
+    className="nv-m"
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "
+  <div class=\\"nv-m-h\\">
+      <div class=\\"nv-m-h-ic\\">
+        <a href=\\"https://www.boston.gov/\\" title=\\"Go to home page\\">
+          <img src=\\"https://patterns.boston.gov/images/b-dark.svg\\" title=\\"B\\" aria-hidden=\\"true\\" class=\\"nv-m-h-i\\">
+        </a>
+      </div>
+      <div id=\\"nv-m-h-t\\" class=\\"nv-m-h-t\\">&#xA0;</div>
+  </div>
+  <div class=\\"nv-m-c\\">
+    
+
+<ul class=\\"nv-m-c-l\\"><li class=\\"nv-m-c-l-i is-l first leaf menu-mlid-763366 nv-m-c-a--y\\"><a href=\\"http://www.cityofboston.gov/311/\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p three-one-one\\">Help / 311</a></li>
+<li class=\\"nv-m-c-l-i is-l leaf menu-mlid-210101\\"><a href=\\"https://www.boston.gov/homepage\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Home</a></li>
+<li class=\\"nv-m-c-l-i is-l leaf menu-mlid-171721\\"><a href=\\"https://www.boston.gov/guides\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Guides to Boston</a></li>
+<li class=\\"nv-m-c-l-i is-l leaf menu-mlid-171726\\"><a href=\\"https://www.boston.gov/departments\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Departments</a></li>
+<li class=\\"nv-m-c-l-i is-l leaf menu-mlid-1675906\\"><a href=\\"https://www.boston.gov/public-notices\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Public Notices</a></li>
+<li class=\\"nv-m-c-l-i is-l leaf menu-mlid-2354776\\"><a href=\\"https://www.boston.gov/pay-and-apply\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Pay and apply</a></li>
+<li class=\\"nv-m-c-l-i is-l leaf menu-mlid-2354781\\"><a href=\\"https://www.boston.gov/career-center\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Work for the City</a></li>
+<li class=\\"nv-m-c-l-i is-l leaf menu-mlid-885866\\"><a href=\\"https://www.boston.gov/events\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Events</a></li>
+<li class=\\"nv-m-c-l-i is-l leaf menu-mlid-202946\\"><a href=\\"https://www.boston.gov/news\\" class=\\"nv-m-c-a nv-m-c-a--p\\">News</a></li>
+<li class=\\"nv-m-c-l-i is-e expanded menu-mlid-171731\\"><a href=\\"https://www.boston.gov/#\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p nolink\\">Places</a><ul class=\\"nv-m-c-l-l\\"><li class=\\"nv-m-c-bc nv-m-c-b--h\\"><button class=\\"nv-m-c-b\\">Back</button></li><li class=\\"nv-m-c-l-l-i is-l first leaf menu-mlid-2354766\\"><a href=\\"https://www.boston.gov/cemeteries\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Cemeteries</a></li>
+<li class=\\"nv-m-c-l-l-i is-l leaf menu-mlid-2354751\\"><a href=\\"https://www.boston.gov/community-centers\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Community centers</a></li>
+<li class=\\"nv-m-c-l-l-i is-l leaf menu-mlid-184086\\"><a href=\\"https://www.boston.gov/departments/landmarks-commission#historic-districts\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Historic Districts</a></li>
+<li class=\\"nv-m-c-l-l-i is-l leaf menu-mlid-171801\\"><a href=\\"http://www.bpl.org/general/branch.htm\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Libraries</a></li>
+<li class=\\"nv-m-c-l-l-i is-l leaf menu-mlid-2354771\\"><a href=\\"https://www.boston.gov/neighborhoods\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Neighborhoods</a></li>
+<li class=\\"nv-m-c-l-l-i is-l leaf menu-mlid-2354761\\"><a href=\\"https://www.boston.gov/parks-and-playgrounds\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Parks and playgrounds</a></li>
+<li class=\\"nv-m-c-l-l-i is-l last leaf menu-mlid-652731\\"><a href=\\"http://www.bostonpublicschools.org/Page/628\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Schools</a></li>
+</ul></li>
+<li class=\\"nv-m-c-l-i is-e last expanded menu-mlid-171741\\"><a href=\\"https://www.boston.gov/#\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p nolink\\">Government</a><ul class=\\"nv-m-c-l-l\\"><li class=\\"nv-m-c-bc nv-m-c-b--h\\"><button class=\\"nv-m-c-b\\">Back</button></li><li class=\\"nv-m-c-l-l-i is-l first leaf menu-mlid-171851\\"><a href=\\"https://www.boston.gov/departments/mayors-office\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p\\">The Mayor&apos;s Office</a></li>
+<li class=\\"nv-m-c-l-l-i is-l leaf menu-mlid-171856\\"><a href=\\"https://www.boston.gov/departments/city-council\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p\\">City Council</a></li>
+<li class=\\"nv-m-c-l-l-i is-l leaf menu-mlid-171861\\"><a href=\\"https://www.boston.gov/departments/city-clerk\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p\\">City Clerk</a></li>
+<li class=\\"nv-m-c-l-l-i is-l leaf menu-mlid-171866\\"><a href=\\"https://www.boston.gov/departments/election\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Elections</a></li>
+<li class=\\"nv-m-c-l-l-i is-l last leaf menu-mlid-178041\\"><a href=\\"https://www.boston.gov/departments/311/city-boston-government\\" class=\\"nv-m-c-a nv-m-c-a--p\\">City government</a></li>
+</ul></li>
+</ul>  </div>
+",
+      }
+    }
+  />,
+  .emotion-1 {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.emotion-0 {
+  color: #d22d23;
+}
+
+<div
+    className="mn--full-ie"
+  >
+    <div
+      className="mn mn--full "
+    >
+      <input
+        aria-hidden="true"
+        className="s-tr"
+        id="s-tr"
+        type="checkbox"
+      />
+      <header
+        className="h"
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "
+    <label for=\\"brg-tr\\" class=\\"brg-b\\">
+  <div class=\\"brg\\">
+    <span class=\\"brg-c\\">
+      <span class=\\"brg-c-i\\"></span>
+    </span>
+    <span class=\\"brg-t\\"><span class=\\"a11y--h\\">Toggle </span>Menu</span>
+  </div>
+</label>
+      <div class=\\"lo lo--abs\\">
+    <div class=\\"lo-l\\">
+      <a href=\\"https://www.boston.gov/\\">
+        <img src=\\"https://patterns.boston.gov/images/public/logo.svg\\" alt=\\"Boston.gov\\" class=\\"lo-i\\">
+      </a>
+              <span class=\\"lo-t\\"><a href=\\"https://www.boston.gov/mayor\\">Mayor Martin J. Walsh</a></span>
+          </div>
+  </div>
+    <a id=\\"seal\\" href=\\"https://www.boston.gov/\\" title=\\"Home\\" rel=\\"home\\" class=\\"s\\">
+  <img src=\\"https://patterns.boston.gov/images/public/seal.svg\\" alt=\\"City of Boston Seal\\" class=\\"s-i\\">
+</a>
+    <nav class=\\"nv-h\\">
+  <ul class=\\"nv-h-l\\">
+              <li class=\\"nv-h-l-i\\"><a href=\\"https://www.boston.gov/pay-and-apply\\" title=\\"Pay and apply\\" class=\\"nv-h-l-a\\">Pay and apply</a></li>
+          <li class=\\"nv-h-l-i\\"><a href=\\"https://www.boston.gov/public-notices\\" title=\\"Public notices\\" class=\\"nv-h-l-a\\">Public notices</a></li>
+          <li class=\\"nv-h-l-i\\"><a href=\\"mailto:feedback@boston.gov\\" title=\\"Feedback\\" class=\\"nv-h-l-a\\" onClick=\\"document.getElementById(&quot;contactForm&quot;).show(); return false;\\">Feedback</a></li>
+        <li class=\\"tr nv-h-l-i\\">
+      <a href=\\"https://www.boston.gov/#translate\\" title=\\"Translate\\" class=\\"nv-h-l-a nv-h-l-a--k--s tr-link\\">Translate</a>
+      <ul class=\\"tr-dd\\">
+        <li><span class=\\"notranslate tr-dd-link tr-dd-link--message\\">Loading...</span></li>
+        <li><a href=\\"https://www.boston.gov/#\\" class=\\"notranslate tr-dd-link\\" data-ln=\\"ht\\">Krey&#xF2;l Ayisyen</a></li>
+        <li><a href=\\"https://www.boston.gov/#\\" class=\\"notranslate tr-dd-link\\" data-ln=\\"pt\\">Portugese</a></li>
+        <li><a href=\\"https://www.boston.gov/#\\" class=\\"notranslate tr-dd-link\\" data-ln=\\"es\\">Espa&#xF1;ol</a></li>
+        <li><a href=\\"https://www.boston.gov/#\\" class=\\"notranslate tr-dd-link\\" data-ln=\\"vi\\">Ti&#x1EBF;ng Vi&#x1EC7;t</a></li>
+        <li><a href=\\"https://www.boston.gov/#\\" class=\\"notranslate tr-dd-link tr-dd-link--hidden\\" data-ln=\\"en\\">English</a></li>
+      </ul>
+    </li>
+    <li class=\\"nv-h-l-i\\">
+      <label for=\\"s-tr\\" title=\\"Search\\" class=\\"nv-h-l-a nv-h-l-a--k nv-h-l-a-ic\\" id=\\"searchIcon\\">
+        <svg id=\\"Layer_2\\" xmlns=\\"http://www.w3.org/2000/svg\\" viewBox=\\"0 0 40 41\\"><title>Search</title><path class=\\"nv-h-l-a-i\\" d=\\"M24.2.6C15.8.6 9 7.4 9 15.8c0 3.7 1.4 7.2 3.6 9.8L1.2 37c-.8.8-.8 2 0 2.8.4.4.9.6 1.4.6s1-.2 1.4-.6l11.5-11.5C18 30 21 31 24.2 31c8.4 0 15.2-6.8 15.2-15.2C39.4 7.4 32.6.6 24.2.6zm0 26.5c-6.2 0-11.2-5-11.2-11.2S18 4.6 24.2 4.6s11.2 5 11.2 11.2-5 11.3-11.2 11.3z\\"/></svg>
+      </label>
+    </li>
+  </ul>
+</nav>
+    <div class=\\"h-s\\">
+  <form class=\\"sf\\" action=\\"https://www.boston.gov/search\\" accept-charset=\\"UTF-8\\" method=\\"get\\">
+    <input name=\\"utf8\\" type=\\"hidden\\" value=\\"&#x2713;\\">
+    <div class=\\"sf-i\\">
+      <input type=\\"text\\" name=\\"query\\" id=\\"query\\" value=\\"\\" placeholder=\\"Search&#x2026;\\" class=\\"sf-i-f\\" autocomplete=\\"off\\">
+      <button class=\\"sf-i-b\\">Search</button>
+    </div>
+  </form>
+</div>
+  ",
+          }
+        }
+        role="banner"
+      />
+      <div
+        className="p-t300"
+      >
+        <nav
+          aria-label="Breadcrumbs"
+          className="brc p-a300 emotion-1"
+        >
+          <ul
+            className="brc-l"
+          >
+            <li
+              className="brc-l-i"
+            >
+              <a
+                href="https://www.boston.gov/"
+              >
+                Home
+              </a>
+              <span
+                aria-hidden="true"
+                className="brc-s"
+                style={
+                  Object {
+                    "cursor": "default",
+                  }
+                }
+              >
+                 
+                ›
+                 
+              </span>
+            </li>
+            <li
+              className="brc-l-i"
+            >
+              <a
+                href="#"
+              >
+                Departments
+              </a>
+              <span
+                aria-hidden="true"
+                className="brc-s"
+                style={
+                  Object {
+                    "cursor": "default",
+                  }
+                }
+              >
+                 
+                ›
+                 
+              </span>
+            </li>
+            <li
+              className="brc-l-i"
+            >
+              <a
+                aria-current="page"
+                className="emotion-0"
+                href="#"
+              >
+                Registry
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div
+        className="a11y--content-start"
+        id="content-start"
+      />
+      <main
+        className="b-ff"
+      >
+        <div
+          className="b b-c"
+        >
+          <div
+            className="sh m-b300 "
+          >
+            <h2
+              className="sh-title"
+              id="sh-2943626151"
+            >
+              Main Content
+            </h2>
+          </div>
+          <div
+            className="t--intro m-v500"
+          >
+            Introductory text.
+          </div>
+        </div>
+      </main>
+    </div>
+  </div>,
+  <footer
+    className="ft"
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "
+    <div class=\\"ft-c\\">
+      <ul class=\\"ft-ll ft-ll--r\\">
+        <li class=\\"ft-ll-i\\"><a href=\\"http://www.cityofboston.gov/311/\\" class=\\"ft-ll-a lnk--yellow\\"><span class=\\"ft-ll-311\\">BOS:311</span><span class=\\"tablet--hidden\\"> - </span>Report an issue</a></li>
+      </ul>
+      
+
+<ul class=\\"ft-ll\\"><li class=\\"ft-ll-i\\"><a href=\\"https://www.boston.gov/departments/innovation-and-technology/privacy-and-security-statement\\" target=\\"_blank\\" title=\\"\\" class=\\"ft-ll-a\\">Privacy Policy</a></li>
+<li class=\\"ft-ll-i\\"><a href=\\"https://www.boston.gov/departments/mayors-office/contact-boston-city-hall\\" title=\\"\\" class=\\"ft-ll-a\\">Contact us</a></li>
+<li class=\\"ft-ll-i\\"><a href=\\"https://www.boston.gov/departments/digital-team/city-boston-alerts-and-notifications\\" title=\\"\\" class=\\"ft-ll-a\\">Alerts and notifications</a></li>
+<li class=\\"ft-ll-i\\"><a href=\\"https://www.boston.gov/departments/public-records\\" title=\\"\\" class=\\"ft-ll-a\\">Public records requests</a></li>
+</ul>    </div>
+  ",
+      }
+    }
+    style={
+      Object {
+        "position": "relative",
+        "zIndex": 2,
+      }
+    }
+  />,
+]
+`;
+
+exports[`Storyshots UI|Navigation/BreadcrumbNav several levels deep 1`] = `
+.emotion-1 {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.emotion-0 {
+  color: #d22d23;
+}
+
+<nav
+  aria-label="Breadcrumbs"
+  className="brc undefined emotion-1"
+>
+  <ul
+    className="brc-l"
+  >
+    <li
+      className="brc-l-i"
+    >
+      <a
+        href="https://www.boston.gov/"
+      >
+        Home
+      </a>
+      <span
+        aria-hidden="true"
+        className="brc-s"
+        style={
+          Object {
+            "cursor": "default",
+          }
+        }
+      >
+         
+        ›
+         
+      </span>
+    </li>
+    <li
+      className="brc-l-i"
+    >
+      <a
+        href="https://www.boston.gov/departments"
+      >
+        Departments
+      </a>
+      <span
+        aria-hidden="true"
+        className="brc-s"
+        style={
+          Object {
+            "cursor": "default",
+          }
+        }
+      >
+         
+        ›
+         
+      </span>
+    </li>
+    <li
+      className="brc-l-i"
+    >
+      <a
+        href="https://www.boston.gov/departments/registry"
+      >
+        Registry: Birth, death, and marriage
+      </a>
+      <span
+        aria-hidden="true"
+        className="brc-s"
+        style={
+          Object {
+            "cursor": "default",
+          }
+        }
+      >
+         
+        ›
+         
+      </span>
+    </li>
+    <li
+      className="brc-l-i"
+    >
+      <a
+        aria-current="page"
+        className="emotion-0"
+        href="/death"
+      >
+        Death Certificates
+      </a>
+    </li>
+  </ul>
+</nav>
+`;
+
+exports[`Storyshots UI|Navigation/BreadcrumbNav single level 1`] = `
+.emotion-1 {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.emotion-0 {
+  color: #d22d23;
+}
+
+<nav
+  aria-label="Breadcrumbs"
+  className="brc undefined emotion-1"
+>
+  <ul
+    className="brc-l"
+  >
+    <li
+      className="brc-l-i"
+    >
+      <a
+        href="https://www.boston.gov/"
+      >
+        Home
+      </a>
+      <span
+        aria-hidden="true"
+        className="brc-s"
+        style={
+          Object {
+            "cursor": "default",
+          }
+        }
+      >
+         
+        ›
+         
+      </span>
+    </li>
+    <li
+      className="brc-l-i"
+    >
+      <a
+        aria-current="page"
+        className="emotion-0"
+        href="/death"
+      >
+        Death Certificates
+      </a>
+    </li>
+  </ul>
+</nav>
+`;
+
+exports[`Storyshots UI|Pages/ErrorPage 404 1`] = `
+Array [
+  <a
+    className="btn a11y--h a11y--f"
+    href="#content-start"
+    onClick={[Function]}
+    style={
+      Object {
+        "margin": 4,
+      }
+    }
+    tabIndex={1}
+  >
+    Jump to content
+  </a>,
+  <input
+    aria-label="Open Boston.gov menu"
+    className="brg-tr"
+    id="brg-tr"
+    onKeyDown={[Function]}
+    type="checkbox"
+  />,
+  <nav
+    aria-label="Boston.gov menu"
+    className="nv-m"
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "
+  <div class=\\"nv-m-h\\">
+      <div class=\\"nv-m-h-ic\\">
+        <a href=\\"https://www.boston.gov/\\" title=\\"Go to home page\\">
+          <img src=\\"https://patterns.boston.gov/images/b-dark.svg\\" title=\\"B\\" aria-hidden=\\"true\\" class=\\"nv-m-h-i\\">
+        </a>
+      </div>
+      <div id=\\"nv-m-h-t\\" class=\\"nv-m-h-t\\">&#xA0;</div>
+  </div>
+  <div class=\\"nv-m-c\\">
+    
+
+<ul class=\\"nv-m-c-l\\"><li class=\\"nv-m-c-l-i is-l first leaf menu-mlid-763366 nv-m-c-a--y\\"><a href=\\"http://www.cityofboston.gov/311/\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p three-one-one\\">Help / 311</a></li>
+<li class=\\"nv-m-c-l-i is-l leaf menu-mlid-210101\\"><a href=\\"https://www.boston.gov/homepage\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Home</a></li>
+<li class=\\"nv-m-c-l-i is-l leaf menu-mlid-171721\\"><a href=\\"https://www.boston.gov/guides\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Guides to Boston</a></li>
+<li class=\\"nv-m-c-l-i is-l leaf menu-mlid-171726\\"><a href=\\"https://www.boston.gov/departments\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Departments</a></li>
+<li class=\\"nv-m-c-l-i is-l leaf menu-mlid-1675906\\"><a href=\\"https://www.boston.gov/public-notices\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Public Notices</a></li>
+<li class=\\"nv-m-c-l-i is-l leaf menu-mlid-2354776\\"><a href=\\"https://www.boston.gov/pay-and-apply\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Pay and apply</a></li>
+<li class=\\"nv-m-c-l-i is-l leaf menu-mlid-2354781\\"><a href=\\"https://www.boston.gov/career-center\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Work for the City</a></li>
+<li class=\\"nv-m-c-l-i is-l leaf menu-mlid-885866\\"><a href=\\"https://www.boston.gov/events\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Events</a></li>
+<li class=\\"nv-m-c-l-i is-l leaf menu-mlid-202946\\"><a href=\\"https://www.boston.gov/news\\" class=\\"nv-m-c-a nv-m-c-a--p\\">News</a></li>
+<li class=\\"nv-m-c-l-i is-e expanded menu-mlid-171731\\"><a href=\\"https://www.boston.gov/#\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p nolink\\">Places</a><ul class=\\"nv-m-c-l-l\\"><li class=\\"nv-m-c-bc nv-m-c-b--h\\"><button class=\\"nv-m-c-b\\">Back</button></li><li class=\\"nv-m-c-l-l-i is-l first leaf menu-mlid-2354766\\"><a href=\\"https://www.boston.gov/cemeteries\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Cemeteries</a></li>
+<li class=\\"nv-m-c-l-l-i is-l leaf menu-mlid-2354751\\"><a href=\\"https://www.boston.gov/community-centers\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Community centers</a></li>
+<li class=\\"nv-m-c-l-l-i is-l leaf menu-mlid-184086\\"><a href=\\"https://www.boston.gov/departments/landmarks-commission#historic-districts\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Historic Districts</a></li>
+<li class=\\"nv-m-c-l-l-i is-l leaf menu-mlid-171801\\"><a href=\\"http://www.bpl.org/general/branch.htm\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Libraries</a></li>
+<li class=\\"nv-m-c-l-l-i is-l leaf menu-mlid-2354771\\"><a href=\\"https://www.boston.gov/neighborhoods\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Neighborhoods</a></li>
+<li class=\\"nv-m-c-l-l-i is-l leaf menu-mlid-2354761\\"><a href=\\"https://www.boston.gov/parks-and-playgrounds\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Parks and playgrounds</a></li>
+<li class=\\"nv-m-c-l-l-i is-l last leaf menu-mlid-652731\\"><a href=\\"http://www.bostonpublicschools.org/Page/628\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Schools</a></li>
+</ul></li>
+<li class=\\"nv-m-c-l-i is-e last expanded menu-mlid-171741\\"><a href=\\"https://www.boston.gov/#\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p nolink\\">Government</a><ul class=\\"nv-m-c-l-l\\"><li class=\\"nv-m-c-bc nv-m-c-b--h\\"><button class=\\"nv-m-c-b\\">Back</button></li><li class=\\"nv-m-c-l-l-i is-l first leaf menu-mlid-171851\\"><a href=\\"https://www.boston.gov/departments/mayors-office\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p\\">The Mayor&apos;s Office</a></li>
+<li class=\\"nv-m-c-l-l-i is-l leaf menu-mlid-171856\\"><a href=\\"https://www.boston.gov/departments/city-council\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p\\">City Council</a></li>
+<li class=\\"nv-m-c-l-l-i is-l leaf menu-mlid-171861\\"><a href=\\"https://www.boston.gov/departments/city-clerk\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p\\">City Clerk</a></li>
+<li class=\\"nv-m-c-l-l-i is-l leaf menu-mlid-171866\\"><a href=\\"https://www.boston.gov/departments/election\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Elections</a></li>
+<li class=\\"nv-m-c-l-l-i is-l last leaf menu-mlid-178041\\"><a href=\\"https://www.boston.gov/departments/311/city-boston-government\\" class=\\"nv-m-c-a nv-m-c-a--p\\">City government</a></li>
+</ul></li>
+</ul>  </div>
+",
+      }
+    }
+  />,
+  <div
+    className="mn--full-ie"
+  >
+    <div
+      className="mn mn--full "
+    >
+      <input
+        aria-hidden="true"
+        className="s-tr"
+        id="s-tr"
+        type="checkbox"
+      />
+      <header
+        className="h"
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "
+    <label for=\\"brg-tr\\" class=\\"brg-b\\">
+  <div class=\\"brg\\">
+    <span class=\\"brg-c\\">
+      <span class=\\"brg-c-i\\"></span>
+    </span>
+    <span class=\\"brg-t\\"><span class=\\"a11y--h\\">Toggle </span>Menu</span>
+  </div>
+</label>
+      <div class=\\"lo lo--abs\\">
+    <div class=\\"lo-l\\">
+      <a href=\\"https://www.boston.gov/\\">
+        <img src=\\"https://patterns.boston.gov/images/public/logo.svg\\" alt=\\"Boston.gov\\" class=\\"lo-i\\">
+      </a>
+              <span class=\\"lo-t\\"><a href=\\"https://www.boston.gov/mayor\\">Mayor Martin J. Walsh</a></span>
+          </div>
+  </div>
+    <a id=\\"seal\\" href=\\"https://www.boston.gov/\\" title=\\"Home\\" rel=\\"home\\" class=\\"s\\">
+  <img src=\\"https://patterns.boston.gov/images/public/seal.svg\\" alt=\\"City of Boston Seal\\" class=\\"s-i\\">
+</a>
+    <nav class=\\"nv-h\\">
+  <ul class=\\"nv-h-l\\">
+              <li class=\\"nv-h-l-i\\"><a href=\\"https://www.boston.gov/pay-and-apply\\" title=\\"Pay and apply\\" class=\\"nv-h-l-a\\">Pay and apply</a></li>
+          <li class=\\"nv-h-l-i\\"><a href=\\"https://www.boston.gov/public-notices\\" title=\\"Public notices\\" class=\\"nv-h-l-a\\">Public notices</a></li>
+          <li class=\\"nv-h-l-i\\"><a href=\\"mailto:feedback@boston.gov\\" title=\\"Feedback\\" class=\\"nv-h-l-a\\" onClick=\\"document.getElementById(&quot;contactForm&quot;).show(); return false;\\">Feedback</a></li>
+        <li class=\\"tr nv-h-l-i\\">
+      <a href=\\"https://www.boston.gov/#translate\\" title=\\"Translate\\" class=\\"nv-h-l-a nv-h-l-a--k--s tr-link\\">Translate</a>
+      <ul class=\\"tr-dd\\">
+        <li><span class=\\"notranslate tr-dd-link tr-dd-link--message\\">Loading...</span></li>
+        <li><a href=\\"https://www.boston.gov/#\\" class=\\"notranslate tr-dd-link\\" data-ln=\\"ht\\">Krey&#xF2;l Ayisyen</a></li>
+        <li><a href=\\"https://www.boston.gov/#\\" class=\\"notranslate tr-dd-link\\" data-ln=\\"pt\\">Portugese</a></li>
+        <li><a href=\\"https://www.boston.gov/#\\" class=\\"notranslate tr-dd-link\\" data-ln=\\"es\\">Espa&#xF1;ol</a></li>
+        <li><a href=\\"https://www.boston.gov/#\\" class=\\"notranslate tr-dd-link\\" data-ln=\\"vi\\">Ti&#x1EBF;ng Vi&#x1EC7;t</a></li>
+        <li><a href=\\"https://www.boston.gov/#\\" class=\\"notranslate tr-dd-link tr-dd-link--hidden\\" data-ln=\\"en\\">English</a></li>
+      </ul>
+    </li>
+    <li class=\\"nv-h-l-i\\">
+      <label for=\\"s-tr\\" title=\\"Search\\" class=\\"nv-h-l-a nv-h-l-a--k nv-h-l-a-ic\\" id=\\"searchIcon\\">
+        <svg id=\\"Layer_2\\" xmlns=\\"http://www.w3.org/2000/svg\\" viewBox=\\"0 0 40 41\\"><title>Search</title><path class=\\"nv-h-l-a-i\\" d=\\"M24.2.6C15.8.6 9 7.4 9 15.8c0 3.7 1.4 7.2 3.6 9.8L1.2 37c-.8.8-.8 2 0 2.8.4.4.9.6 1.4.6s1-.2 1.4-.6l11.5-11.5C18 30 21 31 24.2 31c8.4 0 15.2-6.8 15.2-15.2C39.4 7.4 32.6.6 24.2.6zm0 26.5c-6.2 0-11.2-5-11.2-11.2S18 4.6 24.2 4.6s11.2 5 11.2 11.2-5 11.3-11.2 11.3z\\"/></svg>
+      </label>
+    </li>
+  </ul>
+</nav>
+    <div class=\\"h-s\\">
+  <form class=\\"sf\\" action=\\"https://www.boston.gov/search\\" accept-charset=\\"UTF-8\\" method=\\"get\\">
+    <input name=\\"utf8\\" type=\\"hidden\\" value=\\"&#x2713;\\">
+    <div class=\\"sf-i\\">
+      <input type=\\"text\\" name=\\"query\\" id=\\"query\\" value=\\"\\" placeholder=\\"Search&#x2026;\\" class=\\"sf-i-f\\" autocomplete=\\"off\\">
+      <button class=\\"sf-i-b\\">Search</button>
+    </div>
+  </form>
+</div>
+  ",
+          }
+        }
+        role="banner"
+      />
+      <div
+        className="p-t300"
+      />
+      <div
+        className="a11y--content-start"
+        id="content-start"
+      />
+      <main
+        className="b-ff"
+      >
+        <div
+          className="b-c b-c--nbp"
+        >
+          <div
+            className="sh m-b300 "
+          >
+            <h2
+              className="sh-title"
+              id="sh-1985863525"
+            >
+              This page could not be found
+            </h2>
+          </div>
+          <p
+            className="m-v500 lh--400 t--s500"
+          >
+            If that doesn’t seem right, please
+             
+            <a
+              href="https://www.boston.gov/contact"
+            >
+              contact us
+            </a>
+             and let us know.
+          </p>
+          <p
+            className="m-v500 lh--400 t--s500"
+          >
+            Visit 
+            <a
+              href="https://www.boston.gov/"
+            >
+              Boston.gov
+            </a>
+             for announcements about ongoing technical problems.
+          </p>
+        </div>
+      </main>
+    </div>
+  </div>,
+  <footer
+    className="ft"
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "
+    <div class=\\"ft-c\\">
+      <ul class=\\"ft-ll ft-ll--r\\">
+        <li class=\\"ft-ll-i\\"><a href=\\"http://www.cityofboston.gov/311/\\" class=\\"ft-ll-a lnk--yellow\\"><span class=\\"ft-ll-311\\">BOS:311</span><span class=\\"tablet--hidden\\"> - </span>Report an issue</a></li>
+      </ul>
+      
+
+<ul class=\\"ft-ll\\"><li class=\\"ft-ll-i\\"><a href=\\"https://www.boston.gov/departments/innovation-and-technology/privacy-and-security-statement\\" target=\\"_blank\\" title=\\"\\" class=\\"ft-ll-a\\">Privacy Policy</a></li>
+<li class=\\"ft-ll-i\\"><a href=\\"https://www.boston.gov/departments/mayors-office/contact-boston-city-hall\\" title=\\"\\" class=\\"ft-ll-a\\">Contact us</a></li>
+<li class=\\"ft-ll-i\\"><a href=\\"https://www.boston.gov/departments/digital-team/city-boston-alerts-and-notifications\\" title=\\"\\" class=\\"ft-ll-a\\">Alerts and notifications</a></li>
+<li class=\\"ft-ll-i\\"><a href=\\"https://www.boston.gov/departments/public-records\\" title=\\"\\" class=\\"ft-ll-a\\">Public records requests</a></li>
+</ul>    </div>
+  ",
+      }
+    }
+    style={
+      Object {
+        "position": "relative",
+        "zIndex": 2,
+      }
+    }
+  />,
+]
+`;
+
+exports[`Storyshots UI|Pages/ErrorPage 500 1`] = `
+Array [
+  <a
+    className="btn a11y--h a11y--f"
+    href="#content-start"
+    onClick={[Function]}
+    style={
+      Object {
+        "margin": 4,
+      }
+    }
+    tabIndex={1}
+  >
+    Jump to content
+  </a>,
+  <input
+    aria-label="Open Boston.gov menu"
+    className="brg-tr"
+    id="brg-tr"
+    onKeyDown={[Function]}
+    type="checkbox"
+  />,
+  <nav
+    aria-label="Boston.gov menu"
+    className="nv-m"
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "
+  <div class=\\"nv-m-h\\">
+      <div class=\\"nv-m-h-ic\\">
+        <a href=\\"https://www.boston.gov/\\" title=\\"Go to home page\\">
+          <img src=\\"https://patterns.boston.gov/images/b-dark.svg\\" title=\\"B\\" aria-hidden=\\"true\\" class=\\"nv-m-h-i\\">
+        </a>
+      </div>
+      <div id=\\"nv-m-h-t\\" class=\\"nv-m-h-t\\">&#xA0;</div>
+  </div>
+  <div class=\\"nv-m-c\\">
+    
+
+<ul class=\\"nv-m-c-l\\"><li class=\\"nv-m-c-l-i is-l first leaf menu-mlid-763366 nv-m-c-a--y\\"><a href=\\"http://www.cityofboston.gov/311/\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p three-one-one\\">Help / 311</a></li>
+<li class=\\"nv-m-c-l-i is-l leaf menu-mlid-210101\\"><a href=\\"https://www.boston.gov/homepage\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Home</a></li>
+<li class=\\"nv-m-c-l-i is-l leaf menu-mlid-171721\\"><a href=\\"https://www.boston.gov/guides\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Guides to Boston</a></li>
+<li class=\\"nv-m-c-l-i is-l leaf menu-mlid-171726\\"><a href=\\"https://www.boston.gov/departments\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Departments</a></li>
+<li class=\\"nv-m-c-l-i is-l leaf menu-mlid-1675906\\"><a href=\\"https://www.boston.gov/public-notices\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Public Notices</a></li>
+<li class=\\"nv-m-c-l-i is-l leaf menu-mlid-2354776\\"><a href=\\"https://www.boston.gov/pay-and-apply\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Pay and apply</a></li>
+<li class=\\"nv-m-c-l-i is-l leaf menu-mlid-2354781\\"><a href=\\"https://www.boston.gov/career-center\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Work for the City</a></li>
+<li class=\\"nv-m-c-l-i is-l leaf menu-mlid-885866\\"><a href=\\"https://www.boston.gov/events\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Events</a></li>
+<li class=\\"nv-m-c-l-i is-l leaf menu-mlid-202946\\"><a href=\\"https://www.boston.gov/news\\" class=\\"nv-m-c-a nv-m-c-a--p\\">News</a></li>
+<li class=\\"nv-m-c-l-i is-e expanded menu-mlid-171731\\"><a href=\\"https://www.boston.gov/#\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p nolink\\">Places</a><ul class=\\"nv-m-c-l-l\\"><li class=\\"nv-m-c-bc nv-m-c-b--h\\"><button class=\\"nv-m-c-b\\">Back</button></li><li class=\\"nv-m-c-l-l-i is-l first leaf menu-mlid-2354766\\"><a href=\\"https://www.boston.gov/cemeteries\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Cemeteries</a></li>
+<li class=\\"nv-m-c-l-l-i is-l leaf menu-mlid-2354751\\"><a href=\\"https://www.boston.gov/community-centers\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Community centers</a></li>
+<li class=\\"nv-m-c-l-l-i is-l leaf menu-mlid-184086\\"><a href=\\"https://www.boston.gov/departments/landmarks-commission#historic-districts\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Historic Districts</a></li>
+<li class=\\"nv-m-c-l-l-i is-l leaf menu-mlid-171801\\"><a href=\\"http://www.bpl.org/general/branch.htm\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Libraries</a></li>
+<li class=\\"nv-m-c-l-l-i is-l leaf menu-mlid-2354771\\"><a href=\\"https://www.boston.gov/neighborhoods\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Neighborhoods</a></li>
+<li class=\\"nv-m-c-l-l-i is-l leaf menu-mlid-2354761\\"><a href=\\"https://www.boston.gov/parks-and-playgrounds\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Parks and playgrounds</a></li>
+<li class=\\"nv-m-c-l-l-i is-l last leaf menu-mlid-652731\\"><a href=\\"http://www.bostonpublicschools.org/Page/628\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Schools</a></li>
+</ul></li>
+<li class=\\"nv-m-c-l-i is-e last expanded menu-mlid-171741\\"><a href=\\"https://www.boston.gov/#\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p nolink\\">Government</a><ul class=\\"nv-m-c-l-l\\"><li class=\\"nv-m-c-bc nv-m-c-b--h\\"><button class=\\"nv-m-c-b\\">Back</button></li><li class=\\"nv-m-c-l-l-i is-l first leaf menu-mlid-171851\\"><a href=\\"https://www.boston.gov/departments/mayors-office\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p\\">The Mayor&apos;s Office</a></li>
+<li class=\\"nv-m-c-l-l-i is-l leaf menu-mlid-171856\\"><a href=\\"https://www.boston.gov/departments/city-council\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p\\">City Council</a></li>
+<li class=\\"nv-m-c-l-l-i is-l leaf menu-mlid-171861\\"><a href=\\"https://www.boston.gov/departments/city-clerk\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p\\">City Clerk</a></li>
+<li class=\\"nv-m-c-l-l-i is-l leaf menu-mlid-171866\\"><a href=\\"https://www.boston.gov/departments/election\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Elections</a></li>
+<li class=\\"nv-m-c-l-l-i is-l last leaf menu-mlid-178041\\"><a href=\\"https://www.boston.gov/departments/311/city-boston-government\\" class=\\"nv-m-c-a nv-m-c-a--p\\">City government</a></li>
+</ul></li>
+</ul>  </div>
+",
+      }
+    }
+  />,
+  <div
+    className="mn--full-ie"
+  >
+    <div
+      className="mn mn--full "
+    >
+      <input
+        aria-hidden="true"
+        className="s-tr"
+        id="s-tr"
+        type="checkbox"
+      />
+      <header
+        className="h"
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "
+    <label for=\\"brg-tr\\" class=\\"brg-b\\">
+  <div class=\\"brg\\">
+    <span class=\\"brg-c\\">
+      <span class=\\"brg-c-i\\"></span>
+    </span>
+    <span class=\\"brg-t\\"><span class=\\"a11y--h\\">Toggle </span>Menu</span>
+  </div>
+</label>
+      <div class=\\"lo lo--abs\\">
+    <div class=\\"lo-l\\">
+      <a href=\\"https://www.boston.gov/\\">
+        <img src=\\"https://patterns.boston.gov/images/public/logo.svg\\" alt=\\"Boston.gov\\" class=\\"lo-i\\">
+      </a>
+              <span class=\\"lo-t\\"><a href=\\"https://www.boston.gov/mayor\\">Mayor Martin J. Walsh</a></span>
+          </div>
+  </div>
+    <a id=\\"seal\\" href=\\"https://www.boston.gov/\\" title=\\"Home\\" rel=\\"home\\" class=\\"s\\">
+  <img src=\\"https://patterns.boston.gov/images/public/seal.svg\\" alt=\\"City of Boston Seal\\" class=\\"s-i\\">
+</a>
+    <nav class=\\"nv-h\\">
+  <ul class=\\"nv-h-l\\">
+              <li class=\\"nv-h-l-i\\"><a href=\\"https://www.boston.gov/pay-and-apply\\" title=\\"Pay and apply\\" class=\\"nv-h-l-a\\">Pay and apply</a></li>
+          <li class=\\"nv-h-l-i\\"><a href=\\"https://www.boston.gov/public-notices\\" title=\\"Public notices\\" class=\\"nv-h-l-a\\">Public notices</a></li>
+          <li class=\\"nv-h-l-i\\"><a href=\\"mailto:feedback@boston.gov\\" title=\\"Feedback\\" class=\\"nv-h-l-a\\" onClick=\\"document.getElementById(&quot;contactForm&quot;).show(); return false;\\">Feedback</a></li>
+        <li class=\\"tr nv-h-l-i\\">
+      <a href=\\"https://www.boston.gov/#translate\\" title=\\"Translate\\" class=\\"nv-h-l-a nv-h-l-a--k--s tr-link\\">Translate</a>
+      <ul class=\\"tr-dd\\">
+        <li><span class=\\"notranslate tr-dd-link tr-dd-link--message\\">Loading...</span></li>
+        <li><a href=\\"https://www.boston.gov/#\\" class=\\"notranslate tr-dd-link\\" data-ln=\\"ht\\">Krey&#xF2;l Ayisyen</a></li>
+        <li><a href=\\"https://www.boston.gov/#\\" class=\\"notranslate tr-dd-link\\" data-ln=\\"pt\\">Portugese</a></li>
+        <li><a href=\\"https://www.boston.gov/#\\" class=\\"notranslate tr-dd-link\\" data-ln=\\"es\\">Espa&#xF1;ol</a></li>
+        <li><a href=\\"https://www.boston.gov/#\\" class=\\"notranslate tr-dd-link\\" data-ln=\\"vi\\">Ti&#x1EBF;ng Vi&#x1EC7;t</a></li>
+        <li><a href=\\"https://www.boston.gov/#\\" class=\\"notranslate tr-dd-link tr-dd-link--hidden\\" data-ln=\\"en\\">English</a></li>
+      </ul>
+    </li>
+    <li class=\\"nv-h-l-i\\">
+      <label for=\\"s-tr\\" title=\\"Search\\" class=\\"nv-h-l-a nv-h-l-a--k nv-h-l-a-ic\\" id=\\"searchIcon\\">
+        <svg id=\\"Layer_2\\" xmlns=\\"http://www.w3.org/2000/svg\\" viewBox=\\"0 0 40 41\\"><title>Search</title><path class=\\"nv-h-l-a-i\\" d=\\"M24.2.6C15.8.6 9 7.4 9 15.8c0 3.7 1.4 7.2 3.6 9.8L1.2 37c-.8.8-.8 2 0 2.8.4.4.9.6 1.4.6s1-.2 1.4-.6l11.5-11.5C18 30 21 31 24.2 31c8.4 0 15.2-6.8 15.2-15.2C39.4 7.4 32.6.6 24.2.6zm0 26.5c-6.2 0-11.2-5-11.2-11.2S18 4.6 24.2 4.6s11.2 5 11.2 11.2-5 11.3-11.2 11.3z\\"/></svg>
+      </label>
+    </li>
+  </ul>
+</nav>
+    <div class=\\"h-s\\">
+  <form class=\\"sf\\" action=\\"https://www.boston.gov/search\\" accept-charset=\\"UTF-8\\" method=\\"get\\">
+    <input name=\\"utf8\\" type=\\"hidden\\" value=\\"&#x2713;\\">
+    <div class=\\"sf-i\\">
+      <input type=\\"text\\" name=\\"query\\" id=\\"query\\" value=\\"\\" placeholder=\\"Search&#x2026;\\" class=\\"sf-i-f\\" autocomplete=\\"off\\">
+      <button class=\\"sf-i-b\\">Search</button>
+    </div>
+  </form>
+</div>
+  ",
+          }
+        }
+        role="banner"
+      />
+      <div
+        className="p-t300"
+      />
+      <div
+        className="a11y--content-start"
+        id="content-start"
+      />
+      <main
+        className="b-ff"
+      >
+        <div
+          className="b-c b-c--nbp"
+        >
+          <div
+            className="sh m-b300 "
+          >
+            <h2
+              className="sh-title"
+              id="sh-1345491751"
+            >
+              Something went wrong!
+            </h2>
+          </div>
+          <div
+            className="m-v500 t--intro"
+          >
+            We had a technical issue that we didn't know how to handle, but our staff is working to fix it.
+          </div>
+          <p
+            className="m-v500 lh--400 t--s500"
+          >
+            You can try to refresh this page to see if it resolves the problem. We also post announcements about ongoing technical issues on
+             
+            <a
+              href="https://www.boston.gov/"
+            >
+              Boston.gov
+            </a>
+            .
+          </p>
+        </div>
+      </main>
+    </div>
+  </div>,
+  <footer
+    className="ft"
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "
+    <div class=\\"ft-c\\">
+      <ul class=\\"ft-ll ft-ll--r\\">
+        <li class=\\"ft-ll-i\\"><a href=\\"http://www.cityofboston.gov/311/\\" class=\\"ft-ll-a lnk--yellow\\"><span class=\\"ft-ll-311\\">BOS:311</span><span class=\\"tablet--hidden\\"> - </span>Report an issue</a></li>
+      </ul>
+      
+
+<ul class=\\"ft-ll\\"><li class=\\"ft-ll-i\\"><a href=\\"https://www.boston.gov/departments/innovation-and-technology/privacy-and-security-statement\\" target=\\"_blank\\" title=\\"\\" class=\\"ft-ll-a\\">Privacy Policy</a></li>
+<li class=\\"ft-ll-i\\"><a href=\\"https://www.boston.gov/departments/mayors-office/contact-boston-city-hall\\" title=\\"\\" class=\\"ft-ll-a\\">Contact us</a></li>
+<li class=\\"ft-ll-i\\"><a href=\\"https://www.boston.gov/departments/digital-team/city-boston-alerts-and-notifications\\" title=\\"\\" class=\\"ft-ll-a\\">Alerts and notifications</a></li>
+<li class=\\"ft-ll-i\\"><a href=\\"https://www.boston.gov/departments/public-records\\" title=\\"\\" class=\\"ft-ll-a\\">Public records requests</a></li>
+</ul>    </div>
+  ",
+      }
+    }
+    style={
+      Object {
+        "position": "relative",
+        "zIndex": 2,
+      }
+    }
+  />,
+]
+`;
+
+exports[`Storyshots UI|Site Header default 1`] = `
+Array [
+  <input
+    aria-label="Open Boston.gov menu"
+    className="brg-tr"
+    id="brg-tr"
+    onKeyDown={[Function]}
+    type="checkbox"
+  />,
+  <nav
+    aria-label="Boston.gov menu"
+    className="nv-m"
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "
+  <div class=\\"nv-m-h\\">
+      <div class=\\"nv-m-h-ic\\">
+        <a href=\\"https://www.boston.gov/\\" title=\\"Go to home page\\">
+          <img src=\\"https://patterns.boston.gov/images/b-dark.svg\\" title=\\"B\\" aria-hidden=\\"true\\" class=\\"nv-m-h-i\\">
+        </a>
+      </div>
+      <div id=\\"nv-m-h-t\\" class=\\"nv-m-h-t\\">&#xA0;</div>
+  </div>
+  <div class=\\"nv-m-c\\">
+    
+
+<ul class=\\"nv-m-c-l\\"><li class=\\"nv-m-c-l-i is-l first leaf menu-mlid-763366 nv-m-c-a--y\\"><a href=\\"http://www.cityofboston.gov/311/\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p three-one-one\\">Help / 311</a></li>
+<li class=\\"nv-m-c-l-i is-l leaf menu-mlid-210101\\"><a href=\\"https://www.boston.gov/homepage\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Home</a></li>
+<li class=\\"nv-m-c-l-i is-l leaf menu-mlid-171721\\"><a href=\\"https://www.boston.gov/guides\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Guides to Boston</a></li>
+<li class=\\"nv-m-c-l-i is-l leaf menu-mlid-171726\\"><a href=\\"https://www.boston.gov/departments\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Departments</a></li>
+<li class=\\"nv-m-c-l-i is-l leaf menu-mlid-1675906\\"><a href=\\"https://www.boston.gov/public-notices\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Public Notices</a></li>
+<li class=\\"nv-m-c-l-i is-l leaf menu-mlid-2354776\\"><a href=\\"https://www.boston.gov/pay-and-apply\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Pay and apply</a></li>
+<li class=\\"nv-m-c-l-i is-l leaf menu-mlid-2354781\\"><a href=\\"https://www.boston.gov/career-center\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Work for the City</a></li>
+<li class=\\"nv-m-c-l-i is-l leaf menu-mlid-885866\\"><a href=\\"https://www.boston.gov/events\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Events</a></li>
+<li class=\\"nv-m-c-l-i is-l leaf menu-mlid-202946\\"><a href=\\"https://www.boston.gov/news\\" class=\\"nv-m-c-a nv-m-c-a--p\\">News</a></li>
+<li class=\\"nv-m-c-l-i is-e expanded menu-mlid-171731\\"><a href=\\"https://www.boston.gov/#\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p nolink\\">Places</a><ul class=\\"nv-m-c-l-l\\"><li class=\\"nv-m-c-bc nv-m-c-b--h\\"><button class=\\"nv-m-c-b\\">Back</button></li><li class=\\"nv-m-c-l-l-i is-l first leaf menu-mlid-2354766\\"><a href=\\"https://www.boston.gov/cemeteries\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Cemeteries</a></li>
+<li class=\\"nv-m-c-l-l-i is-l leaf menu-mlid-2354751\\"><a href=\\"https://www.boston.gov/community-centers\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Community centers</a></li>
+<li class=\\"nv-m-c-l-l-i is-l leaf menu-mlid-184086\\"><a href=\\"https://www.boston.gov/departments/landmarks-commission#historic-districts\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Historic Districts</a></li>
+<li class=\\"nv-m-c-l-l-i is-l leaf menu-mlid-171801\\"><a href=\\"http://www.bpl.org/general/branch.htm\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Libraries</a></li>
+<li class=\\"nv-m-c-l-l-i is-l leaf menu-mlid-2354771\\"><a href=\\"https://www.boston.gov/neighborhoods\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Neighborhoods</a></li>
+<li class=\\"nv-m-c-l-l-i is-l leaf menu-mlid-2354761\\"><a href=\\"https://www.boston.gov/parks-and-playgrounds\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Parks and playgrounds</a></li>
+<li class=\\"nv-m-c-l-l-i is-l last leaf menu-mlid-652731\\"><a href=\\"http://www.bostonpublicschools.org/Page/628\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Schools</a></li>
+</ul></li>
+<li class=\\"nv-m-c-l-i is-e last expanded menu-mlid-171741\\"><a href=\\"https://www.boston.gov/#\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p nolink\\">Government</a><ul class=\\"nv-m-c-l-l\\"><li class=\\"nv-m-c-bc nv-m-c-b--h\\"><button class=\\"nv-m-c-b\\">Back</button></li><li class=\\"nv-m-c-l-l-i is-l first leaf menu-mlid-171851\\"><a href=\\"https://www.boston.gov/departments/mayors-office\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p\\">The Mayor&apos;s Office</a></li>
+<li class=\\"nv-m-c-l-l-i is-l leaf menu-mlid-171856\\"><a href=\\"https://www.boston.gov/departments/city-council\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p\\">City Council</a></li>
+<li class=\\"nv-m-c-l-l-i is-l leaf menu-mlid-171861\\"><a href=\\"https://www.boston.gov/departments/city-clerk\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p\\">City Clerk</a></li>
+<li class=\\"nv-m-c-l-l-i is-l leaf menu-mlid-171866\\"><a href=\\"https://www.boston.gov/departments/election\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Elections</a></li>
+<li class=\\"nv-m-c-l-l-i is-l last leaf menu-mlid-178041\\"><a href=\\"https://www.boston.gov/departments/311/city-boston-government\\" class=\\"nv-m-c-a nv-m-c-a--p\\">City government</a></li>
+</ul></li>
+</ul>  </div>
+",
+      }
+    }
+  />,
+  <div
+    className="mn"
+  >
+    <input
+      aria-hidden="true"
+      className="s-tr"
+      id="s-tr"
+      type="checkbox"
+    />
+    <header
+      className="h"
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "
+    <label for=\\"brg-tr\\" class=\\"brg-b\\">
+  <div class=\\"brg\\">
+    <span class=\\"brg-c\\">
+      <span class=\\"brg-c-i\\"></span>
+    </span>
+    <span class=\\"brg-t\\"><span class=\\"a11y--h\\">Toggle </span>Menu</span>
+  </div>
+</label>
+      <div class=\\"lo lo--abs\\">
+    <div class=\\"lo-l\\">
+      <a href=\\"https://www.boston.gov/\\">
+        <img src=\\"https://patterns.boston.gov/images/public/logo.svg\\" alt=\\"Boston.gov\\" class=\\"lo-i\\">
+      </a>
+              <span class=\\"lo-t\\"><a href=\\"https://www.boston.gov/mayor\\">Mayor Martin J. Walsh</a></span>
+          </div>
+  </div>
+    <a id=\\"seal\\" href=\\"https://www.boston.gov/\\" title=\\"Home\\" rel=\\"home\\" class=\\"s\\">
+  <img src=\\"https://patterns.boston.gov/images/public/seal.svg\\" alt=\\"City of Boston Seal\\" class=\\"s-i\\">
+</a>
+    <nav class=\\"nv-h\\">
+  <ul class=\\"nv-h-l\\">
+              <li class=\\"nv-h-l-i\\"><a href=\\"https://www.boston.gov/pay-and-apply\\" title=\\"Pay and apply\\" class=\\"nv-h-l-a\\">Pay and apply</a></li>
+          <li class=\\"nv-h-l-i\\"><a href=\\"https://www.boston.gov/public-notices\\" title=\\"Public notices\\" class=\\"nv-h-l-a\\">Public notices</a></li>
+          <li class=\\"nv-h-l-i\\"><a href=\\"mailto:feedback@boston.gov\\" title=\\"Feedback\\" class=\\"nv-h-l-a\\" onClick=\\"document.getElementById(&quot;contactForm&quot;).show(); return false;\\">Feedback</a></li>
+        <li class=\\"tr nv-h-l-i\\">
+      <a href=\\"https://www.boston.gov/#translate\\" title=\\"Translate\\" class=\\"nv-h-l-a nv-h-l-a--k--s tr-link\\">Translate</a>
+      <ul class=\\"tr-dd\\">
+        <li><span class=\\"notranslate tr-dd-link tr-dd-link--message\\">Loading...</span></li>
+        <li><a href=\\"https://www.boston.gov/#\\" class=\\"notranslate tr-dd-link\\" data-ln=\\"ht\\">Krey&#xF2;l Ayisyen</a></li>
+        <li><a href=\\"https://www.boston.gov/#\\" class=\\"notranslate tr-dd-link\\" data-ln=\\"pt\\">Portugese</a></li>
+        <li><a href=\\"https://www.boston.gov/#\\" class=\\"notranslate tr-dd-link\\" data-ln=\\"es\\">Espa&#xF1;ol</a></li>
+        <li><a href=\\"https://www.boston.gov/#\\" class=\\"notranslate tr-dd-link\\" data-ln=\\"vi\\">Ti&#x1EBF;ng Vi&#x1EC7;t</a></li>
+        <li><a href=\\"https://www.boston.gov/#\\" class=\\"notranslate tr-dd-link tr-dd-link--hidden\\" data-ln=\\"en\\">English</a></li>
+      </ul>
+    </li>
+    <li class=\\"nv-h-l-i\\">
+      <label for=\\"s-tr\\" title=\\"Search\\" class=\\"nv-h-l-a nv-h-l-a--k nv-h-l-a-ic\\" id=\\"searchIcon\\">
+        <svg id=\\"Layer_2\\" xmlns=\\"http://www.w3.org/2000/svg\\" viewBox=\\"0 0 40 41\\"><title>Search</title><path class=\\"nv-h-l-a-i\\" d=\\"M24.2.6C15.8.6 9 7.4 9 15.8c0 3.7 1.4 7.2 3.6 9.8L1.2 37c-.8.8-.8 2 0 2.8.4.4.9.6 1.4.6s1-.2 1.4-.6l11.5-11.5C18 30 21 31 24.2 31c8.4 0 15.2-6.8 15.2-15.2C39.4 7.4 32.6.6 24.2.6zm0 26.5c-6.2 0-11.2-5-11.2-11.2S18 4.6 24.2 4.6s11.2 5 11.2 11.2-5 11.3-11.2 11.3z\\"/></svg>
+      </label>
+    </li>
+  </ul>
+</nav>
+    <div class=\\"h-s\\">
+  <form class=\\"sf\\" action=\\"https://www.boston.gov/search\\" accept-charset=\\"UTF-8\\" method=\\"get\\">
+    <input name=\\"utf8\\" type=\\"hidden\\" value=\\"&#x2713;\\">
+    <div class=\\"sf-i\\">
+      <input type=\\"text\\" name=\\"query\\" id=\\"query\\" value=\\"\\" placeholder=\\"Search&#x2026;\\" class=\\"sf-i-f\\" autocomplete=\\"off\\">
+      <button class=\\"sf-i-b\\">Search</button>
+    </div>
+  </form>
+</div>
+  ",
+        }
+      }
+      role="banner"
+    />
+  </div>,
+]
+`;
+
+exports[`Storyshots UI|Site Header header custom elements 1`] = `
+Array [
+  <input
+    aria-label="Open Boston.gov menu"
+    className="brg-tr"
+    id="brg-tr"
+    onKeyDown={[Function]}
+    type="checkbox"
+  />,
+  <nav
+    aria-label="Boston.gov menu"
+    className="nv-m"
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "
+  <div class=\\"nv-m-h\\">
+      <div class=\\"nv-m-h-ic\\">
+        <a href=\\"https://www.boston.gov/\\" title=\\"Go to home page\\">
+          <img src=\\"https://patterns.boston.gov/images/b-dark.svg\\" title=\\"B\\" aria-hidden=\\"true\\" class=\\"nv-m-h-i\\">
+        </a>
+      </div>
+      <div id=\\"nv-m-h-t\\" class=\\"nv-m-h-t\\">&#xA0;</div>
+  </div>
+  <div class=\\"nv-m-c\\">
+    
+
+<ul class=\\"nv-m-c-l\\"><li class=\\"nv-m-c-l-i is-l first leaf menu-mlid-763366 nv-m-c-a--y\\"><a href=\\"http://www.cityofboston.gov/311/\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p three-one-one\\">Help / 311</a></li>
+<li class=\\"nv-m-c-l-i is-l leaf menu-mlid-210101\\"><a href=\\"https://www.boston.gov/homepage\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Home</a></li>
+<li class=\\"nv-m-c-l-i is-l leaf menu-mlid-171721\\"><a href=\\"https://www.boston.gov/guides\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Guides to Boston</a></li>
+<li class=\\"nv-m-c-l-i is-l leaf menu-mlid-171726\\"><a href=\\"https://www.boston.gov/departments\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Departments</a></li>
+<li class=\\"nv-m-c-l-i is-l leaf menu-mlid-1675906\\"><a href=\\"https://www.boston.gov/public-notices\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Public Notices</a></li>
+<li class=\\"nv-m-c-l-i is-l leaf menu-mlid-2354776\\"><a href=\\"https://www.boston.gov/pay-and-apply\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Pay and apply</a></li>
+<li class=\\"nv-m-c-l-i is-l leaf menu-mlid-2354781\\"><a href=\\"https://www.boston.gov/career-center\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Work for the City</a></li>
+<li class=\\"nv-m-c-l-i is-l leaf menu-mlid-885866\\"><a href=\\"https://www.boston.gov/events\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Events</a></li>
+<li class=\\"nv-m-c-l-i is-l leaf menu-mlid-202946\\"><a href=\\"https://www.boston.gov/news\\" class=\\"nv-m-c-a nv-m-c-a--p\\">News</a></li>
+<li class=\\"nv-m-c-l-i is-e expanded menu-mlid-171731\\"><a href=\\"https://www.boston.gov/#\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p nolink\\">Places</a><ul class=\\"nv-m-c-l-l\\"><li class=\\"nv-m-c-bc nv-m-c-b--h\\"><button class=\\"nv-m-c-b\\">Back</button></li><li class=\\"nv-m-c-l-l-i is-l first leaf menu-mlid-2354766\\"><a href=\\"https://www.boston.gov/cemeteries\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Cemeteries</a></li>
+<li class=\\"nv-m-c-l-l-i is-l leaf menu-mlid-2354751\\"><a href=\\"https://www.boston.gov/community-centers\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Community centers</a></li>
+<li class=\\"nv-m-c-l-l-i is-l leaf menu-mlid-184086\\"><a href=\\"https://www.boston.gov/departments/landmarks-commission#historic-districts\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Historic Districts</a></li>
+<li class=\\"nv-m-c-l-l-i is-l leaf menu-mlid-171801\\"><a href=\\"http://www.bpl.org/general/branch.htm\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Libraries</a></li>
+<li class=\\"nv-m-c-l-l-i is-l leaf menu-mlid-2354771\\"><a href=\\"https://www.boston.gov/neighborhoods\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Neighborhoods</a></li>
+<li class=\\"nv-m-c-l-l-i is-l leaf menu-mlid-2354761\\"><a href=\\"https://www.boston.gov/parks-and-playgrounds\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Parks and playgrounds</a></li>
+<li class=\\"nv-m-c-l-l-i is-l last leaf menu-mlid-652731\\"><a href=\\"http://www.bostonpublicschools.org/Page/628\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Schools</a></li>
+</ul></li>
+<li class=\\"nv-m-c-l-i is-e last expanded menu-mlid-171741\\"><a href=\\"https://www.boston.gov/#\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p nolink\\">Government</a><ul class=\\"nv-m-c-l-l\\"><li class=\\"nv-m-c-bc nv-m-c-b--h\\"><button class=\\"nv-m-c-b\\">Back</button></li><li class=\\"nv-m-c-l-l-i is-l first leaf menu-mlid-171851\\"><a href=\\"https://www.boston.gov/departments/mayors-office\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p\\">The Mayor&apos;s Office</a></li>
+<li class=\\"nv-m-c-l-l-i is-l leaf menu-mlid-171856\\"><a href=\\"https://www.boston.gov/departments/city-council\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p\\">City Council</a></li>
+<li class=\\"nv-m-c-l-l-i is-l leaf menu-mlid-171861\\"><a href=\\"https://www.boston.gov/departments/city-clerk\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p\\">City Clerk</a></li>
+<li class=\\"nv-m-c-l-l-i is-l leaf menu-mlid-171866\\"><a href=\\"https://www.boston.gov/departments/election\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Elections</a></li>
+<li class=\\"nv-m-c-l-l-i is-l last leaf menu-mlid-178041\\"><a href=\\"https://www.boston.gov/departments/311/city-boston-government\\" class=\\"nv-m-c-a nv-m-c-a--p\\">City government</a></li>
+</ul></li>
+</ul>  </div>
+",
+      }
+    }
+  />,
+  <div
+    className="mn"
+  >
+    <input
+      aria-hidden="true"
+      className="s-tr"
+      id="s-tr"
+      type="checkbox"
+    />
+    <header
+      className="h br br-a300"
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "
+    <label for=\\"brg-tr\\" class=\\"brg-b\\">
+  <div class=\\"brg\\">
+    <span class=\\"brg-c\\">
+      <span class=\\"brg-c-i\\"></span>
+    </span>
+    <span class=\\"brg-t\\"><span class=\\"a11y--h\\">Toggle </span>Menu</span>
+  </div>
+</label>
+      <div class=\\"lo lo--abs\\">
+    <div class=\\"lo-l\\">
+      <a href=\\"https://www.boston.gov/\\">
+        <img src=\\"https://patterns.boston.gov/images/public/logo.svg\\" alt=\\"Boston.gov\\" class=\\"lo-i\\">
+      </a>
+              <span class=\\"lo-t\\"><a href=\\"https://www.boston.gov/mayor\\">Mayor Martin J. Walsh</a></span>
+          </div>
+  </div>
+    <a id=\\"seal\\" href=\\"https://www.boston.gov/\\" title=\\"Home\\" rel=\\"home\\" class=\\"s\\">
+  <img src=\\"https://patterns.boston.gov/images/public/seal.svg\\" alt=\\"City of Boston Seal\\" class=\\"s-i\\">
+</a>
+    <nav class=\\"nv-h\\">
+  <ul class=\\"nv-h-l\\">
+              <li class=\\"nv-h-l-i\\"><a href=\\"https://www.boston.gov/pay-and-apply\\" title=\\"Pay and apply\\" class=\\"nv-h-l-a\\">Pay and apply</a></li>
+          <li class=\\"nv-h-l-i\\"><a href=\\"https://www.boston.gov/public-notices\\" title=\\"Public notices\\" class=\\"nv-h-l-a\\">Public notices</a></li>
+          <li class=\\"nv-h-l-i\\"><a href=\\"mailto:feedback@boston.gov\\" title=\\"Feedback\\" class=\\"nv-h-l-a\\" onClick=\\"document.getElementById(&quot;contactForm&quot;).show(); return false;\\">Feedback</a></li>
+        <li class=\\"tr nv-h-l-i\\">
+      <a href=\\"https://www.boston.gov/#translate\\" title=\\"Translate\\" class=\\"nv-h-l-a nv-h-l-a--k--s tr-link\\">Translate</a>
+      <ul class=\\"tr-dd\\">
+        <li><span class=\\"notranslate tr-dd-link tr-dd-link--message\\">Loading...</span></li>
+        <li><a href=\\"https://www.boston.gov/#\\" class=\\"notranslate tr-dd-link\\" data-ln=\\"ht\\">Krey&#xF2;l Ayisyen</a></li>
+        <li><a href=\\"https://www.boston.gov/#\\" class=\\"notranslate tr-dd-link\\" data-ln=\\"pt\\">Portugese</a></li>
+        <li><a href=\\"https://www.boston.gov/#\\" class=\\"notranslate tr-dd-link\\" data-ln=\\"es\\">Espa&#xF1;ol</a></li>
+        <li><a href=\\"https://www.boston.gov/#\\" class=\\"notranslate tr-dd-link\\" data-ln=\\"vi\\">Ti&#x1EBF;ng Vi&#x1EC7;t</a></li>
+        <li><a href=\\"https://www.boston.gov/#\\" class=\\"notranslate tr-dd-link tr-dd-link--hidden\\" data-ln=\\"en\\">English</a></li>
+      </ul>
+    </li>
+    <li class=\\"nv-h-l-i\\">
+      <label for=\\"s-tr\\" title=\\"Search\\" class=\\"nv-h-l-a nv-h-l-a--k nv-h-l-a-ic\\" id=\\"searchIcon\\">
+        <svg id=\\"Layer_2\\" xmlns=\\"http://www.w3.org/2000/svg\\" viewBox=\\"0 0 40 41\\"><title>Search</title><path class=\\"nv-h-l-a-i\\" d=\\"M24.2.6C15.8.6 9 7.4 9 15.8c0 3.7 1.4 7.2 3.6 9.8L1.2 37c-.8.8-.8 2 0 2.8.4.4.9.6 1.4.6s1-.2 1.4-.6l11.5-11.5C18 30 21 31 24.2 31c8.4 0 15.2-6.8 15.2-15.2C39.4 7.4 32.6.6 24.2.6zm0 26.5c-6.2 0-11.2-5-11.2-11.2S18 4.6 24.2 4.6s11.2 5 11.2 11.2-5 11.3-11.2 11.3z\\"/></svg>
+      </label>
+    </li>
+  </ul>
+</nav>
+    <div class=\\"h-s\\">
+  <form class=\\"sf\\" action=\\"https://www.boston.gov/search\\" accept-charset=\\"UTF-8\\" method=\\"get\\">
+    <input name=\\"utf8\\" type=\\"hidden\\" value=\\"&#x2713;\\">
+    <div class=\\"sf-i\\">
+      <input type=\\"text\\" name=\\"query\\" id=\\"query\\" value=\\"\\" placeholder=\\"Search&#x2026;\\" class=\\"sf-i-f\\" autocomplete=\\"off\\">
+      <button class=\\"sf-i-b\\">Search</button>
+    </div>
+  </form>
+</div>
+  ",
+        }
+      }
+      role="banner"
+      style={
+        Object {
+          "backgroundColor": "#1871bd",
+        }
+      }
+    />
+  </div>,
+]
+`;
+
+exports[`Storyshots UI|Site Header menu open 1`] = `
+Array [
+  <input
+    aria-label="Open Boston.gov menu"
+    checked={true}
+    className="brg-tr"
+    id="brg-tr"
+    onKeyDown={[Function]}
+    type="checkbox"
+  />,
+  <nav
+    aria-label="Boston.gov menu"
+    className="nv-m"
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "
+  <div class=\\"nv-m-h\\">
+      <div class=\\"nv-m-h-ic\\">
+        <a href=\\"https://www.boston.gov/\\" title=\\"Go to home page\\">
+          <img src=\\"https://patterns.boston.gov/images/b-dark.svg\\" title=\\"B\\" aria-hidden=\\"true\\" class=\\"nv-m-h-i\\">
+        </a>
+      </div>
+      <div id=\\"nv-m-h-t\\" class=\\"nv-m-h-t\\">&#xA0;</div>
+  </div>
+  <div class=\\"nv-m-c\\">
+    
+
+<ul class=\\"nv-m-c-l\\"><li class=\\"nv-m-c-l-i is-l first leaf menu-mlid-763366 nv-m-c-a--y\\"><a href=\\"http://www.cityofboston.gov/311/\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p three-one-one\\">Help / 311</a></li>
+<li class=\\"nv-m-c-l-i is-l leaf menu-mlid-210101\\"><a href=\\"https://www.boston.gov/homepage\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Home</a></li>
+<li class=\\"nv-m-c-l-i is-l leaf menu-mlid-171721\\"><a href=\\"https://www.boston.gov/guides\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Guides to Boston</a></li>
+<li class=\\"nv-m-c-l-i is-l leaf menu-mlid-171726\\"><a href=\\"https://www.boston.gov/departments\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Departments</a></li>
+<li class=\\"nv-m-c-l-i is-l leaf menu-mlid-1675906\\"><a href=\\"https://www.boston.gov/public-notices\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Public Notices</a></li>
+<li class=\\"nv-m-c-l-i is-l leaf menu-mlid-2354776\\"><a href=\\"https://www.boston.gov/pay-and-apply\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Pay and apply</a></li>
+<li class=\\"nv-m-c-l-i is-l leaf menu-mlid-2354781\\"><a href=\\"https://www.boston.gov/career-center\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Work for the City</a></li>
+<li class=\\"nv-m-c-l-i is-l leaf menu-mlid-885866\\"><a href=\\"https://www.boston.gov/events\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Events</a></li>
+<li class=\\"nv-m-c-l-i is-l leaf menu-mlid-202946\\"><a href=\\"https://www.boston.gov/news\\" class=\\"nv-m-c-a nv-m-c-a--p\\">News</a></li>
+<li class=\\"nv-m-c-l-i is-e expanded menu-mlid-171731\\"><a href=\\"https://www.boston.gov/#\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p nolink\\">Places</a><ul class=\\"nv-m-c-l-l\\"><li class=\\"nv-m-c-bc nv-m-c-b--h\\"><button class=\\"nv-m-c-b\\">Back</button></li><li class=\\"nv-m-c-l-l-i is-l first leaf menu-mlid-2354766\\"><a href=\\"https://www.boston.gov/cemeteries\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Cemeteries</a></li>
+<li class=\\"nv-m-c-l-l-i is-l leaf menu-mlid-2354751\\"><a href=\\"https://www.boston.gov/community-centers\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Community centers</a></li>
+<li class=\\"nv-m-c-l-l-i is-l leaf menu-mlid-184086\\"><a href=\\"https://www.boston.gov/departments/landmarks-commission#historic-districts\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Historic Districts</a></li>
+<li class=\\"nv-m-c-l-l-i is-l leaf menu-mlid-171801\\"><a href=\\"http://www.bpl.org/general/branch.htm\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Libraries</a></li>
+<li class=\\"nv-m-c-l-l-i is-l leaf menu-mlid-2354771\\"><a href=\\"https://www.boston.gov/neighborhoods\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Neighborhoods</a></li>
+<li class=\\"nv-m-c-l-l-i is-l leaf menu-mlid-2354761\\"><a href=\\"https://www.boston.gov/parks-and-playgrounds\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Parks and playgrounds</a></li>
+<li class=\\"nv-m-c-l-l-i is-l last leaf menu-mlid-652731\\"><a href=\\"http://www.bostonpublicschools.org/Page/628\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Schools</a></li>
+</ul></li>
+<li class=\\"nv-m-c-l-i is-e last expanded menu-mlid-171741\\"><a href=\\"https://www.boston.gov/#\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p nolink\\">Government</a><ul class=\\"nv-m-c-l-l\\"><li class=\\"nv-m-c-bc nv-m-c-b--h\\"><button class=\\"nv-m-c-b\\">Back</button></li><li class=\\"nv-m-c-l-l-i is-l first leaf menu-mlid-171851\\"><a href=\\"https://www.boston.gov/departments/mayors-office\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p\\">The Mayor&apos;s Office</a></li>
+<li class=\\"nv-m-c-l-l-i is-l leaf menu-mlid-171856\\"><a href=\\"https://www.boston.gov/departments/city-council\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p\\">City Council</a></li>
+<li class=\\"nv-m-c-l-l-i is-l leaf menu-mlid-171861\\"><a href=\\"https://www.boston.gov/departments/city-clerk\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p\\">City Clerk</a></li>
+<li class=\\"nv-m-c-l-l-i is-l leaf menu-mlid-171866\\"><a href=\\"https://www.boston.gov/departments/election\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Elections</a></li>
+<li class=\\"nv-m-c-l-l-i is-l last leaf menu-mlid-178041\\"><a href=\\"https://www.boston.gov/departments/311/city-boston-government\\" class=\\"nv-m-c-a nv-m-c-a--p\\">City government</a></li>
+</ul></li>
+</ul>  </div>
+",
+      }
+    }
+  />,
+  <div
+    className="mn"
+  >
+    <input
+      aria-hidden="true"
+      className="s-tr"
+      id="s-tr"
+      type="checkbox"
+    />
+    <header
+      className="h"
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "
+    <label for=\\"brg-tr\\" class=\\"brg-b\\">
+  <div class=\\"brg\\">
+    <span class=\\"brg-c\\">
+      <span class=\\"brg-c-i\\"></span>
+    </span>
+    <span class=\\"brg-t\\"><span class=\\"a11y--h\\">Toggle </span>Menu</span>
+  </div>
+</label>
+      <div class=\\"lo lo--abs\\">
+    <div class=\\"lo-l\\">
+      <a href=\\"https://www.boston.gov/\\">
+        <img src=\\"https://patterns.boston.gov/images/public/logo.svg\\" alt=\\"Boston.gov\\" class=\\"lo-i\\">
+      </a>
+              <span class=\\"lo-t\\"><a href=\\"https://www.boston.gov/mayor\\">Mayor Martin J. Walsh</a></span>
+          </div>
+  </div>
+    <a id=\\"seal\\" href=\\"https://www.boston.gov/\\" title=\\"Home\\" rel=\\"home\\" class=\\"s\\">
+  <img src=\\"https://patterns.boston.gov/images/public/seal.svg\\" alt=\\"City of Boston Seal\\" class=\\"s-i\\">
+</a>
+    <nav class=\\"nv-h\\">
+  <ul class=\\"nv-h-l\\">
+              <li class=\\"nv-h-l-i\\"><a href=\\"https://www.boston.gov/pay-and-apply\\" title=\\"Pay and apply\\" class=\\"nv-h-l-a\\">Pay and apply</a></li>
+          <li class=\\"nv-h-l-i\\"><a href=\\"https://www.boston.gov/public-notices\\" title=\\"Public notices\\" class=\\"nv-h-l-a\\">Public notices</a></li>
+          <li class=\\"nv-h-l-i\\"><a href=\\"mailto:feedback@boston.gov\\" title=\\"Feedback\\" class=\\"nv-h-l-a\\" onClick=\\"document.getElementById(&quot;contactForm&quot;).show(); return false;\\">Feedback</a></li>
+        <li class=\\"tr nv-h-l-i\\">
+      <a href=\\"https://www.boston.gov/#translate\\" title=\\"Translate\\" class=\\"nv-h-l-a nv-h-l-a--k--s tr-link\\">Translate</a>
+      <ul class=\\"tr-dd\\">
+        <li><span class=\\"notranslate tr-dd-link tr-dd-link--message\\">Loading...</span></li>
+        <li><a href=\\"https://www.boston.gov/#\\" class=\\"notranslate tr-dd-link\\" data-ln=\\"ht\\">Krey&#xF2;l Ayisyen</a></li>
+        <li><a href=\\"https://www.boston.gov/#\\" class=\\"notranslate tr-dd-link\\" data-ln=\\"pt\\">Portugese</a></li>
+        <li><a href=\\"https://www.boston.gov/#\\" class=\\"notranslate tr-dd-link\\" data-ln=\\"es\\">Espa&#xF1;ol</a></li>
+        <li><a href=\\"https://www.boston.gov/#\\" class=\\"notranslate tr-dd-link\\" data-ln=\\"vi\\">Ti&#x1EBF;ng Vi&#x1EC7;t</a></li>
+        <li><a href=\\"https://www.boston.gov/#\\" class=\\"notranslate tr-dd-link tr-dd-link--hidden\\" data-ln=\\"en\\">English</a></li>
+      </ul>
+    </li>
+    <li class=\\"nv-h-l-i\\">
+      <label for=\\"s-tr\\" title=\\"Search\\" class=\\"nv-h-l-a nv-h-l-a--k nv-h-l-a-ic\\" id=\\"searchIcon\\">
+        <svg id=\\"Layer_2\\" xmlns=\\"http://www.w3.org/2000/svg\\" viewBox=\\"0 0 40 41\\"><title>Search</title><path class=\\"nv-h-l-a-i\\" d=\\"M24.2.6C15.8.6 9 7.4 9 15.8c0 3.7 1.4 7.2 3.6 9.8L1.2 37c-.8.8-.8 2 0 2.8.4.4.9.6 1.4.6s1-.2 1.4-.6l11.5-11.5C18 30 21 31 24.2 31c8.4 0 15.2-6.8 15.2-15.2C39.4 7.4 32.6.6 24.2.6zm0 26.5c-6.2 0-11.2-5-11.2-11.2S18 4.6 24.2 4.6s11.2 5 11.2 11.2-5 11.3-11.2 11.3z\\"/></svg>
+      </label>
+    </li>
+  </ul>
+</nav>
+    <div class=\\"h-s\\">
+  <form class=\\"sf\\" action=\\"https://www.boston.gov/search\\" accept-charset=\\"UTF-8\\" method=\\"get\\">
+    <input name=\\"utf8\\" type=\\"hidden\\" value=\\"&#x2713;\\">
+    <div class=\\"sf-i\\">
+      <input type=\\"text\\" name=\\"query\\" id=\\"query\\" value=\\"\\" placeholder=\\"Search&#x2026;\\" class=\\"sf-i-f\\" autocomplete=\\"off\\">
+      <button class=\\"sf-i-b\\">Search</button>
+    </div>
+  </form>
+</div>
+  ",
+        }
+      }
+      role="banner"
+    />
+  </div>,
+]
+`;
+
+exports[`Storyshots UI|Site Header/Components Header 1`] = `
+Array [
+  <input
+    aria-hidden="true"
+    className="s-tr"
+    id="s-tr"
+    type="checkbox"
+  />,
+  <header
+    className="h"
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "
+    <label for=\\"brg-tr\\" class=\\"brg-b\\">
+  <div class=\\"brg\\">
+    <span class=\\"brg-c\\">
+      <span class=\\"brg-c-i\\"></span>
+    </span>
+    <span class=\\"brg-t\\"><span class=\\"a11y--h\\">Toggle </span>Menu</span>
+  </div>
+</label>
+      <div class=\\"lo lo--abs\\">
+    <div class=\\"lo-l\\">
+      <a href=\\"https://www.boston.gov/\\">
+        <img src=\\"https://patterns.boston.gov/images/public/logo.svg\\" alt=\\"Boston.gov\\" class=\\"lo-i\\">
+      </a>
+              <span class=\\"lo-t\\"><a href=\\"https://www.boston.gov/mayor\\">Mayor Martin J. Walsh</a></span>
+          </div>
+  </div>
+    <a id=\\"seal\\" href=\\"https://www.boston.gov/\\" title=\\"Home\\" rel=\\"home\\" class=\\"s\\">
+  <img src=\\"https://patterns.boston.gov/images/public/seal.svg\\" alt=\\"City of Boston Seal\\" class=\\"s-i\\">
+</a>
+    <nav class=\\"nv-h\\">
+  <ul class=\\"nv-h-l\\">
+              <li class=\\"nv-h-l-i\\"><a href=\\"https://www.boston.gov/pay-and-apply\\" title=\\"Pay and apply\\" class=\\"nv-h-l-a\\">Pay and apply</a></li>
+          <li class=\\"nv-h-l-i\\"><a href=\\"https://www.boston.gov/public-notices\\" title=\\"Public notices\\" class=\\"nv-h-l-a\\">Public notices</a></li>
+          <li class=\\"nv-h-l-i\\"><a href=\\"mailto:feedback@boston.gov\\" title=\\"Feedback\\" class=\\"nv-h-l-a\\" onClick=\\"document.getElementById(&quot;contactForm&quot;).show(); return false;\\">Feedback</a></li>
+        <li class=\\"tr nv-h-l-i\\">
+      <a href=\\"https://www.boston.gov/#translate\\" title=\\"Translate\\" class=\\"nv-h-l-a nv-h-l-a--k--s tr-link\\">Translate</a>
+      <ul class=\\"tr-dd\\">
+        <li><span class=\\"notranslate tr-dd-link tr-dd-link--message\\">Loading...</span></li>
+        <li><a href=\\"https://www.boston.gov/#\\" class=\\"notranslate tr-dd-link\\" data-ln=\\"ht\\">Krey&#xF2;l Ayisyen</a></li>
+        <li><a href=\\"https://www.boston.gov/#\\" class=\\"notranslate tr-dd-link\\" data-ln=\\"pt\\">Portugese</a></li>
+        <li><a href=\\"https://www.boston.gov/#\\" class=\\"notranslate tr-dd-link\\" data-ln=\\"es\\">Espa&#xF1;ol</a></li>
+        <li><a href=\\"https://www.boston.gov/#\\" class=\\"notranslate tr-dd-link\\" data-ln=\\"vi\\">Ti&#x1EBF;ng Vi&#x1EC7;t</a></li>
+        <li><a href=\\"https://www.boston.gov/#\\" class=\\"notranslate tr-dd-link tr-dd-link--hidden\\" data-ln=\\"en\\">English</a></li>
+      </ul>
+    </li>
+    <li class=\\"nv-h-l-i\\">
+      <label for=\\"s-tr\\" title=\\"Search\\" class=\\"nv-h-l-a nv-h-l-a--k nv-h-l-a-ic\\" id=\\"searchIcon\\">
+        <svg id=\\"Layer_2\\" xmlns=\\"http://www.w3.org/2000/svg\\" viewBox=\\"0 0 40 41\\"><title>Search</title><path class=\\"nv-h-l-a-i\\" d=\\"M24.2.6C15.8.6 9 7.4 9 15.8c0 3.7 1.4 7.2 3.6 9.8L1.2 37c-.8.8-.8 2 0 2.8.4.4.9.6 1.4.6s1-.2 1.4-.6l11.5-11.5C18 30 21 31 24.2 31c8.4 0 15.2-6.8 15.2-15.2C39.4 7.4 32.6.6 24.2.6zm0 26.5c-6.2 0-11.2-5-11.2-11.2S18 4.6 24.2 4.6s11.2 5 11.2 11.2-5 11.3-11.2 11.3z\\"/></svg>
+      </label>
+    </li>
+  </ul>
+</nav>
+    <div class=\\"h-s\\">
+  <form class=\\"sf\\" action=\\"https://www.boston.gov/search\\" accept-charset=\\"UTF-8\\" method=\\"get\\">
+    <input name=\\"utf8\\" type=\\"hidden\\" value=\\"&#x2713;\\">
+    <div class=\\"sf-i\\">
+      <input type=\\"text\\" name=\\"query\\" id=\\"query\\" value=\\"\\" placeholder=\\"Search&#x2026;\\" class=\\"sf-i-f\\" autocomplete=\\"off\\">
+      <button class=\\"sf-i-b\\">Search</button>
+    </div>
+  </form>
+</div>
+  ",
+      }
+    }
+    role="banner"
+  />,
+]
+`;
+
+exports[`Storyshots UI|Site Header/Components Menu 1`] = `
+Array [
+  <input
+    aria-label="Open Boston.gov menu"
+    checked={true}
+    className="brg-tr"
+    id="brg-tr"
+    onKeyDown={[Function]}
+    type="checkbox"
+  />,
+  <nav
+    aria-label="Boston.gov menu"
+    className="nv-m"
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "
+  <div class=\\"nv-m-h\\">
+      <div class=\\"nv-m-h-ic\\">
+        <a href=\\"https://www.boston.gov/\\" title=\\"Go to home page\\">
+          <img src=\\"https://patterns.boston.gov/images/b-dark.svg\\" title=\\"B\\" aria-hidden=\\"true\\" class=\\"nv-m-h-i\\">
+        </a>
+      </div>
+      <div id=\\"nv-m-h-t\\" class=\\"nv-m-h-t\\">&#xA0;</div>
+  </div>
+  <div class=\\"nv-m-c\\">
+    
+
+<ul class=\\"nv-m-c-l\\"><li class=\\"nv-m-c-l-i is-l first leaf menu-mlid-763366 nv-m-c-a--y\\"><a href=\\"http://www.cityofboston.gov/311/\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p three-one-one\\">Help / 311</a></li>
+<li class=\\"nv-m-c-l-i is-l leaf menu-mlid-210101\\"><a href=\\"https://www.boston.gov/homepage\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Home</a></li>
+<li class=\\"nv-m-c-l-i is-l leaf menu-mlid-171721\\"><a href=\\"https://www.boston.gov/guides\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Guides to Boston</a></li>
+<li class=\\"nv-m-c-l-i is-l leaf menu-mlid-171726\\"><a href=\\"https://www.boston.gov/departments\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Departments</a></li>
+<li class=\\"nv-m-c-l-i is-l leaf menu-mlid-1675906\\"><a href=\\"https://www.boston.gov/public-notices\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Public Notices</a></li>
+<li class=\\"nv-m-c-l-i is-l leaf menu-mlid-2354776\\"><a href=\\"https://www.boston.gov/pay-and-apply\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Pay and apply</a></li>
+<li class=\\"nv-m-c-l-i is-l leaf menu-mlid-2354781\\"><a href=\\"https://www.boston.gov/career-center\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Work for the City</a></li>
+<li class=\\"nv-m-c-l-i is-l leaf menu-mlid-885866\\"><a href=\\"https://www.boston.gov/events\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Events</a></li>
+<li class=\\"nv-m-c-l-i is-l leaf menu-mlid-202946\\"><a href=\\"https://www.boston.gov/news\\" class=\\"nv-m-c-a nv-m-c-a--p\\">News</a></li>
+<li class=\\"nv-m-c-l-i is-e expanded menu-mlid-171731\\"><a href=\\"https://www.boston.gov/#\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p nolink\\">Places</a><ul class=\\"nv-m-c-l-l\\"><li class=\\"nv-m-c-bc nv-m-c-b--h\\"><button class=\\"nv-m-c-b\\">Back</button></li><li class=\\"nv-m-c-l-l-i is-l first leaf menu-mlid-2354766\\"><a href=\\"https://www.boston.gov/cemeteries\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Cemeteries</a></li>
+<li class=\\"nv-m-c-l-l-i is-l leaf menu-mlid-2354751\\"><a href=\\"https://www.boston.gov/community-centers\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Community centers</a></li>
+<li class=\\"nv-m-c-l-l-i is-l leaf menu-mlid-184086\\"><a href=\\"https://www.boston.gov/departments/landmarks-commission#historic-districts\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Historic Districts</a></li>
+<li class=\\"nv-m-c-l-l-i is-l leaf menu-mlid-171801\\"><a href=\\"http://www.bpl.org/general/branch.htm\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Libraries</a></li>
+<li class=\\"nv-m-c-l-l-i is-l leaf menu-mlid-2354771\\"><a href=\\"https://www.boston.gov/neighborhoods\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Neighborhoods</a></li>
+<li class=\\"nv-m-c-l-l-i is-l leaf menu-mlid-2354761\\"><a href=\\"https://www.boston.gov/parks-and-playgrounds\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Parks and playgrounds</a></li>
+<li class=\\"nv-m-c-l-l-i is-l last leaf menu-mlid-652731\\"><a href=\\"http://www.bostonpublicschools.org/Page/628\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Schools</a></li>
+</ul></li>
+<li class=\\"nv-m-c-l-i is-e last expanded menu-mlid-171741\\"><a href=\\"https://www.boston.gov/#\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p nolink\\">Government</a><ul class=\\"nv-m-c-l-l\\"><li class=\\"nv-m-c-bc nv-m-c-b--h\\"><button class=\\"nv-m-c-b\\">Back</button></li><li class=\\"nv-m-c-l-l-i is-l first leaf menu-mlid-171851\\"><a href=\\"https://www.boston.gov/departments/mayors-office\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p\\">The Mayor&apos;s Office</a></li>
+<li class=\\"nv-m-c-l-l-i is-l leaf menu-mlid-171856\\"><a href=\\"https://www.boston.gov/departments/city-council\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p\\">City Council</a></li>
+<li class=\\"nv-m-c-l-l-i is-l leaf menu-mlid-171861\\"><a href=\\"https://www.boston.gov/departments/city-clerk\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p\\">City Clerk</a></li>
+<li class=\\"nv-m-c-l-l-i is-l leaf menu-mlid-171866\\"><a href=\\"https://www.boston.gov/departments/election\\" title=\\"\\" class=\\"nv-m-c-a nv-m-c-a--p\\">Elections</a></li>
+<li class=\\"nv-m-c-l-l-i is-l last leaf menu-mlid-178041\\"><a href=\\"https://www.boston.gov/departments/311/city-boston-government\\" class=\\"nv-m-c-a nv-m-c-a--p\\">City government</a></li>
+</ul></li>
+</ul>  </div>
+",
+      }
+    }
+  />,
+]
+`;

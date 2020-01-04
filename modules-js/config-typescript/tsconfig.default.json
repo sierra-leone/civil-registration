@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "declaration": true,
+    "strict": true,
+    "jsx": "preserve",
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitAny": false,
+    "noImplicitThis": false,
+    "resolveJsonModule": true,
+    "experimentalDecorators": true,
+    "forceConsistentCasingInFileNames": false,
+    "skipLibCheck": true,
+    "lib": [
+      "dom",
+      "es2017",
+      "esnext"
+    ]
+  }
+}

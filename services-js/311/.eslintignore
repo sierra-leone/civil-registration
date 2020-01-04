@@ -1,0 +1,7 @@
+/app
+/graphql
+/build
+/coverage
+/vendor
+/static/vendor
+/storybook-static

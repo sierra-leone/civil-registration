@@ -1,0 +1,47 @@
+{
+  "name": "@cityofboston/hapi-common",
+  "version": "0.0.0",
+  "description": "Common Hapi helpers for our servers",
+  "private": true,
+  "license": "CC0-1.0",
+  "main": "build/hapi-common.js",
+  "types": "build/hapi-common.d.ts",
+  "scripts": {
+    "watch": "tsc-watch --preserveWatchOutput",
+    "prebuild": "rimraf build",
+    "build": "tsc",
+    "prepare": "yarn run build",
+    "test": "jest"
+  },
+  "jest": {
+    "testPathIgnorePatterns": [
+      "<rootDir>/build/",
+      "<rootDir>/node_modules/"
+    ]
+  },
+  "dependencies": {
+    "boom": "^7.2.0",
+    "core-js": "^2.6.4",
+    "good": "^8.1.1",
+    "good-console": "^7.1.0",
+    "good-squeeze": "^5.1.0",
+    "hoek": "5.x.x"
+  },
+  "peerDependencies": {
+    "inert": "5.x.x"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.0",
+    "@cityofboston/config-babel": "^0.0.0",
+    "@cityofboston/config-typescript": "^0.0.0",
+    "@types/hoek": "^4.1.3",
+    "@types/jest": "24.x.x",
+    "graphql-extensions": "^0.6.0",
+    "hapi": "^17.5.2",
+    "jest": "^24.8.0",
+    "rimraf": "^2.6.2",
+    "rollbar": "^2.5.1",
+    "tsc-watch": "^1.0.26",
+    "typescript": "^3.4.5"
+  }
+}

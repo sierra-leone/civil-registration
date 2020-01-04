@@ -1,0 +1,109 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`schema is generated 1`] = `
+GraphQLSchema {
+  "__allowedLegacyNames": Array [],
+  "__validationErrors": undefined,
+  "_directives": Array [
+    "@skip",
+    "@include",
+    "@deprecated",
+  ],
+  "_implementations": Object {},
+  "_mutationType": "Mutation",
+  "_possibleTypeMap": Object {},
+  "_queryType": "Query",
+  "_subscriptionType": null,
+  "_typeMap": Object {
+    "BirthCertificateOrderItemInput": "BirthCertificateOrderItemInput",
+    "Boolean": "Boolean",
+    "CertificateOrderItem": "CertificateOrderItem",
+    "ChargeOrderError": "ChargeOrderError",
+    "ChargeOrderErrorCode": "ChargeOrderErrorCode",
+    "ChargeOrderResult": "ChargeOrderResult",
+    "Date": "Date",
+    "DeathCertificate": "DeathCertificate",
+    "DeathCertificateOrder": "DeathCertificateOrder",
+    "DeathCertificateOrderItemInput": "DeathCertificateOrderItemInput",
+    "DeathCertificateSearch": "DeathCertificateSearch",
+    "DeathCertificates": "DeathCertificates",
+    "DeleteUploadResult": "DeleteUploadResult",
+    "Float": "Float",
+    "Int": "Int",
+    "MarriageCertificateOrderItemInput": "MarriageCertificateOrderItemInput",
+    "Mutation": "Mutation",
+    "OrderError": "OrderError",
+    "OrderErrorCause": "OrderErrorCause",
+    "OrderResult": "OrderResult",
+    "OrderType": "OrderType",
+    "Query": "Query",
+    "String": "String",
+    "SubmittedOrder": "SubmittedOrder",
+    "__Directive": "__Directive",
+    "__DirectiveLocation": "__DirectiveLocation",
+    "__EnumValue": "__EnumValue",
+    "__Field": "__Field",
+    "__InputValue": "__InputValue",
+    "__Schema": "__Schema",
+    "__Type": "__Type",
+    "__TypeKind": "__TypeKind",
+  },
+  "astNode": Object {
+    "directives": Array [],
+    "kind": "SchemaDefinition",
+    "loc": Object {
+      "end": 4702,
+      "start": 4656,
+    },
+    "operationTypes": Array [
+      Object {
+        "kind": "OperationTypeDefinition",
+        "loc": Object {
+          "end": 4685,
+          "start": 4667,
+        },
+        "operation": "mutation",
+        "type": Object {
+          "kind": "NamedType",
+          "loc": Object {
+            "end": 4685,
+            "start": 4677,
+          },
+          "name": Object {
+            "kind": "Name",
+            "loc": Object {
+              "end": 4685,
+              "start": 4677,
+            },
+            "value": "Mutation",
+          },
+        },
+      },
+      Object {
+        "kind": "OperationTypeDefinition",
+        "loc": Object {
+          "end": 4700,
+          "start": 4688,
+        },
+        "operation": "query",
+        "type": Object {
+          "kind": "NamedType",
+          "loc": Object {
+            "end": 4700,
+            "start": 4695,
+          },
+          "name": Object {
+            "kind": "Name",
+            "loc": Object {
+              "end": 4700,
+              "start": 4695,
+            },
+            "value": "Query",
+          },
+        },
+      },
+    ],
+  },
+  "extensionASTNodes": undefined,
+}
+`;

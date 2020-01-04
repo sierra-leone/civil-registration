@@ -1,0 +1,17 @@
+{
+  "presets": [
+    "@cityofboston/config-babel/browser",
+    "@cityofboston/config-babel/typescript",
+    "@cityofboston/config-babel/storybook"
+  ],
+  "plugins": [
+    [
+      "inline-import",
+      {
+        "extensions": [
+          ".html"
+        ]
+      }
+    ]
+  ],
+}
